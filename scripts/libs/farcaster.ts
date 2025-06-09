@@ -18,17 +18,19 @@ export async function fetchFarcasterWinners<RawWinner, FormattedWinner>({
   outputFile,
   formatWinner,
   logMessage,
+  airdropName,
 }: {
   apiUrl: string;
   outputFile: string;
   formatWinner: (winner: RawWinner) => FormattedWinner;
   logMessage: string;
+  airdropName: string;
 }) {
   let allWinners: FormattedWinner[] = [];
   let cursor: string | null = null;
   let page = 1;
 
-  console.log(logMessage);
+  console.log(`[${airdropName}] ${logMessage}`);
 
   try {
     do {
@@ -44,20 +46,26 @@ export async function fetchFarcasterWinners<RawWinner, FormattedWinner>({
       if (winners && winners.length > 0) {
         const formattedWinners = winners.map(formatWinner);
         allWinners = allWinners.concat(formattedWinners);
-        console.log(`Fetched page ${page}: ${winners.length} winners`);
+        console.log(
+          `[${airdropName}] Fetched page ${page}: ${winners.length} winners`
+        );
       }
 
       cursor = data.next?.cursor ?? null;
       page++;
     } while (cursor);
 
-    console.log(`\nTotal winners fetched: ${allWinners.length}`);
+    console.log(
+      `\n[${airdropName}] Total winners fetched: ${allWinners.length}`
+    );
 
     await fs.mkdir(path.dirname(outputFile), { recursive: true });
     await fs.writeFile(outputFile, JSON.stringify(allWinners, null, 2));
 
-    console.log(`Successfully saved whitelist to ${outputFile}`);
+    console.log(
+      `[${airdropName}] Successfully saved whitelist to ${outputFile}`
+    );
   } catch (error) {
-    console.error("An error occurred:", error);
+    console.error(`[${airdropName}] An error occurred:`, error);
   }
 }

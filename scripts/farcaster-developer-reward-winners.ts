@@ -1,12 +1,9 @@
-import * as path from "path";
 import { fetchFarcasterWinners } from "./libs/farcaster";
+import { getAirdropInfo } from "./libs/common";
+
+const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 const API_URL = "https://api.farcaster.xyz/v1/developer-rewards-winner-history";
-const OUTPUT_FILE = path.join(
-  process.cwd(),
-  "whitelist",
-  "farcaster-developer-reward-winners.json"
-);
 
 interface DeveloperWinner {
   fid: number;
@@ -38,5 +35,6 @@ fetchFarcasterWinners<DeveloperWinner, FormattedDeveloperWinner>({
     frameName: winner.frameName,
     rank: winner.rank,
   }),
-  logMessage: "Fetching Farcaster developer reward winners...",
+  logMessage: `Fetching developer reward winners...`,
+  airdropName: AIRDROP_NAME,
 });

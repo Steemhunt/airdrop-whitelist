@@ -1,0 +1,123 @@
+import { createPublicClient, fallback, http, erc721Abi } from "viem";
+import { mainnet } from "viem/chains";
+import { RPCS } from "./libs/rpcs";
+import fs from "fs";
+import { getAirdropInfo } from "./libs/common";
+
+const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
+
+const CHAIN_ID = 1; // Ethereum mainnet
+const CONTRACT_ADDRESS = "0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96";
+
+const client = createPublicClient({
+  chain: mainnet,
+  transport: fallback(
+    RPCS.find((r) => r.id === CHAIN_ID)!.rpcs.map((r) => http(r))
+  ),
+});
+
+async function main() {
+  const holders: { [key: string]: number } = {};
+  let burntCount = 0;
+
+  const totalSupplyBI = await client.readContract({
+    address: CONTRACT_ADDRESS,
+    abi: erc721Abi,
+    functionName: "totalSupply",
+  });
+  const totalSupply = Number(totalSupplyBI);
+
+  const nextIdBI = await client.readContract({
+    address: CONTRACT_ADDRESS,
+    abi: [
+      {
+        inputs: [],
+        name: "nextId",
+        outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+        stateMutability: "view",
+        type: "function",
+      },
+    ],
+    functionName: "nextId",
+  });
+  const lastTokenId = Number(nextIdBI) - 1;
+
+  console.log(
+    `[${AIRDROP_NAME}] total supply is ${totalSupply}. Last token ID is ${lastTokenId}. Fetching owners...`
+  );
+
+  const batchSize = 200;
+  const tokenIds = Array.from({ length: lastTokenId + 1 }, (_, i) => i);
+
+  for (let i = 0; i < tokenIds.length; i += batchSize) {
+    const batch = tokenIds.slice(i, i + batchSize);
+    const contracts = batch.map((tokenId) => ({
+      address: CONTRACT_ADDRESS as `0x${string}`,
+      abi: erc721Abi,
+      functionName: "ownerOf",
+      args: [BigInt(tokenId)],
+    }));
+
+    console.log(
+      `[${AIRDROP_NAME}] fetching batch from tokenId ${batch[0]} to ${
+        batch[batch.length - 1]
+      }`
+    );
+    const results = await client.multicall({
+      contracts,
+      allowFailure: true,
+    });
+
+    results.forEach((result, index) => {
+      if (result.status === "success") {
+        const owner = result.result as `0x${string}`;
+        if (owner) {
+          holders[owner] = (holders[owner] || 0) + 1;
+        }
+      } else {
+        const tokenId = batch[index];
+        burntCount++;
+        // console.log(
+        //   `[${AIRDROP_NAME}] could not fetch owner of tokenId ${tokenId}. It might be burnt.`
+        // );
+      }
+    });
+  }
+
+  const result: { [key: string]: { weight: number } } = {};
+  let fetchedCount = 0;
+  for (const holder in holders) {
+    result[holder] = { weight: holders[holder] };
+    fetchedCount += holders[holder];
+  }
+
+  console.log(
+    `[${AIRDROP_NAME}] Last token ID: ${lastTokenId}, Fetched owners: ${fetchedCount}, Burnt: ${burntCount}, Unique owners: ${
+      Object.keys(holders).length
+    }`
+  );
+  if (fetchedCount !== totalSupply) {
+    console.error(
+      `[${AIRDROP_NAME}] Mismatch between total supply and fetched owners. Total: ${totalSupply}, Fetched: ${fetchedCount}.`
+    );
+    process.exit(1);
+  }
+
+  if (fetchedCount + burntCount !== lastTokenId) {
+    console.warn(
+      `[${AIRDROP_NAME}] Mismatch between last token ID and (fetched + burnt). Last Token ID: ${lastTokenId}, Fetched: ${fetchedCount}, Burnt: ${burntCount}`
+    );
+  }
+
+  const sortedResult = Object.fromEntries(
+    Object.entries(result).sort(([, a], [, b]) => b.weight - a.weight)
+  );
+
+  if (!fs.existsSync(WHITELIST_DIR)) {
+    fs.mkdirSync(WHITELIST_DIR, { recursive: true });
+  }
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(sortedResult, null, 2));
+  console.log(`[${AIRDROP_NAME}] whitelist saved to ${OUTPUT_FILE}`);
+}
+
+main();
