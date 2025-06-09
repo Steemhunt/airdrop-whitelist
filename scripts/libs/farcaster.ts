@@ -32,13 +32,13 @@ export async function fetchFarcasterWinners<RawWinner, FormattedWinner>({
 
   try {
     do {
-      const response = await axios.get<ApiResponse<RawWinner>>(apiUrl, {
+      const response: any = await axios.get<ApiResponse<RawWinner>>(apiUrl, {
         params: {
           cursor: cursor,
         },
       });
 
-      const { data } = response;
+      const { data }: any = response;
       const winners = data.result.history.winners;
 
       if (winners && winners.length > 0) {
