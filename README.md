@@ -11,7 +11,7 @@ This repository currently maintains the following whitelists:
 - [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [⚙️ updating script](scripts/farcaster-developer-reward-winners.ts), [✅ whitelist](whitelist/farcaster-developer-reward-winners.json))
 - [ ] Hunt Town Top Builders (previous month)
 - [ ] Hunt Town Top Tippers (previous month)
-- [ ] HUNT Building NFT holders
+- [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-building-nft-holders.json))
 - [ ] HUNT Mini Building NFT holders
 - [ ] HUNT token holders (mainnet)
 - [ ] HUNT token holders (Base)
