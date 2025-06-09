@@ -9,12 +9,12 @@ async function main() {
   for (const file of files) {
     if (file.endsWith(".ts")) {
       const scriptPath = path.join(scriptDir, file);
-      console.log(`Running ${scriptPath}...`);
+      console.log(`Running ${file}...`);
       try {
         execSync(`bun ${scriptPath}`, { stdio: "inherit" });
-        console.log(`${scriptPath} completed successfully.`);
+        console.log(`${file} completed successfully.`);
       } catch (error) {
-        console.error(`Error running ${scriptPath}:`, error);
+        console.error(`Error running ${file}:`, error);
         process.exit(1);
       }
     }

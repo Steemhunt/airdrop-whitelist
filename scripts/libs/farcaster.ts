@@ -13,18 +13,23 @@ interface ApiResponse<T> {
   };
 }
 
-export async function fetchFarcasterWinners<RawWinner, FormattedWinner>({
+export async function fetchFarcasterWinners<
+  RawWinner,
+  FormattedWinner extends Record<string, any>
+>({
   apiUrl,
   outputFile,
   formatWinner,
   logMessage,
   airdropName,
+  sortKey,
 }: {
   apiUrl: string;
   outputFile: string;
   formatWinner: (winner: RawWinner) => FormattedWinner;
   logMessage: string;
   airdropName: string;
+  sortKey: keyof FormattedWinner;
 }) {
   let allWinners: FormattedWinner[] = [];
   let cursor: string | null = null;
@@ -58,6 +63,16 @@ export async function fetchFarcasterWinners<RawWinner, FormattedWinner>({
     console.log(
       `\n[${airdropName}] Total winners fetched: ${allWinners.length}`
     );
+
+    allWinners.sort((a, b) => {
+      if (a[sortKey] < b[sortKey]) {
+        return -1;
+      }
+      if (a[sortKey] > b[sortKey]) {
+        return 1;
+      }
+      return 0;
+    });
 
     await fs.mkdir(path.dirname(outputFile), { recursive: true });
     await fs.writeFile(outputFile, JSON.stringify(allWinners, null, 2));

@@ -37,4 +37,5 @@ fetchFarcasterWinners<DeveloperWinner, FormattedDeveloperWinner>({
   }),
   logMessage: `Fetching developer reward winners...`,
   airdropName: AIRDROP_NAME,
+  sortKey: "rank",
 });
