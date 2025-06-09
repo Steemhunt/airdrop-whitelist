@@ -29,6 +29,34 @@ To update all whitelists, run the following command, which will execute all the 
 npm run update:all
 ```
 
+## 📝 Whitelist JSON Format
+
+Each whitelist JSON file is an array of objects. Each object must contain `walletAddress`, and can optionally include `weight` and other informational fields.
+
+- `walletAddress` (string): **Required.** The user's wallet address.
+- `weight` (number): _Optional._ The weight for the airdrop. Defaults to `1` if not provided.
+- ... any other fields: _Optional._ Any other fields are for informational purposes and will be ignored.
+
+> [!IMPORTANT]
+> The list must be sorted by `weight` in descending order (higher to lower). This is crucial because the front-end might only display a limited number of top wallets from the beginning of the array.
+
+### Example
+
+```json
+[
+  {
+    "walletAddress": "0x1234567890123456789012345678901234567890",
+    "weight": 50,
+    "note": "User A"
+  },
+  {
+    "walletAddress": "0x0987654321098765432109876543210987654321"
+    "weight": 10,
+    "note": "User B"
+  }
+]
+```
+
 ## 🙏 Contributing
 
 If you would like to add your own airdrop whitelist to this repository, please feel free to open a Pull Request. We welcome contributions!
