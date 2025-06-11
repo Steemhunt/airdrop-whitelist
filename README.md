@@ -2,6 +2,9 @@
 
 This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](https://mint.club/airdrops), along with scripts to update them.
 
+## ⏱️ TODO
+- [ ] List summary (list filename, list count)
+
 ## ✅ Whitelists Maintained
 
 This repository currently maintains the following whitelists:
