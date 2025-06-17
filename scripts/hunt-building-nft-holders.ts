@@ -1,10 +1,10 @@
 import { createPublicClient, fallback, http, erc721Abi } from "viem";
 import { mainnet } from "viem/chains";
 import { RPCS } from "./libs/rpcs";
-import fs from "fs";
 import { getAirdropInfo } from "./libs/common";
+import { saveWhitelist } from "./libs/formatter";
 
-const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
+const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 const CHAIN_ID = 1; // Ethereum mainnet
 const CONTRACT_ADDRESS = "0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96";
@@ -84,40 +84,18 @@ async function main() {
     });
   }
 
-  const result: { [key: string]: { weight: number } } = {};
-  let fetchedCount = 0;
-  for (const holder in holders) {
-    result[holder] = { weight: holders[holder] };
-    fetchedCount += holders[holder];
-  }
+  const wallets = Object.entries(holders).map(([walletAddress, weight]) => ({
+    walletAddress,
+    weight,
+  }));
 
   console.log(
-    `[${AIRDROP_NAME}] Last token ID: ${lastTokenId}, Fetched owners: ${fetchedCount}, Burnt: ${burntCount}, Unique owners: ${
+    `[${AIRDROP_NAME}] Last token ID: ${lastTokenId}, Fetched owners: ${totalSupply}, Burnt: ${burntCount}, Unique owners: ${
       Object.keys(holders).length
     }`
   );
-  if (fetchedCount !== totalSupply) {
-    console.error(
-      `[${AIRDROP_NAME}] Mismatch between total supply and fetched owners. Total: ${totalSupply}, Fetched: ${fetchedCount}.`
-    );
-    process.exit(1);
-  }
 
-  if (fetchedCount + burntCount !== lastTokenId) {
-    console.warn(
-      `[${AIRDROP_NAME}] Mismatch between last token ID and (fetched + burnt). Last Token ID: ${lastTokenId}, Fetched: ${fetchedCount}, Burnt: ${burntCount}`
-    );
-  }
-
-  const sortedResult = Object.fromEntries(
-    Object.entries(result).sort(([, a], [, b]) => b.weight - a.weight)
-  );
-
-  if (!fs.existsSync(WHITELIST_DIR)) {
-    fs.mkdirSync(WHITELIST_DIR, { recursive: true });
-  }
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(sortedResult, null, 2));
-  console.log(`[${AIRDROP_NAME}] whitelist saved to ${OUTPUT_FILE}`);
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, "weight");
 }
 
 main();

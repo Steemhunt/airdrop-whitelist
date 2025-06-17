@@ -1,4 +1,7 @@
-import fs from "fs";
+import { getAirdropInfo } from "./libs/common";
+import { saveWhitelist } from "./libs/formatter";
+
+const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 async function main() {
   // return json is already sorted by reservedMiniBuildingCount
@@ -22,10 +25,7 @@ async function main() {
     username: builder.username,
   }));
 
-  fs.writeFileSync(
-    "whitelist/hunt-town-top-builders.json",
-    JSON.stringify(fabricatedBuilders, null, 2)
-  );
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, fabricatedBuilders, "weight");
 }
 
 main();

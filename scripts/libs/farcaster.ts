@@ -1,6 +1,5 @@
 import axios from "axios";
-import * as fs from "fs/promises";
-import * as path from "path";
+import { saveWhitelist } from "./formatter";
 
 interface ApiResponse<T> {
   result: {
@@ -15,7 +14,7 @@ interface ApiResponse<T> {
 
 export async function fetchFarcasterWinners<
   RawWinner,
-  FormattedWinner extends Record<string, any>
+  FormattedWinner extends { walletAddress: string; [key: string]: any }
 >({
   apiUrl,
   outputFile,
@@ -64,7 +63,16 @@ export async function fetchFarcasterWinners<
       `\n[${airdropName}] Total winners fetched: ${allWinners.length}`
     );
 
-    allWinners.sort((a, b) => {
+    const validWinners = allWinners.filter((winner) => winner.walletAddress);
+    const invalidWinnersCount = allWinners.length - validWinners.length;
+
+    if (invalidWinnersCount > 0) {
+      console.log(
+        `\n[${airdropName}] Removed ${invalidWinnersCount} winners with no wallet address`
+      );
+    }
+
+    validWinners.sort((a, b) => {
       if (a[sortKey] < b[sortKey]) {
         return -1;
       }
@@ -74,11 +82,11 @@ export async function fetchFarcasterWinners<
       return 0;
     });
 
-    await fs.mkdir(path.dirname(outputFile), { recursive: true });
-    await fs.writeFile(outputFile, JSON.stringify(allWinners, null, 2));
-
-    console.log(
-      `[${airdropName}] Successfully saved whitelist to ${outputFile}`
+    await saveWhitelist(
+      outputFile,
+      airdropName,
+      validWinners,
+      sortKey as string
     );
   } catch (error) {
     console.error(`[${airdropName}] An error occurred:`, error);

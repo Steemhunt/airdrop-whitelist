@@ -35,31 +35,36 @@ npm run update:all
 
 ## 📝 Whitelist JSON Format
 
-Each whitelist JSON file is an array of objects. Each object must contain `walletAddress`, and can optionally include `weight` and other informational fields.
+Each file has the following JSON structure.
 
-- `walletAddress` (string): **Required.** The user's wallet address.
-- `weight` (number): _Optional._ The weight for the airdrop. Defaults to `1` if not provided.
-- ... any other fields: _Optional._ Any other fields are for informational purposes and will be ignored.
+```json
+{
+  "walletsCount": 2,
+  "updatedAt": "2025-06-17T12:34:56.789Z",
+  "wallets": [
+    {
+      "walletAddress": "0x1234567890123456789012345678901234567890",
+      "weight": 50,
+      "note": "fid: 123, username: userA, rank: 1"
+    },
+    {
+      "walletAddress": "0x0987654321098765432109876543210987654321",
+      "weight": 10,
+      "note": "fid: 456, username: userB, rank: 2"
+    }
+  ]
+}
+```
+
+- `walletsCount`: The total number of whitelisted wallets.
+- `updatedAt`: The timestamp when the whitelist was last updated.
+- `wallets`: An array of whitelisted wallet objects.
+  - `walletAddress`: The wallet address.
+  - `weight`: The weight of the wallet. This is used to calculate the airdrop amount.
+  - `note`: Additional information about the wallet. The content of the note varies depending on the airdrop.
 
 > [!IMPORTANT]
 > The list must be sorted by `weight` in descending order (higher to lower). This is crucial because the front-end might only display a limited number of top wallets from the beginning of the array.
-
-### Example
-
-```json
-[
-  {
-    "walletAddress": "0x1234567890123456789012345678901234567890",
-    "weight": 50,
-    "note": "User A"
-  },
-  {
-    "walletAddress": "0x0987654321098765432109876543210987654321"
-    "weight": 10,
-    "note": "User B"
-  }
-]
-```
 
 ## 🙏 Contributing
 

@@ -5,8 +5,8 @@ import {
   GetOwnersForContractWithTokenBalancesResponse,
   Network,
 } from "alchemy-sdk";
-import fs from "fs";
 import { getAddress } from "viem";
+import { saveWhitelist } from "./libs/formatter";
 
 const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
 
@@ -54,30 +54,21 @@ async function main() {
 
   const holders = await getMiniBuildingHolders();
 
-  const result: { [key: string]: { weight: number } } = {};
-  let totalBalance = 0;
-  for (const holder of holders) {
-    if (holder.balance > 0) {
-      result[holder.address] = { weight: holder.balance };
-      totalBalance += holder.balance;
-    }
-  }
+  const wallets = holders.map(({ address, balance }) => ({
+    walletAddress: address,
+    weight: balance,
+  }));
 
   console.log(
     `[${AIRDROP_NAME}] Found ${
-      Object.keys(result).length
-    } unique holders with a total balance of ${totalBalance}.`
+      wallets.length
+    } unique holders with a total balance of ${wallets.reduce(
+      (acc, h) => acc + h.weight,
+      0
+    )}.`
   );
 
-  const sortedResult = Object.fromEntries(
-    Object.entries(result).sort(([, a], [, b]) => b.weight - a.weight)
-  );
-
-  if (!fs.existsSync(WHITELIST_DIR)) {
-    fs.mkdirSync(WHITELIST_DIR, { recursive: true });
-  }
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(sortedResult, null, 2));
-  console.log(`[${AIRDROP_NAME}] whitelist saved to ${OUTPUT_FILE}`);
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, "weight");
 }
 
 main();

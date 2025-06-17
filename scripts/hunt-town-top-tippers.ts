@@ -1,4 +1,7 @@
-import fs from "fs";
+import { getAirdropInfo } from "./libs/common";
+import { saveWhitelist } from "./libs/formatter";
+
+const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 async function main() {
   const tippers = (await fetch(
@@ -19,10 +22,7 @@ async function main() {
     username: tipper.username,
   }));
 
-  fs.writeFileSync(
-    "whitelist/hunt-town-top-tippers.json",
-    JSON.stringify(fabricatedBuilders, null, 2)
-  );
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, fabricatedBuilders, "weight");
 }
 
 main();
