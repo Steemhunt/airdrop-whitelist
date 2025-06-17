@@ -4,7 +4,7 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 
 ## ⏱️ TODO
 
-- [ ] List summary (list filename, list count)
+- [x] List summary (list filename, list count) ([✅ summary file](whitelist/summary.json))
 
 ## ✅ Whitelists Maintained
 
@@ -65,6 +65,29 @@ Each file has the following JSON structure.
 
 > [!IMPORTANT]
 > The list must be sorted by `weight` in descending order (higher to lower). This is crucial because the front-end might only display a limited number of top wallets from the beginning of the array.
+
+## 📜 Whitelist Summary
+
+The `whitelist/summary.json` file provides a summary of all available whitelists. It contains an array of objects, where each object represents a whitelist and includes its name, filename, and the number of wallets it contains. This file is automatically updated when you run the update scripts.
+
+Here is an example of the `summary.json` format:
+
+```json
+{
+  "farcaster-creator-reward-winners": {
+    "walletsCount": 2989,
+    "updatedAt": "2025-06-17T06:43:50.506Z"
+  },
+  "farcaster-developer-reward-winners": {
+    "walletsCount": 50,
+    "updatedAt": "2025-06-17T07:12:20.367Z"
+  },
+  "hunt-building-nft-holders": {
+    "walletsCount": 282,
+    "updatedAt": "2025-06-17T06:43:12.362Z"
+  }
+}
+```
 
 ## 🙏 Contributing
 
