@@ -3,6 +3,7 @@
 This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](https://mint.club/airdrops), along with scripts to update them.
 
 ## ⏱️ TODO
+
 - [ ] List summary (list filename, list count)
 
 ## ✅ Whitelists Maintained
@@ -12,8 +13,8 @@ This repository currently maintains the following whitelists:
 - [ ] Farcastser Pro Subscribers
 - [x] Farcaster Creator Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [⚙️ updating script](scripts/farcaster-creator-reward-winners.ts), [✅ whitelist](whitelist/farcaster-creator-reward-winners.json))
 - [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [⚙️ updating script](scripts/farcaster-developer-reward-winners.ts), [✅ whitelist](whitelist/farcaster-developer-reward-winners.json))
-- [x] Hunt Town Top Builders (previous month)
-- [x] Hunt Town Top Tippers (previous month)
+- [x] Hunt Town Top Builders (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-builders.ts), [✅ whitelist](whitelist/hunt-town-top-builders.json))
+- [x] Hunt Town Top Tippers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-tippers.ts), [✅ whitelist](whitelist/hunt-town-top-tippers.json))
 - [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-building-nft-holders.json))
 - [ ] HUNT Mini Building NFT holders
 - [ ] HUNT token holders (mainnet)
