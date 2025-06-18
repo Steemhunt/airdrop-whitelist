@@ -15,7 +15,7 @@ async function main() {
   }[];
 
   const whitelist = tippers.map(({ fid, username, address, tipped }) => ({
-    address,
+    walletAddress: address,
     weight: tipped,
     fid,
     username,

@@ -20,7 +20,7 @@ async function main() {
 
   const whitelist = builders.map(
     ({ fid, username, address, reservedMiniBuildingCount }) => ({
-      address,
+      walletAddress: address,
       weight: reservedMiniBuildingCount,
       fid,
       username,

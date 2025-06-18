@@ -3,7 +3,6 @@ import * as path from "path";
 
 interface WalletInput {
   walletAddress?: string;
-  address?: string;
   weight?: number;
   [key: string]: any;
 }
@@ -20,7 +19,16 @@ export async function saveWhitelist(
   wallets: WalletInput[],
   sortKey?: string
 ) {
-  if (!wallets.every((w) => w.walletAddress || w.address)) {
+  // check if we have walletAddress set for every record, print index if not
+  const missingWalletAddresses = wallets.findIndex((w) => !w.walletAddress);
+  if (missingWalletAddresses !== -1) {
+    console.log(
+      `[${airdropName}] Missing walletAddress for record at index ${missingWalletAddresses}`,
+      wallets[missingWalletAddresses]
+    );
+  }
+
+  if (!wallets.every((w) => w.walletAddress)) {
     throw new Error(`[${airdropName}] All wallets must have a walletAddress`);
   }
 
