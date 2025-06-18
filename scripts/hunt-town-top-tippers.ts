@@ -14,15 +14,13 @@ async function main() {
     tipped: number;
   }[];
 
-  // weight by tipped amount
-  const fabricatedBuilders = tippers.map((tipper) => ({
-    walletAddress: tipper.address,
-    weight: tipper.tipped,
-    fid: tipper.fid,
-    username: tipper.username,
+  const whitelist = tippers.map(({ fid, username, address, tipped }) => ({
+    address,
+    weight: tipped,
+    fid,
+    username,
   }));
-
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, fabricatedBuilders, "weight");
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, "weight");
 }
 
 main();

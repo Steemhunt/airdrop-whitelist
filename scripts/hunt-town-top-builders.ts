@@ -18,14 +18,16 @@ async function main() {
     reservedMiniBuildingCount: number;
   }[];
 
-  const fabricatedBuilders = builders.map((builder) => ({
-    walletAddress: builder.address,
-    weight: builder.reservedMiniBuildingCount,
-    fid: builder.fid,
-    username: builder.username,
-  }));
+  const whitelist = builders.map(
+    ({ fid, username, address, reservedMiniBuildingCount }) => ({
+      address,
+      weight: reservedMiniBuildingCount,
+      fid,
+      username,
+    })
+  );
 
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, fabricatedBuilders, "weight");
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, "weight");
 }
 
 main();

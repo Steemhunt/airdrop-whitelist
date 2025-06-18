@@ -2,7 +2,8 @@ import * as fs from "fs/promises";
 import * as path from "path";
 
 interface WalletInput {
-  walletAddress: string;
+  walletAddress?: string;
+  address?: string;
   weight?: number;
   [key: string]: any;
 }
@@ -17,18 +18,18 @@ export async function saveWhitelist(
   outputFile: string,
   airdropName: string,
   wallets: WalletInput[],
-  sortKey?: keyof WalletInput
+  sortKey?: string
 ) {
-  if (!wallets.every((w) => w.walletAddress)) {
+  if (!wallets.every((w) => w.walletAddress || w.address)) {
     throw new Error(`[${airdropName}] All wallets must have a walletAddress`);
   }
 
   if (sortKey) {
     wallets.sort((a, b) => {
-      if (a[sortKey] < b[sortKey]) {
+      if (a[sortKey] > b[sortKey]) {
         return -1;
       }
-      if (a[sortKey] > b[sortKey]) {
+      if (a[sortKey] < b[sortKey]) {
         return 1;
       }
       return 0;
@@ -36,9 +37,16 @@ export async function saveWhitelist(
   }
 
   const formattedWallets: WalletOutput[] = wallets.map((wallet) => {
+    const weightValue = sortKey ? wallet[sortKey] : wallet.weight;
+    const walletAddress = wallet.walletAddress || wallet.address;
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { address, ...rest } = wallet;
+
     return {
-      ...wallet,
-      weight: wallet.weight || 0,
+      walletAddress: walletAddress!,
+      weight: Number(weightValue) || 0,
+      ...rest,
     };
   });
 
