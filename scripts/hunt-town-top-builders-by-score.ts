@@ -5,6 +5,7 @@ import { saveWhitelist } from "./libs/formatter";
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 async function main() {
+  // Returns top builders by total tip received, limited to top 1,000 builders
   const builders = (await fetch(
     "https://tip.hunt.town/api/snapshot/builders-by-score.json"
   ).then((res) => res.json())) as {
