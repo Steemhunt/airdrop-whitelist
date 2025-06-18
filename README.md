@@ -15,9 +15,9 @@ This repository currently maintains the following whitelists:
 - [x] Hunt Town Top Tippers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-tippers.ts), [✅ whitelist](whitelist/hunt-town-top-tippers.json))
 - [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-building-nft-holders.json))
 - [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [⚙️ updating script](scripts/hunt-mini-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-mini-building-nft-holders.json))
-- [ ] HUNT token holders (mainnet)
-- [ ] HUNT token holders (Base)
-- [ ] MT token holders (Base)
+- [x] HUNT token holders (mainnet, excluding contract addresses) ([⚙️ updating script](scripts/hunt-token-holders-mainnet.ts), [✅ whitelist](whitelist/hunt-token-holders-mainnet.json))
+- [x] HUNT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/hunt-token-holders-base.ts), [✅ whitelist](whitelist/hunt-token-holders-base.json))
+- [x] MT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/mt-token-holders-base.ts), [✅ whitelist](whitelist/mt-token-holders-base.json))
 
 ## 🔄 Updating Whitelists
 

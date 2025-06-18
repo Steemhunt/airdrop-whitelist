@@ -1,5 +1,6 @@
 import * as fs from "fs/promises";
 import * as path from "path";
+import { getAddress } from "viem";
 
 interface WalletInput {
   walletAddress?: string;
@@ -46,13 +47,24 @@ export async function saveWhitelist(
 
   const formattedWallets: WalletOutput[] = wallets.map((wallet) => {
     const weightValue = sortKey ? wallet[sortKey] : wallet.weight;
-    const walletAddress = wallet.walletAddress || wallet.address;
+    let checksummedAddress = wallet.walletAddress || wallet.address;
+
+    if (checksummedAddress) {
+      try {
+        checksummedAddress = getAddress(checksummedAddress);
+      } catch (e) {
+        console.error(
+          `[${airdropName}] Invalid address found: ${checksummedAddress}`
+        );
+        throw e;
+      }
+    }
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { address, ...rest } = wallet;
+    const { address, walletAddress, ...rest } = wallet;
 
     return {
-      walletAddress: walletAddress!,
+      walletAddress: checksummedAddress!,
       weight: Number(weightValue) || 0,
       ...rest,
     };

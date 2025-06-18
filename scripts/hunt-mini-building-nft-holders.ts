@@ -5,7 +5,6 @@ import {
   GetOwnersForContractWithTokenBalancesResponse,
   Network,
 } from "alchemy-sdk";
-import { getAddress } from "viem";
 import { saveWhitelist } from "./libs/formatter";
 
 const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
@@ -40,7 +39,7 @@ async function getMiniBuildingHolders() {
       );
       const balance = token ? parseInt(token.balance, 10) : 0;
       return {
-        address: getAddress(data.ownerAddress),
+        address: data.ownerAddress,
         balance,
       };
     })
