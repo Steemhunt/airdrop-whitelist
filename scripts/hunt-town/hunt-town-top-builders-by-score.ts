@@ -2,6 +2,11 @@ import { isAddress } from "viem";
 import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
+const config = {
+  title: "Hunt Town Top Builders (by score, previous month)",
+  doc_url: "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
+};
+
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 async function main() {
@@ -25,7 +30,7 @@ async function main() {
     // Filter out if primaryAddress is not valid address or null
     .filter((w) => w.walletAddress && isAddress(w.walletAddress)); //
 
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, "weight");
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, config, "weight");
 }
 
 main();

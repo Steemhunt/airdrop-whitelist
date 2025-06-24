@@ -4,6 +4,11 @@ import { RPCS } from "../../libs/rpcs";
 import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
+const config = {
+  title: "HUNT Building NFT holders",
+  doc_url: "https://docs.hunt.town/token-and-point/main-building",
+};
+
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 const CHAIN_ID = 1; // Ethereum mainnet
@@ -75,8 +80,8 @@ async function main() {
           holders[owner] = (holders[owner] || 0) + 1;
         }
       } else {
-        const tokenId = batch[index];
         burntCount++;
+        // const tokenId = batch[index];
         // console.log(
         //   `[${AIRDROP_NAME}] could not fetch owner of tokenId ${tokenId}. It might be burnt.`
         // );
@@ -95,7 +100,7 @@ async function main() {
     }`
   );
 
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, "weight");
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
 }
 
 main();

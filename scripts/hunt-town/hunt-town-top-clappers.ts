@@ -1,6 +1,11 @@
 import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
+const config = {
+  title: "Hunt Town Top Clappers (previous month)",
+  doc_url: "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
+};
+
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 async function main() {
@@ -20,7 +25,8 @@ async function main() {
     fid,
     username,
   }));
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, "weight");
+
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, whitelist, config, "weight");
 }
 
 main();

@@ -20,6 +20,7 @@
   "main": "src/index.ts",
   "scripts": {
     "update-all": "bun run update-all.ts",
+    "update-summary": "bun run update-summary.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

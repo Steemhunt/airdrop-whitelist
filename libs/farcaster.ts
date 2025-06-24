@@ -12,24 +12,28 @@ interface ApiResponse<T> {
   };
 }
 
+interface FetchWinnersParams<T, U> {
+  apiUrl: string;
+  outputFile: string;
+  config: { title: string; doc_url: string };
+  formatWinner: (winner: T) => U;
+  logMessage: string;
+  airdropName: string;
+  sortKey: keyof U;
+}
+
 export async function fetchFarcasterWinners<
   RawWinner,
   FormattedWinner extends { walletAddress: string; [key: string]: any }
 >({
   apiUrl,
   outputFile,
+  config,
   formatWinner,
   logMessage,
   airdropName,
   sortKey,
-}: {
-  apiUrl: string;
-  outputFile: string;
-  formatWinner: (winner: RawWinner) => FormattedWinner;
-  logMessage: string;
-  airdropName: string;
-  sortKey: keyof FormattedWinner;
-}) {
+}: FetchWinnersParams<RawWinner, FormattedWinner>) {
   let allWinners: FormattedWinner[] = [];
   let cursor: string | null = null;
   let page = 1;
@@ -86,6 +90,7 @@ export async function fetchFarcasterWinners<
       outputFile,
       airdropName,
       validWinners,
+      config,
       sortKey as string
     );
   } catch (error) {

@@ -1,13 +1,18 @@
 import "dotenv/config";
-import { getAirdropInfo } from "../../libs/common";
 import {
   Alchemy,
   GetOwnersForContractWithTokenBalancesResponse,
   Network,
 } from "alchemy-sdk";
+import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
-const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
+const config = {
+  title: "HUNT Mini Building NFT holders",
+  doc_url: "https://docs.hunt.town/token-and-point/mini-building",
+};
+
+const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 
 const CONTRACT_ADDRESS = "0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a"; // Mini Building NFT
 const TOKEN_ID = 0n;
@@ -67,7 +72,7 @@ async function main() {
     )}.`
   );
 
-  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, "weight");
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
 }
 
 main();

@@ -4,20 +4,29 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 
 ## ✅ Whitelists Maintained
 
-This repository currently maintains the following whitelists:
-
 - [x] **List summary** ([✅ summary file](whitelist/summary.json))
 - [ ] Farcastser Pro Subscribers ([⚙️ updating script](scripts/farcaster/farcaster-pro-subscribers.ts), [✅ whitelist](whitelist/farcaster/farcaster-pro-subscribers.json))
-- [x] Farcaster Creator Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [⚙️ updating script](scripts/farcaster/farcaster-creator-reward-winners.ts), [✅ whitelist](whitelist/farcaster/farcaster-creator-reward-winners.json))
-- [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [⚙️ updating script](scripts/farcaster/farcaster-developer-reward-winners.ts), [✅ whitelist](whitelist/farcaster/farcaster-developer-reward-winners.json))
-- [x] Hunt Town Top Builders (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-builders.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-builders.json))
-- [x] Hunt Town Top Builders (by score, previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-builders-by-score.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-builders-by-score.json))
-- [x] Hunt Town Top Clappers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-clappers.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-clappers.json))
-- [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-town/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-town/hunt-building-nft-holders.json))
-- [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [⚙️ updating script](scripts/hunt-town/hunt-mini-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-town/hunt-mini-building-nft-holders.json))
-- [x] HUNT token holders (mainnet, excluding contract addresses) ([⚙️ updating script](scripts/hunt-town/hunt-token-holders-mainnet.ts), [✅ whitelist](whitelist/hunt-town/hunt-token-holders-mainnet.json))
-- [x] HUNT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/hunt-town/hunt-token-holders-base.ts), [✅ whitelist](whitelist/hunt-town/hunt-token-holders-base.json))
-- [x] MT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/mint-club/mt-token-holders-base.ts), [✅ whitelist](whitelist/mint-club/mt-token-holders-base.json))
+<!-- WHITELIST_TABLE_START -->
+### Mint Club
+
+- [x] MT token holders (Base, excluding contract addresses) ([📄 docs](https://docs.mint.club/mt), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts))
+
+### Farcaster
+
+- [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts))
+- [x] Farcaster Creator Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts))
+
+### Hunt Town
+
+- [x] Hunt Town Top Builders (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts))
+- [x] HUNT token holders (mainnet, excluding contract addresses) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-erc20), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-mainnet.ts))
+- [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-building-nft-holders.ts))
+- [x] HUNT token holders (Base, excluding contract addresses) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-erc20), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-base.ts))
+- [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts))
+- [x] Hunt Town Top Clappers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts))
+- [x] Hunt Town Top Builders (by score, previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts))
+
+<!-- WHITELIST_TABLE_END -->
 
 ## 🔄 Updating Whitelists
 
@@ -66,27 +75,21 @@ Each file has the following JSON structure.
 
 ## 📜 Whitelist Summary
 
-The `whitelist/summary.json` file provides a summary of all available whitelists. It contains an array of objects, where each object represents a whitelist and includes its name, filename, and the number of wallets it contains. This file is automatically updated when you run the update scripts.
+The `whitelist/summary.json` file provides a summary of all available whitelists. It contains a nested object where the keys are categories, and the values are objects containing the whitelists in that category. This file is automatically updated when you run the update scripts.
 
 Here is an example of the `summary.json` format:
 
 ```json
 {
-  "farcaster-creator-reward-winners": {
-    "walletsCount": 2989,
-    "updatedAt": "2025-06-17T06:43:50.506Z"
-  },
-  "farcaster-developer-reward-winners": {
-    "walletsCount": 50,
-    "updatedAt": "2025-06-17T07:12:20.367Z"
-  },
-  "hunt-building-nft-holders": {
-    "walletsCount": 282,
-    "updatedAt": "2025-06-17T06:43:12.362Z"
+  "farcaster": {
+    "farcaster-creator-reward-winners": {
+      "title": "Farcaster Creator Reward Winners (previous week)",
+      "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
+      "walletsCount": 2989,
+      "updatedAt": "2025-06-17T06:43:50.506Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
+    }
   }
 }
 ```
-
-## 🙏 Contributing
-
-If you would like to add your own airdrop whitelist to this repository, please feel free to open a Pull Request. We welcome contributions!

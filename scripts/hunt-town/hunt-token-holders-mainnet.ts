@@ -5,8 +5,12 @@ import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 // and creates a whitelist file with the owner's address and their balance.
 // The weight is set to the token balance.
 
-const TOKEN_ADDRESS = "0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5";
-const TOKEN_SYMBOL = "HUNT";
+const config = {
+  title: "HUNT token holders (mainnet, excluding contract addresses)",
+  doc_url: "https://docs.hunt.town/token-and-point/hunt-erc20",
+};
+
+const TOKEN_ADDRESS = "0x9aab071b4129b083b01cb5a0cb52e42a5350d25b";
 const NETWORK = Network.ETH_MAINNET;
 
-createErc20HoldersWhitelist(__filename, TOKEN_ADDRESS, TOKEN_SYMBOL, NETWORK);
+createErc20HoldersWhitelist(__filename, TOKEN_ADDRESS, NETWORK, config);

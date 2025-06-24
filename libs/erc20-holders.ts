@@ -1,4 +1,5 @@
 import "dotenv/config";
+import path from "path";
 import { Network } from "alchemy-sdk";
 import { getAirdropInfo } from "./common";
 import { saveWhitelist } from "./formatter";
@@ -21,8 +22,8 @@ export interface HolderRow {
 export async function createErc20HoldersWhitelist(
   filename: string,
   tokenAddress: string,
-  tokenSymbol: string,
-  network: Network
+  network: Network,
+  config: { title: string; doc_url: string }
 ) {
   const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(filename);
 
@@ -81,7 +82,7 @@ export async function createErc20HoldersWhitelist(
       })
       .filter((w) => w.weight > 0);
 
-    await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, "weight");
+    await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
     console.log(`[${AIRDROP_NAME}]-done`);
   } catch (e) {
     console.error(e);
