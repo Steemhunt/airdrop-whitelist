@@ -1,6 +1,6 @@
 {
-  "walletsCount": 282,
-  "updatedAt": "2025-06-18T08:41:26.469Z",
+  "walletsCount": 283,
+  "updatedAt": "2025-06-24T03:16:28.246Z",
   "wallets": [
     {
       "walletAddress": "0x980Cd99311f3b3264f5dfdCE33D204A8d6d492E4",
@@ -1128,6 +1128,10 @@
     },
     {
       "walletAddress": "0x353f3f3923C370bf86Af0F13168E288f6Bd6F75f",
+      "weight": 1
+    },
+    {
+      "walletAddress": "0x5cdfD64CE15983e937268Bba7f913916dc756DFb",
       "weight": 1
     }
   ]
