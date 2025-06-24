@@ -1,12 +1,13 @@
 # 🎁 Airdrop Whitelist
 
-This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](https://mint.club/airdrops), along with scripts to update them.
+This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](https://mint.club/airdrop/create), along with scripts to update them.
 
 ## ✅ Whitelists Maintained
 
 - [x] **List summary** ([✅ summary file](whitelist/summary.json))
 - [ ] Farcastser Pro Subscribers ([⚙️ updating script](scripts/farcaster/farcaster-pro-subscribers.ts), [✅ whitelist](whitelist/farcaster/farcaster-pro-subscribers.json))
 <!-- WHITELIST_TABLE_START -->
+
 ### Farcaster
 
 - [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts))
