@@ -27,9 +27,11 @@
     "@types/node": "^22.15.30"
   },
   "dependencies": {
+    "@types/glob": "^8.1.0",
     "alchemy-sdk": "^3.6.0",
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
+    "glob": "^11.0.3",
     "moralis": "^2.27.2",
     "viem": "^2.31.0"
   }

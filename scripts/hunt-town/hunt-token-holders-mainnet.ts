@@ -1,5 +1,5 @@
 import { Network } from "alchemy-sdk";
-import { createErc20HoldersWhitelist } from "./libs/erc20-holders";
+import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 
 // This script gets all holders of the HUNT token on Mainnet
 // and creates a whitelist file with the owner's address and their balance.

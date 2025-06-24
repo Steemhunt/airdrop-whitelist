@@ -87,47 +87,55 @@ export async function saveWhitelist(
     )}`
   );
 
-  await updateSummary(path.dirname(outputFile));
+  await updateSummary();
 }
 
-async function updateSummary(whitelistDir: string) {
-  const summaryFilePath = path.join(whitelistDir, "summary.json");
+async function updateSummary() {
+  const whitelistRoot = path.join(process.cwd(), "whitelist");
+  const summaryFilePath = path.join(whitelistRoot, "summary.json");
   const summary: {
-    [key: string]: { walletsCount: number; updatedAt: string };
+    [category: string]: {
+      [airdrop: string]: {
+        walletsCount: number;
+        updatedAt: string;
+        endpoint: string;
+      };
+    };
   } = {};
 
-  const files = await fs.readdir(whitelistDir);
-  const jsonFiles = files.filter(
-    (file) => path.extname(file) === ".json" && file !== "summary.json"
-  );
+  const categories = (await fs.readdir(whitelistRoot, { withFileTypes: true }))
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
 
-  for (const file of jsonFiles) {
-    try {
-      const filePath = path.join(whitelistDir, file);
-      const fileContent = await fs.readFile(filePath, "utf-8");
-      const data = JSON.parse(fileContent);
-      const airdropName = path.basename(file, ".json");
+  for (const category of categories) {
+    summary[category] = {};
+    const categoryDir = path.join(whitelistRoot, category);
+    const files = await fs.readdir(categoryDir);
+    const jsonFiles = files.filter(
+      (file) => path.extname(file) === ".json" && file !== "summary.json"
+    );
 
-      if (data.walletsCount !== undefined && data.updatedAt) {
-        summary[airdropName] = {
-          walletsCount: data.walletsCount,
-          updatedAt: data.updatedAt,
-        };
+    for (const file of jsonFiles) {
+      try {
+        const filePath = path.join(categoryDir, file);
+        const fileContent = await fs.readFile(filePath, "utf-8");
+        const data = JSON.parse(fileContent);
+        const airdropName = path.basename(file, ".json");
+
+        if (data.walletsCount !== undefined && data.updatedAt) {
+          summary[category][airdropName] = {
+            walletsCount: data.walletsCount,
+            updatedAt: data.updatedAt,
+            endpoint: `https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/${category}/${file}`,
+          };
+        }
+      } catch (error) {
+        console.warn(`\n[Summary] Error processing file ${file}:`, error);
       }
-    } catch (error) {
-      console.warn(`\n[Summary] Error processing file ${file}:`, error);
     }
   }
 
-  const sortedKeys = Object.keys(summary).sort();
-  const sortedSummary: {
-    [key: string]: { walletsCount: number; updatedAt: string };
-  } = {};
-  for (const key of sortedKeys) {
-    sortedSummary[key] = summary[key];
-  }
-
-  await fs.writeFile(summaryFilePath, JSON.stringify(sortedSummary, null, 2));
+  await fs.writeFile(summaryFilePath, JSON.stringify(summary, null, 2));
   console.log(
     `\n[Summary] Successfully saved summary to ${path.relative(
       process.cwd(),

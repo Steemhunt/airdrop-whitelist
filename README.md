@@ -7,17 +7,17 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 This repository currently maintains the following whitelists:
 
 - [x] **List summary** ([✅ summary file](whitelist/summary.json))
-- [ ] Farcastser Pro Subscribers
-- [x] Farcaster Creator Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [⚙️ updating script](scripts/farcaster-creator-reward-winners.ts), [✅ whitelist](whitelist/farcaster-creator-reward-winners.json))
-- [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [⚙️ updating script](scripts/farcaster-developer-reward-winners.ts), [✅ whitelist](whitelist/farcaster-developer-reward-winners.json))
-- [x] Hunt Town Top Builders (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-builders.ts), [✅ whitelist](whitelist/hunt-town-top-builders.json))
-- [x] Hunt Town Top Builders (by score, previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-builders-by-score.ts), [✅ whitelist](whitelist/hunt-town-top-builders-by-score.json))
-- [x] Hunt Town Top Clappers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town-top-clappers.ts), [✅ whitelist](whitelist/hunt-town-top-clappers.json))
-- [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-building-nft-holders.json))
-- [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [⚙️ updating script](scripts/hunt-mini-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-mini-building-nft-holders.json))
-- [x] HUNT token holders (mainnet, excluding contract addresses) ([⚙️ updating script](scripts/hunt-token-holders-mainnet.ts), [✅ whitelist](whitelist/hunt-token-holders-mainnet.json))
-- [x] HUNT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/hunt-token-holders-base.ts), [✅ whitelist](whitelist/hunt-token-holders-base.json))
-- [x] MT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/mt-token-holders-base.ts), [✅ whitelist](whitelist/mt-token-holders-base.json))
+- [ ] Farcastser Pro Subscribers ([⚙️ updating script](scripts/farcaster/farcaster-pro-subscribers.ts), [✅ whitelist](whitelist/farcaster/farcaster-pro-subscribers.json))
+- [x] Farcaster Creator Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [⚙️ updating script](scripts/farcaster/farcaster-creator-reward-winners.ts), [✅ whitelist](whitelist/farcaster/farcaster-creator-reward-winners.json))
+- [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [⚙️ updating script](scripts/farcaster/farcaster-developer-reward-winners.ts), [✅ whitelist](whitelist/farcaster/farcaster-developer-reward-winners.json))
+- [x] Hunt Town Top Builders (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-builders.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-builders.json))
+- [x] Hunt Town Top Builders (by score, previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-builders-by-score.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-builders-by-score.json))
+- [x] Hunt Town Top Clappers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [⚙️ updating script](scripts/hunt-town/hunt-town-top-clappers.ts), [✅ whitelist](whitelist/hunt-town/hunt-town-top-clappers.json))
+- [x] HUNT Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [⚙️ updating script](scripts/hunt-town/hunt-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-town/hunt-building-nft-holders.json))
+- [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [⚙️ updating script](scripts/hunt-town/hunt-mini-building-nft-holders.ts), [✅ whitelist](whitelist/hunt-town/hunt-mini-building-nft-holders.json))
+- [x] HUNT token holders (mainnet, excluding contract addresses) ([⚙️ updating script](scripts/hunt-town/hunt-token-holders-mainnet.ts), [✅ whitelist](whitelist/hunt-town/hunt-token-holders-mainnet.json))
+- [x] HUNT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/hunt-town/hunt-token-holders-base.ts), [✅ whitelist](whitelist/hunt-town/hunt-token-holders-base.json))
+- [x] MT token holders (Base, excluding contract addresses) ([⚙️ updating script](scripts/mint-club/mt-token-holders-base.ts), [✅ whitelist](whitelist/mint-club/mt-token-holders-base.json))
 
 ## 🔄 Updating Whitelists
 
@@ -25,10 +25,10 @@ You can update all whitelists at once or update a specific list.
 
 ### Update All Lists
 
-To update all whitelists, run the following command, which will execute all the scripts in the `scripts` folder:
+To update all whitelists, run the following command, which will execute all the scripts in the `scripts` folder and its subfolders:
 
 ```bash
-npm run update:all
+bun run update-all
 ```
 
 ## 📝 Whitelist JSON Format

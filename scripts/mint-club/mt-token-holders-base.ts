@@ -1,5 +1,5 @@
 import { Network } from "alchemy-sdk";
-import { createErc20HoldersWhitelist } from "./libs/erc20-holders";
+import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 
 const TOKEN_ADDRESS = "0xFf45161474C39cB00699070Dd49582e417b57a7E";
 const TOKEN_SYMBOL = "MT";

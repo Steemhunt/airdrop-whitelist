@@ -1,5 +1,5 @@
-import { getAirdropInfo } from "./libs/common";
-import { saveWhitelist } from "./libs/formatter";
+import { getAirdropInfo } from "../../libs/common";
+import { saveWhitelist } from "../../libs/formatter";
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 

@@ -1,8 +1,8 @@
 import { createPublicClient, fallback, http, erc721Abi } from "viem";
 import { mainnet } from "viem/chains";
-import { RPCS } from "./libs/rpcs";
-import { getAirdropInfo } from "./libs/common";
-import { saveWhitelist } from "./libs/formatter";
+import { RPCS } from "../../libs/rpcs";
+import { getAirdropInfo } from "../../libs/common";
+import { saveWhitelist } from "../../libs/formatter";
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 

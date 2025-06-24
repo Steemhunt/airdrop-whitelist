@@ -1,11 +1,11 @@
 import "dotenv/config";
-import { getAirdropInfo } from "./libs/common";
+import { getAirdropInfo } from "../../libs/common";
 import {
   Alchemy,
   GetOwnersForContractWithTokenBalancesResponse,
   Network,
 } from "alchemy-sdk";
-import { saveWhitelist } from "./libs/formatter";
+import { saveWhitelist } from "../../libs/formatter";
 
 const { AIRDROP_NAME, OUTPUT_FILE, WHITELIST_DIR } = getAirdropInfo(__filename);
 

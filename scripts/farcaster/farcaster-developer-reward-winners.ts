@@ -1,5 +1,5 @@
-import { fetchFarcasterWinners } from "./libs/farcaster";
-import { getAirdropInfo } from "./libs/common";
+import { fetchFarcasterWinners } from "../../libs/farcaster";
+import { getAirdropInfo } from "../../libs/common";
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
 

@@ -1,42 +1,58 @@
 {
-  "farcaster-creator-reward-winners": {
-    "walletsCount": 2989,
-    "updatedAt": "2025-06-24T03:17:07.425Z"
+  "mint-club": {
+    "mt-token-holders-base": {
+      "walletsCount": 1000,
+      "updatedAt": "2025-06-24T07:34:53.174Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
+    }
   },
-  "farcaster-developer-reward-winners": {
-    "walletsCount": 50,
-    "updatedAt": "2025-06-24T03:16:21.515Z"
+  "farcaster": {
+    "farcaster-developer-reward-winners": {
+      "walletsCount": 50,
+      "updatedAt": "2025-06-24T07:34:49.048Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
+    },
+    "farcaster-creator-reward-winners": {
+      "walletsCount": 2989,
+      "updatedAt": "2025-06-24T07:34:48.013Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
+    }
   },
-  "hunt-building-nft-holders": {
-    "walletsCount": 283,
-    "updatedAt": "2025-06-24T03:16:28.246Z"
-  },
-  "hunt-mini-building-nft-holders": {
-    "walletsCount": 627,
-    "updatedAt": "2025-06-24T03:17:20.377Z"
-  },
-  "hunt-token-holders-base": {
-    "walletsCount": 1000,
-    "updatedAt": "2025-06-24T03:17:12.898Z"
-  },
-  "hunt-token-holders-mainnet": {
-    "walletsCount": 1000,
-    "updatedAt": "2025-06-24T03:17:27.462Z"
-  },
-  "hunt-town-top-builders": {
-    "walletsCount": 64,
-    "updatedAt": "2025-06-24T03:17:19.659Z"
-  },
-  "hunt-town-top-builders-by-score": {
-    "walletsCount": 904,
-    "updatedAt": "2025-06-24T03:16:22.735Z"
-  },
-  "hunt-town-top-clappers": {
-    "walletsCount": 2041,
-    "updatedAt": "2025-06-24T03:28:59.730Z"
-  },
-  "mt-token-holders-base": {
-    "walletsCount": 1000,
-    "updatedAt": "2025-06-24T03:17:18.038Z"
+  "hunt-town": {
+    "hunt-town-top-builders": {
+      "walletsCount": 64,
+      "updatedAt": "2025-06-24T07:33:57.521Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json"
+    },
+    "hunt-token-holders-mainnet": {
+      "walletsCount": 1000,
+      "updatedAt": "2025-06-24T07:33:55.951Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json"
+    },
+    "hunt-building-nft-holders": {
+      "walletsCount": 283,
+      "updatedAt": "2025-06-24T07:34:08.879Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json"
+    },
+    "hunt-token-holders-base": {
+      "walletsCount": 1000,
+      "updatedAt": "2025-06-24T07:34:02.128Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json"
+    },
+    "hunt-mini-building-nft-holders": {
+      "walletsCount": 627,
+      "updatedAt": "2025-06-24T07:33:56.647Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json"
+    },
+    "hunt-town-top-clappers": {
+      "walletsCount": 2041,
+      "updatedAt": "2025-06-24T07:33:58.545Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json"
+    },
+    "hunt-town-top-builders-by-score": {
+      "walletsCount": 905,
+      "updatedAt": "2025-06-24T07:34:09.831Z",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json"
+    }
   }
 }
