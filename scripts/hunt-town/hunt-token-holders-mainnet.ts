@@ -10,7 +10,7 @@ const config = {
   doc_url: "https://docs.hunt.town/token-and-point/hunt-erc20",
 };
 
-const TOKEN_ADDRESS = "0x9aab071b4129b083b01cb5a0cb52e42a5350d25b";
+const TOKEN_ADDRESS = "0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5";
 const NETWORK = Network.ETH_MAINNET;
 
 createErc20HoldersWhitelist(__filename, TOKEN_ADDRESS, NETWORK, config);
