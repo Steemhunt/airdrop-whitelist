@@ -7,10 +7,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 - [x] **List summary** ([✅ summary file](whitelist/summary.json))
 - [ ] Farcastser Pro Subscribers ([⚙️ updating script](scripts/farcaster/farcaster-pro-subscribers.ts), [✅ whitelist](whitelist/farcaster/farcaster-pro-subscribers.json))
 <!-- WHITELIST_TABLE_START -->
-### Mint Club
-
-- [x] MT token holders (Base, excluding contract addresses) ([📄 docs](https://docs.mint.club/mt), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts))
-
 ### Farcaster
 
 - [x] Farcaster Developer Reward Winners (previous week) ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts))
@@ -25,6 +21,10 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 - [x] HUNT Mini Building NFT holders ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts))
 - [x] Hunt Town Top Clappers (previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts))
 - [x] Hunt Town Top Builders (by score, previous month) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts))
+
+### Mint Club
+
+- [x] MT token holders (Base, excluding contract addresses) ([📄 docs](https://docs.mint.club/mt), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts))
 
 <!-- WHITELIST_TABLE_END -->
 

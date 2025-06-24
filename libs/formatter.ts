@@ -114,9 +114,21 @@ export async function updateSummary() {
   } = {};
   let readmeWhitelists = "";
 
-  const categories = (await fs.readdir(whitelistRoot, { withFileTypes: true }))
+  const allCategories = (
+    await fs.readdir(whitelistRoot, { withFileTypes: true })
+  )
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
+
+  const order = ["farcaster", "hunt-town", "mint-club"];
+  const categories = allCategories.sort((a, b) => {
+    const indexA = order.indexOf(a);
+    const indexB = order.indexOf(b);
+    if (indexA === -1 && indexB === -1) return a.localeCompare(b);
+    if (indexA === -1) return 1;
+    if (indexB === -1) return -1;
+    return indexA - indexB;
+  });
 
   for (const category of categories) {
     summary[category] = {};

@@ -1,20 +1,10 @@
 {
-  "mint-club": {
-    "mt-token-holders-base": {
-      "title": "MT token holders (Base, excluding contract addresses)",
-      "doc_url": "https://docs.mint.club/mt",
-      "walletsCount": 0,
-      "updatedAt": "2025-06-24T07:59:10.035Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
-    }
-  },
   "farcaster": {
     "farcaster-developer-reward-winners": {
       "title": "Farcaster Developer Reward Winners (previous week)",
       "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
       "walletsCount": 50,
-      "updatedAt": "2025-06-24T07:59:08.962Z",
+      "updatedAt": "2025-06-24T08:29:30.788Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
     },
@@ -22,7 +12,7 @@
       "title": "Farcaster Creator Reward Winners (previous week)",
       "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
       "walletsCount": 2989,
-      "updatedAt": "2025-06-24T07:59:07.546Z",
+      "updatedAt": "2025-06-24T08:29:29.075Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
     }
@@ -32,7 +22,7 @@
       "title": "Hunt Town Top Builders (previous month)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 64,
-      "updatedAt": "2025-06-24T07:58:19.517Z",
+      "updatedAt": "2025-06-24T08:28:37.311Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json"
     },
@@ -40,7 +30,7 @@
       "title": "HUNT token holders (mainnet, excluding contract addresses)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "walletsCount": 0,
-      "updatedAt": "2025-06-24T07:58:18.175Z",
+      "updatedAt": "2025-06-24T08:28:35.793Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-mainnet.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json"
     },
@@ -48,7 +38,7 @@
       "title": "HUNT Building NFT holders",
       "doc_url": "https://docs.hunt.town/token-and-point/main-building",
       "walletsCount": 283,
-      "updatedAt": "2025-06-24T07:58:28.866Z",
+      "updatedAt": "2025-06-24T08:28:47.698Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json"
     },
@@ -56,7 +46,7 @@
       "title": "HUNT token holders (Base, excluding contract addresses)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "walletsCount": 1000,
-      "updatedAt": "2025-06-24T07:58:24.340Z",
+      "updatedAt": "2025-06-24T08:28:42.611Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json"
     },
@@ -64,7 +54,7 @@
       "title": "HUNT Mini Building NFT holders",
       "doc_url": "https://docs.hunt.town/token-and-point/mini-building",
       "walletsCount": 627,
-      "updatedAt": "2025-06-24T07:58:18.911Z",
+      "updatedAt": "2025-06-24T08:28:36.560Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json"
     },
@@ -72,7 +62,7 @@
       "title": "Hunt Town Top Clappers (previous month)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 2041,
-      "updatedAt": "2025-06-24T07:58:20.566Z",
+      "updatedAt": "2025-06-24T08:28:38.334Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json"
     },
@@ -80,9 +70,19 @@
       "title": "Hunt Town Top Builders (by score, previous month)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 905,
-      "updatedAt": "2025-06-24T07:58:29.832Z",
+      "updatedAt": "2025-06-24T08:28:48.637Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json"
+    }
+  },
+  "mint-club": {
+    "mt-token-holders-base": {
+      "title": "MT token holders (Base, excluding contract addresses)",
+      "doc_url": "https://docs.mint.club/mt",
+      "walletsCount": 0,
+      "updatedAt": "2025-06-24T08:29:31.762Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
     }
   }
 }
