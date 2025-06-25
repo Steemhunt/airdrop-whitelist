@@ -133,9 +133,11 @@ export async function updateSummary() {
   for (const category of categories) {
     summary[category] = {};
     const categoryDir = path.join(whitelistRoot, category);
-    const files = (await fs.readdir(categoryDir)).filter(
-      (file) => path.extname(file) === ".json" && file !== "summary.json"
-    );
+    const files = (await fs.readdir(categoryDir))
+      .filter(
+        (file) => path.extname(file) === ".json" && file !== "summary.json"
+      )
+      .sort((a, b) => a.localeCompare(b));
 
     if (files.length === 0) continue;
 

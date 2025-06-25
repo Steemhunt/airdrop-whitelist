@@ -2,7 +2,7 @@
   "title": "HUNT token holders (mainnet, excluding contract addresses)",
   "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
   "walletsCount": 1000,
-  "updatedAt": "2025-06-24T08:45:22.869Z",
+  "updatedAt": "2025-06-25T04:43:40.545Z",
   "wallets": [
     {
       "walletAddress": "0x6563dF859733CbDca86dCCF33D912F104a0f4a9c",
@@ -21,12 +21,12 @@
     },
     {
       "walletAddress": "0x0eefA291A97993750C3285E111484bEA50B3D5b8",
-      "weight": 4901455.551641703,
+      "weight": 4908452.551641703,
       "label": "Bithumb: Hot Wallet"
     },
     {
       "walletAddress": "0x81092c0f477A2Cbcfc0375a6DD7071f3D10c2bA0",
-      "weight": 1673605.5764444852,
+      "weight": 1416205.5037823753,
       "label": "Upbit: Hot Wallet"
     },
     {
@@ -65,6 +65,11 @@
       "label": null
     },
     {
+      "walletAddress": "0xd2C811d48B4cBCcF8AfE1428FBaDE11BefFB269E",
+      "weight": 574034.3109924383,
+      "label": null
+    },
+    {
       "walletAddress": "0xb3609850153f9D6C5A2F41b0Abf85388D9914134",
       "weight": 508266.57216219,
       "label": null
@@ -72,11 +77,6 @@
     {
       "walletAddress": "0x9038a325C80D8C40D8f3e52E468756c54794984A",
       "weight": 428068.53535000846,
-      "label": null
-    },
-    {
-      "walletAddress": "0xd2C811d48B4cBCcF8AfE1428FBaDE11BefFB269E",
-      "weight": 412717.45470900333,
       "label": null
     },
     {
@@ -111,17 +111,12 @@
     },
     {
       "walletAddress": "0xd1d5Bcc9d0938C3b3Bb91D2f8305720Adb3Ae0c6",
-      "weight": 130070.05,
+      "weight": 130130.04,
       "label": null
     },
     {
       "walletAddress": "0x8bF3ed2463151aa9e6f477cC6f41e25D180E3962",
       "weight": 120154.961,
-      "label": null
-    },
-    {
-      "walletAddress": "0x0F13c62141b00bA8e207C3b665e08e0D90fAaE0a",
-      "weight": 119787.90507291463,
       "label": null
     },
     {
@@ -155,6 +150,11 @@
       "label": null
     },
     {
+      "walletAddress": "0x0F13c62141b00bA8e207C3b665e08e0D90fAaE0a",
+      "weight": 93735.82036117463,
+      "label": null
+    },
+    {
       "walletAddress": "0xe3031C1BfaA7825813c562CbDCC69d96FCad2087",
       "weight": 89006.88184584,
       "label": "Gopax: WBTC Merchant Deposit Address"
@@ -176,7 +176,7 @@
     },
     {
       "walletAddress": "0xcBEA7739929cc6A2B4e46A1F6D26841D8d668b9E",
-      "weight": 62077.90511100366,
+      "weight": 62072.14200240366,
       "label": null
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "walletAddress": "0xF29f568F971C043Df7079A3121e9DE616b8998a3",
-      "weight": 22120.046932969548,
+      "weight": 22088.980774763964,
       "label": null
     },
     {
@@ -291,12 +291,17 @@
     },
     {
       "walletAddress": "0xfE263102682933297CB65dC813E5193249769251",
-      "weight": 19982.189874232707,
+      "weight": 19874.626353011594,
       "label": null
     },
     {
-      "walletAddress": "0xbE5A14295dABfFdbCAFE6173B59f8aAc13A7D20b",
-      "weight": 19079.26292755,
+      "walletAddress": "0xbD224229Bf9465ea4318D45a8ea102627d6c27c7",
+      "weight": 19387.185787,
+      "label": null
+    },
+    {
+      "walletAddress": "0xd8eE65121e51aa8C75A6Efac74C4Bbd3C439F78f",
+      "weight": 19302.5,
       "label": null
     },
     {
@@ -370,6 +375,11 @@
       "label": null
     },
     {
+      "walletAddress": "0xbE5A14295dABfFdbCAFE6173B59f8aAc13A7D20b",
+      "weight": 12079.26292755,
+      "label": null
+    },
+    {
       "walletAddress": "0x88AE4BFce924949Aec659c5cB4a205278B4a53A4",
       "weight": 11691.09,
       "label": null
@@ -382,6 +392,11 @@
     {
       "walletAddress": "0xC729E6fF346BfE4bc83251F4B936b28A969e0632",
       "weight": 11583.52,
+      "label": null
+    },
+    {
+      "walletAddress": "0x0CE8f6C9D4aD12e56E54018313761487d2D1fee9",
+      "weight": 11000,
       "label": null
     },
     {
@@ -471,7 +486,7 @@
     },
     {
       "walletAddress": "0x677Adbe3B82F0689971B7ee39C0C038C1581aAEb",
-      "weight": 6161.2327687,
+      "weight": 6166.9958773,
       "label": null
     },
     {
@@ -4987,21 +5002,6 @@
     {
       "walletAddress": "0x1739De272bc4514756d40593fccC47ef8dc6f28a",
       "weight": 156.23,
-      "label": null
-    },
-    {
-      "walletAddress": "0xf3a19B32868e897C6a1AFf81252dD45FED68b705",
-      "weight": 156.10407764696458,
-      "label": null
-    },
-    {
-      "walletAddress": "0xb36eCD58A1429076A4De9b53cf85A8bC59e7bCe3",
-      "weight": 155.494,
-      "label": null
-    },
-    {
-      "walletAddress": "0x1004c486EAdCA70f47De3b16DE25cA057c07Af71",
-      "weight": 155.03,
       "label": null
     }
   ]
