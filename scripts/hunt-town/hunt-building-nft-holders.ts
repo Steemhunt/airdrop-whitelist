@@ -5,7 +5,7 @@ import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
-  title: "HUNT Building NFT Holders",
+  title: "Building NFT Holders (Mainnet)",
   doc_url: "https://docs.hunt.town/token-and-point/main-building",
 };
 

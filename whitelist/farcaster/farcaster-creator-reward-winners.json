@@ -1,8 +1,8 @@
 {
-  "title": "Farcaster Creator Reward Winners",
+  "title": "Creator Reward Winners",
   "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
   "walletsCount": 2993,
-  "updatedAt": "2025-06-25T06:02:38.428Z",
+  "updatedAt": "2025-06-25T06:34:27.947Z",
   "wallets": [
     {
       "walletAddress": "0xf5825Ec5f7aCfEDC88d834dD8D35E8B46F09F8FD",
@@ -12584,10 +12584,10 @@
       "rank": 1800
     },
     {
-      "walletAddress": "0x4861f50Ba646E3df26C62E453357D399DF653F82",
+      "walletAddress": "0xA17b24954e4d1498dd67AB701b4DF79F09654078",
       "weight": 300,
-      "fid": 7021,
-      "username": "articulate",
+      "fid": 430312,
+      "username": "astromarkc",
       "rank": 1801
     },
     {
@@ -12626,10 +12626,10 @@
       "rank": 1806
     },
     {
-      "walletAddress": "0xF511C3e4F43eE4771461857A23bBB228Cc8131F2",
+      "walletAddress": "0x5D2dFdc8E7BfB32b5F0A9e926a183b4B40a55B83",
       "weight": 300,
-      "fid": 14982,
-      "username": "omlet",
+      "fid": 1042675,
+      "username": "lexthefirst",
       "rank": 1807
     },
     {
@@ -12640,59 +12640,59 @@
       "rank": 1808
     },
     {
-      "walletAddress": "0x7832B3629147F3eb283d55C84F10D811E8C3C3FA",
+      "walletAddress": "0xF511C3e4F43eE4771461857A23bBB228Cc8131F2",
       "weight": 300,
-      "fid": 399658,
-      "username": "barbarabezina",
+      "fid": 14982,
+      "username": "omlet",
       "rank": 1809
-    },
-    {
-      "walletAddress": "0x5D2dFdc8E7BfB32b5F0A9e926a183b4B40a55B83",
-      "weight": 300,
-      "fid": 1042675,
-      "username": "lexthefirst",
-      "rank": 1810
     },
     {
       "walletAddress": "0x5bdde6856B79f60bc3B9b234f3E9d007902Abc8e",
       "weight": 300,
       "fid": 521891,
       "username": "arcpartner",
-      "rank": 1811
+      "rank": 1810
     },
     {
-      "walletAddress": "0x68aBf5c00C251540042858F582a5b60489F7A7F9",
+      "walletAddress": "0x7832B3629147F3eb283d55C84F10D811E8C3C3FA",
       "weight": 300,
-      "fid": 4521,
-      "username": "mensatheliterate",
-      "rank": 1812
+      "fid": 399658,
+      "username": "barbarabezina",
+      "rank": 1811
     },
     {
       "walletAddress": "0x4e2a3A65D0E2bcdb507a70fE2D3fc5dff464aa25",
       "weight": 300,
       "fid": 15069,
       "username": "nadiecito.eth",
+      "rank": 1812
+    },
+    {
+      "walletAddress": "0x68aBf5c00C251540042858F582a5b60489F7A7F9",
+      "weight": 300,
+      "fid": 4521,
+      "username": "mensatheliterate",
       "rank": 1813
-    },
-    {
-      "walletAddress": "0x320Ba9C1CF38e040AafD801F529337FcEb19c859",
-      "weight": 300,
-      "fid": 10143,
-      "username": "ic",
-      "rank": 1814
-    },
-    {
-      "walletAddress": "0xaeD1Ae63224DD17d058902C633Ae97a7020e8995",
-      "weight": 300,
-      "fid": 7206,
-      "username": "dyor.eth",
-      "rank": 1815
     },
     {
       "walletAddress": "0x9902FBd42f434A84e8fb9a3052f38076493F7c3a",
       "weight": 300,
       "fid": 1006,
       "username": "thecskc",
+      "rank": 1814
+    },
+    {
+      "walletAddress": "0x320Ba9C1CF38e040AafD801F529337FcEb19c859",
+      "weight": 300,
+      "fid": 10143,
+      "username": "ic",
+      "rank": 1815
+    },
+    {
+      "walletAddress": "0xaeD1Ae63224DD17d058902C633Ae97a7020e8995",
+      "weight": 300,
+      "fid": 7206,
+      "username": "dyor.eth",
       "rank": 1816
     },
     {
@@ -12717,17 +12717,17 @@
       "rank": 1819
     },
     {
-      "walletAddress": "0x566E330b6eA7443Cde5492744851507295a3A18e",
-      "weight": 300,
-      "fid": 9910,
-      "username": "levertz",
-      "rank": 1820
-    },
-    {
       "walletAddress": "0x1487DE0466296bcb847b1255E030970FBCa44eF0",
       "weight": 300,
       "fid": 264487,
       "username": "leeroyjenkins",
+      "rank": 1820
+    },
+    {
+      "walletAddress": "0x566E330b6eA7443Cde5492744851507295a3A18e",
+      "weight": 300,
+      "fid": 9910,
+      "username": "levertz",
       "rank": 1821
     },
     {
@@ -19031,24 +19031,24 @@
       "rank": 2725
     },
     {
-      "walletAddress": "0xF526F7B975601bD6ad9DD2a133B4EC3ECd85c572",
+      "walletAddress": "0xcb39f4fA05f5E1BCE6e44Dcc3339d247e4B571BB",
       "weight": 300,
-      "fid": 211571,
-      "username": "jackie",
+      "fid": 254373,
+      "username": "jondar",
       "rank": 2726
-    },
-    {
-      "walletAddress": "0xd43B09a246790b18F536013Eae0996aad12e2C2D",
-      "weight": 300,
-      "fid": 450255,
-      "username": "happenings",
-      "rank": 2727
     },
     {
       "walletAddress": "0xde61D6268d1463beDB3c891279f3e6bb2c0DA07a",
       "weight": 300,
       "fid": 13490,
       "username": "chrisoakley",
+      "rank": 2727
+    },
+    {
+      "walletAddress": "0xd43B09a246790b18F536013Eae0996aad12e2C2D",
+      "weight": 300,
+      "fid": 450255,
+      "username": "happenings",
       "rank": 2728
     },
     {
@@ -19066,52 +19066,52 @@
       "rank": 2730
     },
     {
-      "walletAddress": "0xaa968d68A4d52c0bB0AAFE5e0A6edF947ced86B8",
-      "weight": 300,
-      "fid": 1089378,
-      "username": "sic-magna",
-      "rank": 2731
-    },
-    {
-      "walletAddress": "0xA41ab4e73E3eA361F8CdF3718Fad1349a7c54f08",
-      "weight": 300,
-      "fid": 349775,
-      "username": "johnnytrend.eth",
-      "rank": 2732
-    },
-    {
       "walletAddress": "0x7ceAC50c7dDba096B076bDC388C90446001CBC5D",
       "weight": 300,
       "fid": 17356,
       "username": "muu1908.eth",
-      "rank": 2733
+      "rank": 2731
     },
     {
       "walletAddress": "0x45f5A54f962d782575f6FA047234Baa73d9A83F2",
       "weight": 300,
       "fid": 242132,
       "username": "cherryzhang",
-      "rank": 2734
+      "rank": 2732
     },
     {
-      "walletAddress": "0x784f03f47De34890F7B0ad15e6D182197134B76c",
+      "walletAddress": "0xA41ab4e73E3eA361F8CdF3718Fad1349a7c54f08",
       "weight": 300,
-      "fid": 400192,
-      "username": "fiatisabubble",
-      "rank": 2735
+      "fid": 349775,
+      "username": "johnnytrend.eth",
+      "rank": 2733
     },
     {
       "walletAddress": "0x8E83f81167930d0D0Cf8A807A2cD087495FeB91C",
       "weight": 300,
       "fid": 479552,
       "username": "ryk",
-      "rank": 2736
+      "rank": 2734
     },
     {
       "walletAddress": "0x1D5f27Ba67EEC1CFced41bc775EB641BC8DF290f",
       "weight": 300,
       "fid": 400504,
       "username": "virartz",
+      "rank": 2735
+    },
+    {
+      "walletAddress": "0xaa968d68A4d52c0bB0AAFE5e0A6edF947ced86B8",
+      "weight": 300,
+      "fid": 1089378,
+      "username": "sic-magna",
+      "rank": 2736
+    },
+    {
+      "walletAddress": "0x784f03f47De34890F7B0ad15e6D182197134B76c",
+      "weight": 300,
+      "fid": 400192,
+      "username": "fiatisabubble",
       "rank": 2737
     },
     {
@@ -19143,59 +19143,59 @@
       "rank": 2741
     },
     {
-      "walletAddress": "0x2ebbF2e71939A03062c6EBc8882c024ead5ee6b0",
-      "weight": 300,
-      "fid": 17690,
-      "username": "dracklyn",
-      "rank": 2742
-    },
-    {
       "walletAddress": "0x2140AB34B0006332a69ed5D5452e37FEd58aeAf9",
       "weight": 300,
       "fid": 7941,
       "username": "blablainvest",
+      "rank": 2742
+    },
+    {
+      "walletAddress": "0x2ebbF2e71939A03062c6EBc8882c024ead5ee6b0",
+      "weight": 300,
+      "fid": 17690,
+      "username": "dracklyn",
       "rank": 2743
-    },
-    {
-      "walletAddress": "0x159A514CbA2941D3Fb5F3BC06237eA3531200748",
-      "weight": 300,
-      "fid": 372088,
-      "username": "dudecaster",
-      "rank": 2744
-    },
-    {
-      "walletAddress": "0xe4B652912AC8527a7EA5d669abaA6EF16773C740",
-      "weight": 300,
-      "fid": 205881,
-      "username": "jmk",
-      "rank": 2745
     },
     {
       "walletAddress": "0x41Dbdf08790aa8969355cAE0c6Ccb1F4723C33c6",
       "weight": 300,
       "fid": 399883,
       "username": "rundle.eth",
+      "rank": 2744
+    },
+    {
+      "walletAddress": "0x159A514CbA2941D3Fb5F3BC06237eA3531200748",
+      "weight": 300,
+      "fid": 372088,
+      "username": "dudecaster",
+      "rank": 2745
+    },
+    {
+      "walletAddress": "0xe4B652912AC8527a7EA5d669abaA6EF16773C740",
+      "weight": 300,
+      "fid": 205881,
+      "username": "jmk",
       "rank": 2746
-    },
-    {
-      "walletAddress": "0x50248B95385f62Ed1a10C33C74c05F3504bBBf38",
-      "weight": 300,
-      "fid": 3609,
-      "username": "alixkun",
-      "rank": 2747
-    },
-    {
-      "walletAddress": "0x65bA0D47f2DecE4589559dcE00D35a3D829A085F",
-      "weight": 300,
-      "fid": 4513,
-      "username": "seattlecrypto.eth",
-      "rank": 2748
     },
     {
       "walletAddress": "0x8D6230427a37986D25Fe4D5B3d0aaEF1b924fEd6",
       "weight": 300,
       "fid": 366713,
       "username": "nikolaii.eth",
+      "rank": 2747
+    },
+    {
+      "walletAddress": "0x50248B95385f62Ed1a10C33C74c05F3504bBBf38",
+      "weight": 300,
+      "fid": 3609,
+      "username": "alixkun",
+      "rank": 2748
+    },
+    {
+      "walletAddress": "0x65bA0D47f2DecE4589559dcE00D35a3D829A085F",
+      "weight": 300,
+      "fid": 4513,
+      "username": "seattlecrypto.eth",
       "rank": 2749
     },
     {

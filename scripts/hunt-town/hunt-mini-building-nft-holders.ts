@@ -8,7 +8,7 @@ import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
-  title: "HUNT Mini Building NFT Holders",
+  title: "Mini Building NFT Holders (Base)",
   doc_url: "https://docs.hunt.town/token-and-point/mini-building",
 };
 

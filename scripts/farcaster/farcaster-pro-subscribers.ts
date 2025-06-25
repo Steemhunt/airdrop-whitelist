@@ -3,7 +3,7 @@ import { saveWhitelist } from "../../libs/formatter";
 import axios from "axios";
 
 export const config = {
-  title: "Farcaster Pro Subscribers",
+  title: "Pro Subscribers",
   doc_url: "https://farcaster.xyz/mvr/0xc53f3047",
 };
 
