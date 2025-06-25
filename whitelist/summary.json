@@ -59,18 +59,18 @@
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json"
     },
     "hunt-town-top-builders-by-score": {
-      "title": "Hunt Town Top Builders (by total claps received)",
+      "title": "Hunt Town Top Builders (by total claps)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 1363,
-      "updatedAt": "2025-06-25T06:01:59.950Z",
+      "updatedAt": "2025-06-25T06:30:21.893Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json"
     },
     "hunt-town-top-builders": {
-      "title": "Hunt Town Top Builders (by mini-building grants)",
+      "title": "Hunt Town Top Builders (by total grants)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 64,
-      "updatedAt": "2025-06-25T06:01:42.958Z",
+      "updatedAt": "2025-06-25T06:30:28.985Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json"
     },

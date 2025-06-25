@@ -3,7 +3,7 @@ import { getAirdropInfo } from "../../libs/common";
 import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
-  title: "Hunt Town Top Builders (by total claps received)",
+  title: "Hunt Town Top Builders (by total claps)",
   doc_url: "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
 };
 
