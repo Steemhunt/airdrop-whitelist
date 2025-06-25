@@ -16,7 +16,7 @@ interface WalletOutput {
 
 interface Config {
   title: string;
-  doc_url: string;
+  documentLink: string;
 }
 
 export async function saveWhitelist(
@@ -109,7 +109,8 @@ export async function updateSummary() {
     [category: string]: {
       [airdrop: string]: {
         title: string;
-        doc_url: string;
+        documentLink: string;
+        isWeighted: boolean;
         walletsCount: number;
         updatedAt: string;
         script: string;
@@ -160,11 +161,14 @@ export async function updateSummary() {
         const airdropName = path.basename(file, ".json");
         const endpoint = `https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/${category}/${file}`;
         const script = `https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/${category}/${airdropName}.ts`;
+        const isWeighted =
+          data.wallets?.some((w: any) => w.weight !== undefined) ?? false;
 
         if (data.walletsCount !== undefined && data.updatedAt) {
           summary[category][airdropName] = {
             title: data.title,
-            doc_url: data.doc_url,
+            documentLink: data.documentLink,
+            isWeighted,
             walletsCount: data.walletsCount,
             updatedAt: data.updatedAt,
             script,
@@ -172,8 +176,8 @@ export async function updateSummary() {
           };
 
           const links = [];
-          if (data.doc_url) {
-            links.push(`[📄 docs](${data.doc_url})`);
+          if (data.documentLink) {
+            links.push(`[📄 docs](${data.documentLink})`);
           }
           links.push(`[✅ whitelist](${endpoint})`);
           links.push(`[⚙️ script](${script})`);

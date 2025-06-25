@@ -4,7 +4,7 @@ import axios from "axios";
 
 export const config = {
   title: "Pro Subscribers",
-  doc_url: "https://farcaster.xyz/mvr/0xc53f3047",
+  documentLink: "https://farcaster.xyz/mvr/0xc53f3047",
 };
 
 const URLS = [

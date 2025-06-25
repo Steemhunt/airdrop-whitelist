@@ -6,7 +6,7 @@ import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
   title: "Building NFT Holders (Mainnet)",
-  doc_url: "https://docs.hunt.town/token-and-point/main-building",
+  documentLink: "https://docs.hunt.town/token-and-point/main-building",
 };
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);

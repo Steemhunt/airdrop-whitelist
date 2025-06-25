@@ -15,7 +15,7 @@ interface ApiResponse<T> {
 interface FetchWinnersParams<T, U> {
   apiUrl: string;
   outputFile: string;
-  config: { title: string; doc_url: string };
+  config: { title: string; documentLink: string };
   formatWinner: (winner: T) => U;
   logMessage: string;
   airdropName: string;

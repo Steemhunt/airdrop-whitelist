@@ -7,7 +7,7 @@ import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 
 const config = {
   title: "HUNT Token Holders (Mainnet)",
-  doc_url: "https://docs.hunt.town/token-and-point/hunt-erc20",
+  documentLink: "https://docs.hunt.town/token-and-point/hunt-erc20",
 };
 
 const TOKEN_ADDRESS = "0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5";

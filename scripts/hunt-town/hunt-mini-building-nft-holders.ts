@@ -9,7 +9,7 @@ import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
   title: "Mini Building NFT Holders (Base)",
-  doc_url: "https://docs.hunt.town/token-and-point/mini-building",
+  documentLink: "https://docs.hunt.town/token-and-point/mini-building",
 };
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);

@@ -1,5 +1,4 @@
 import "dotenv/config";
-import path from "path";
 import { Network } from "alchemy-sdk";
 import { getAirdropInfo } from "./common";
 import { saveWhitelist } from "./formatter";
@@ -23,7 +22,7 @@ export async function createErc20HoldersWhitelist(
   filename: string,
   tokenAddress: string,
   network: Network,
-  config: { title: string; doc_url: string }
+  config: { title: string; documentLink: string }
 ) {
   const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(filename);
 

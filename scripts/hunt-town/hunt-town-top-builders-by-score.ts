@@ -4,7 +4,7 @@ import { saveWhitelist } from "../../libs/formatter";
 
 const config = {
   title: "Top Builders (by total claps received)",
-  doc_url: "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
+  documentLink: "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
 };
 
 const { AIRDROP_NAME, OUTPUT_FILE } = getAirdropInfo(__filename);
