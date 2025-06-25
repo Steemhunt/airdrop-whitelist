@@ -1,4 +1,15 @@
 {
+  "mint-club": {
+    "mt-token-holders-base": {
+      "title": "MT Token Holders (Base)",
+      "documentLink": "https://docs.mint.club/mt",
+      "isWeighted": true,
+      "walletsCount": 1000,
+      "updatedAt": "2025-06-25T06:41:47.600Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
+    }
+  },
   "farcaster": {
     "farcaster-creator-reward-winners": {
       "title": "Creator Reward Winners",
@@ -91,17 +102,6 @@
       "updatedAt": "2025-06-25T06:40:26.574Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json"
-    }
-  },
-  "mint-club": {
-    "mt-token-holders-base": {
-      "title": "MT Token Holders (Base)",
-      "documentLink": "https://docs.mint.club/mt",
-      "isWeighted": true,
-      "walletsCount": 1000,
-      "updatedAt": "2025-06-25T06:41:47.600Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
     }
   }
 }

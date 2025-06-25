@@ -126,7 +126,7 @@ export async function updateSummary() {
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 
-  const order = ["farcaster", "hunt-town", "mint-club"];
+  const order = ["mint-club", "farcaster", "hunt-town"];
   const categories = allCategories.sort((a, b) => {
     const indexA = order.indexOf(a);
     const indexB = order.indexOf(b);
