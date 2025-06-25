@@ -6,7 +6,7 @@ import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 // The weight is set to the token balance.
 
 const config = {
-  title: "HUNT token holders (mainnet, excluding contract addresses)",
+  title: "HUNT Token Holders (Mainnet)",
   doc_url: "https://docs.hunt.town/token-and-point/hunt-erc20",
 };
 

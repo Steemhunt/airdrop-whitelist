@@ -2,7 +2,7 @@ import { fetchFarcasterWinners } from "../../libs/farcaster";
 import { getAirdropInfo } from "../../libs/common";
 
 const config = {
-  title: "Farcaster Creator Reward Winners (previous week)",
+  title: "Farcaster Creator Reward Winners",
   doc_url:
     "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
 };

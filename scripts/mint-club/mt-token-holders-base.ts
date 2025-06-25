@@ -2,7 +2,7 @@ import { Network } from "alchemy-sdk";
 import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 
 const config = {
-  title: "MT token holders (Base, excluding contract addresses)",
+  title: "MT Token Holders (Base)",
   doc_url: "https://docs.mint.club/mt",
 };
 

@@ -1,86 +1,94 @@
 {
   "farcaster": {
     "farcaster-creator-reward-winners": {
-      "title": "Farcaster Creator Reward Winners (previous week)",
+      "title": "Farcaster Creator Reward Winners",
       "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
       "walletsCount": 2993,
-      "updatedAt": "2025-06-25T04:44:48.353Z",
+      "updatedAt": "2025-06-25T06:02:38.428Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
     },
     "farcaster-developer-reward-winners": {
-      "title": "Farcaster Developer Reward Winners (previous week)",
+      "title": "Farcaster Developer Reward Winners",
       "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
       "walletsCount": 50,
-      "updatedAt": "2025-06-25T04:44:49.426Z",
+      "updatedAt": "2025-06-25T06:02:39.897Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
+    },
+    "farcaster-pro-subscribers": {
+      "title": "Farcaster Pro Subscribers",
+      "doc_url": "https://farcaster.xyz/mvr/0xc53f3047",
+      "walletsCount": 12496,
+      "updatedAt": "2025-06-25T06:09:17.901Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json"
     }
   },
   "hunt-town": {
     "hunt-building-nft-holders": {
-      "title": "HUNT Building NFT holders",
+      "title": "HUNT Building NFT Holders",
       "doc_url": "https://docs.hunt.town/token-and-point/main-building",
-      "walletsCount": 282,
-      "updatedAt": "2025-06-25T04:44:05.695Z",
+      "walletsCount": 283,
+      "updatedAt": "2025-06-25T06:01:58.988Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json"
     },
     "hunt-mini-building-nft-holders": {
-      "title": "HUNT Mini Building NFT holders",
+      "title": "HUNT Mini Building NFT Holders",
       "doc_url": "https://docs.hunt.town/token-and-point/mini-building",
-      "walletsCount": 627,
-      "updatedAt": "2025-06-25T04:43:41.268Z",
+      "walletsCount": 626,
+      "updatedAt": "2025-06-25T06:01:42.065Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json"
     },
     "hunt-token-holders-base": {
-      "title": "HUNT token holders (Base, excluding contract addresses)",
+      "title": "HUNT Token Holders (Base)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "walletsCount": 1000,
-      "updatedAt": "2025-06-25T04:43:47.228Z",
+      "updatedAt": "2025-06-25T06:01:47.719Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json"
     },
     "hunt-token-holders-mainnet": {
-      "title": "HUNT token holders (mainnet, excluding contract addresses)",
+      "title": "HUNT Token Holders (Mainnet)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "walletsCount": 1000,
-      "updatedAt": "2025-06-25T04:43:40.545Z",
+      "updatedAt": "2025-06-25T06:01:41.374Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-mainnet.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json"
     },
     "hunt-town-top-builders-by-score": {
-      "title": "Hunt Town Top Builders (by score, previous month)",
+      "title": "Hunt Town Top Builders (by total claps received)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
-      "walletsCount": 1362,
-      "updatedAt": "2025-06-25T04:44:06.827Z",
+      "walletsCount": 1363,
+      "updatedAt": "2025-06-25T06:01:59.950Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json"
     },
     "hunt-town-top-builders": {
-      "title": "Hunt Town Top Builders (previous month)",
+      "title": "Hunt Town Top Builders (by mini-building grants)",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 64,
-      "updatedAt": "2025-06-25T04:43:42.142Z",
+      "updatedAt": "2025-06-25T06:01:42.958Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json"
     },
     "hunt-town-top-clappers": {
-      "title": "Hunt Town Top Clappers (previous month)",
+      "title": "Hunt Town Top Clappers",
       "doc_url": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "walletsCount": 2041,
-      "updatedAt": "2025-06-25T04:43:43.269Z",
+      "updatedAt": "2025-06-25T06:01:44.038Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json"
     }
   },
   "mint-club": {
     "mt-token-holders-base": {
-      "title": "MT token holders (Base, excluding contract addresses)",
+      "title": "MT Token Holders (Base)",
       "doc_url": "https://docs.mint.club/mt",
       "walletsCount": 1000,
-      "updatedAt": "2025-06-25T04:44:53.646Z",
+      "updatedAt": "2025-06-25T06:02:44.217Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
     }

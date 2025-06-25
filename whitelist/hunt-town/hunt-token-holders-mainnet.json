@@ -1,8 +1,8 @@
 {
-  "title": "HUNT token holders (mainnet, excluding contract addresses)",
+  "title": "HUNT Token Holders (Mainnet)",
   "doc_url": "https://docs.hunt.town/token-and-point/hunt-erc20",
   "walletsCount": 1000,
-  "updatedAt": "2025-06-25T04:43:40.545Z",
+  "updatedAt": "2025-06-25T06:01:41.374Z",
   "wallets": [
     {
       "walletAddress": "0x6563dF859733CbDca86dCCF33D912F104a0f4a9c",
@@ -66,7 +66,7 @@
     },
     {
       "walletAddress": "0xd2C811d48B4cBCcF8AfE1428FBaDE11BefFB269E",
-      "weight": 574034.3109924383,
+      "weight": 596433.6058716422,
       "label": null
     },
     {
@@ -215,6 +215,11 @@
       "label": null
     },
     {
+      "walletAddress": "0xF29f568F971C043Df7079A3121e9DE616b8998a3",
+      "weight": 44006.796860457674,
+      "label": null
+    },
+    {
       "walletAddress": "0x1c25fCECD5837F234640Ddd1Fe6cE096b7828a36",
       "weight": 43269.23,
       "label": null
@@ -277,11 +282,6 @@
     {
       "walletAddress": "0xf3088385Db043091840ab0bbfbd625e90ab7e222",
       "weight": 25931.86,
-      "label": null
-    },
-    {
-      "walletAddress": "0xF29f568F971C043Df7079A3121e9DE616b8998a3",
-      "weight": 22088.980774763964,
       "label": null
     },
     {
@@ -982,6 +982,11 @@
     {
       "walletAddress": "0x1f034eb244a331e5B276FCAEf3045c9e7413d9b3",
       "weight": 1950.817,
+      "label": null
+    },
+    {
+      "walletAddress": "0x5e00Cb5C482159554D64037E5db4C7a03E3495DB",
+      "weight": 1937.814382341434,
       "label": null
     },
     {
@@ -4997,11 +5002,6 @@
     {
       "walletAddress": "0x3FFCd6300bcD4527aF097E39C560ea4f646425AC",
       "weight": 157.388,
-      "label": null
-    },
-    {
-      "walletAddress": "0x1739De272bc4514756d40593fccC47ef8dc6f28a",
-      "weight": 156.23,
       "label": null
     }
   ]

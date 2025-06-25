@@ -2,7 +2,7 @@ import { Network } from "alchemy-sdk";
 import { createErc20HoldersWhitelist } from "../../libs/erc20-holders";
 
 const config = {
-  title: "HUNT token holders (Base, excluding contract addresses)",
+  title: "HUNT Token Holders (Base)",
   doc_url: "https://docs.hunt.town/token-and-point/hunt-erc20",
 };
 
