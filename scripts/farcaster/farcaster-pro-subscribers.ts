@@ -92,6 +92,8 @@ async function run() {
     new Map(allUsers.map((user) => [user.walletAddress, user])).values()
   );
 
+  uniqueUsers.sort((a, b) => a.fid - b.fid);
+
   await saveWhitelist(
     "whitelist/farcaster/farcaster-pro-subscribers.json",
     config.title,

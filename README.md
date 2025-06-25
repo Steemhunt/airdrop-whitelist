@@ -7,7 +7,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 - [x] **List summary** ([✅ summary file](whitelist/summary.json))
 
 <!-- WHITELIST_TABLE_START -->
-
 ### Farcaster
 
 - [x] Farcaster Creator Reward Winners ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts))
@@ -54,12 +53,15 @@ Each file has the following JSON structure.
     {
       "walletAddress": "0x1234567890123456789012345678901234567890",
       "weight": 50,
-      "note": "fid: 123, username: userA, rank: 1"
+      "fid": 123,
+      "username": "userA",
+      "rank": 1
     },
     {
       "walletAddress": "0x0987654321098765432109876543210987654321",
-      "weight": 10,
-      "note": "fid: 456, username: userB, rank: 2"
+      "fid": 456,
+      "username": "userB",
+      "rank": 2
     }
   ]
 }
@@ -69,11 +71,8 @@ Each file has the following JSON structure.
 - `updatedAt`: The timestamp when the whitelist was last updated.
 - `wallets`: An array of whitelisted wallet objects.
   - `walletAddress`: The wallet address.
-  - `weight`: The weight of the wallet. This is used to calculate the airdrop amount.
-  - `note`: Additional information about the wallet. The content of the note varies depending on the airdrop.
-
-> [!IMPORTANT]
-> The list must be sorted by `weight` in descending order (higher to lower). This is crucial because the front-end might only display a limited number of top wallets from the beginning of the array.
+  - `weight (optional)`: The weight of the wallet. This can be used to calculate the airdrop amount.
+  - `... (optional)`: You can include other informational fields like `fid`, `username`, `rank`, etc., to provide additional context.
 
 ## 📜 Whitelist Summary
 

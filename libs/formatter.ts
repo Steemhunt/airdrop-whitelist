@@ -10,7 +10,7 @@ interface WalletInput {
 
 interface WalletOutput {
   walletAddress: string;
-  weight: number;
+  weight?: number;
   [key: string]: any;
 }
 
@@ -69,11 +69,16 @@ export async function saveWhitelist(
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { address, walletAddress, ...rest } = wallet;
 
-    return {
+    const result: WalletOutput = {
       walletAddress: checksummedAddress!,
-      weight: Number(weightValue) || 0,
       ...rest,
     };
+
+    if (sortKey !== undefined || wallet.weight !== undefined) {
+      result.weight = Number(weightValue) || 0;
+    }
+
+    return result;
   });
 
   const outputData = {
