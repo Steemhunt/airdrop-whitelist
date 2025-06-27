@@ -1,8 +1,8 @@
 {
   "title": "Mini Building NFT Holders (Base)",
   "documentLink": "https://docs.hunt.town/token-and-point/mini-building",
-  "walletsCount": 626,
-  "updatedAt": "2025-06-25T06:40:24.917Z",
+  "walletsCount": 629,
+  "updatedAt": "2025-06-27T04:12:34.511Z",
   "wallets": [
     {
       "walletAddress": "0x17D8426FEb3141f421E35D88Dfa4bc6eDFC07FC7",
@@ -113,16 +113,16 @@
       "weight": 56
     },
     {
+      "walletAddress": "0x4d6823B083a7d03BcE47d50E224903016353B6C8",
+      "weight": 55
+    },
+    {
       "walletAddress": "0x78288587be28B78bEFEe7923423be6384b4E3b4E",
       "weight": 55
     },
     {
       "walletAddress": "0x38aF93C1cFcA78f5ae5867b1c3133d68b50fEaCA",
       "weight": 49
-    },
-    {
-      "walletAddress": "0x4d6823B083a7d03BcE47d50E224903016353B6C8",
-      "weight": 45
     },
     {
       "walletAddress": "0xff88430C7c656fC6355656234bc522B8c7E03B40",
@@ -1077,10 +1077,6 @@
       "weight": 2
     },
     {
-      "walletAddress": "0xF92407dADbdC040eF94b2Ac9E450090051A4ED01",
-      "weight": 2
-    },
-    {
       "walletAddress": "0xF97d0F37D7Dd0c766c1e0B1E8A377567F645276e",
       "weight": 2
     },
@@ -1265,6 +1261,10 @@
       "weight": 1
     },
     {
+      "walletAddress": "0x1F6dB1651b1E173726a4F2Dc54dcAEeE40717C2E",
+      "weight": 1
+    },
+    {
       "walletAddress": "0x1F7100a84C97A3ce29Aaa947220ac10ec0b00621",
       "weight": 1
     },
@@ -1297,6 +1297,14 @@
       "weight": 1
     },
     {
+      "walletAddress": "0x274A347149A6AbbD8Dc5181e027396b6dC269904",
+      "weight": 1
+    },
+    {
+      "walletAddress": "0x28c75B105Fae5610623A208ffd8667D6f6B67eb1",
+      "weight": 1
+    },
+    {
       "walletAddress": "0x2aabB4FC68d1E6B19cbcB3691A739C405707E9c6",
       "weight": 1
     },
@@ -1306,10 +1314,6 @@
     },
     {
       "walletAddress": "0x2b74dbAA227cb0dCbc83c01555533cb0404e4B10",
-      "weight": 1
-    },
-    {
-      "walletAddress": "0x2d5163333C636B9cC5F31d95A00B75f122Af743b",
       "weight": 1
     },
     {
@@ -1937,6 +1941,10 @@
       "weight": 1
     },
     {
+      "walletAddress": "0x9d7A233843932A618d243ff9D166D3b8630cBc24",
+      "weight": 1
+    },
+    {
       "walletAddress": "0x9e03F4aBC10c62FF3B363f42084aB702B752e6f5",
       "weight": 1
     },
@@ -2486,6 +2494,10 @@
     },
     {
       "walletAddress": "0xF86a7A5b7C703b1fD8d93c500aC4cC75b67477f0",
+      "weight": 1
+    },
+    {
+      "walletAddress": "0xF92407dADbdC040eF94b2Ac9E450090051A4ED01",
       "weight": 1
     },
     {

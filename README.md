@@ -27,6 +27,15 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 - [x] Top Builders (by mini-building grants) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts))
 - [x] Top Clappers ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts))
 
+### Noice
+
+- [x] NOICE Token Holders ([📄 docs](https://noice.so), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/noice/noice-token-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/noice/noice-token-holders.ts))
+
+### Virtuals
+
+- [x] VIRTUAL Token Holders (Base) ([📄 docs](https://app.virtuals.io/dashboard), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-base.ts))
+- [x] VIRTUAL Token Holders (Mainnet) ([📄 docs](https://app.virtuals.io/dashboard), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-mainnet.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-mainnet.ts))
+
 <!-- WHITELIST_TABLE_END -->
 
 ## 🔄 Updating Whitelists

@@ -2,7 +2,7 @@
   "title": "Creator Reward Winners",
   "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
   "walletsCount": 2993,
-  "updatedAt": "2025-06-25T06:41:42.218Z",
+  "updatedAt": "2025-06-27T04:13:30.788Z",
   "wallets": [
     {
       "walletAddress": "0xf5825Ec5f7aCfEDC88d834dD8D35E8B46F09F8FD",
@@ -4653,17 +4653,17 @@
       "rank": 665
     },
     {
-      "walletAddress": "0x650baB7823f7E983D44e1aB85458E9a599C7F982",
-      "weight": 1000,
-      "fid": 486801,
-      "username": "mariellen",
-      "rank": 666
-    },
-    {
       "walletAddress": "0x640fc7e0B41a508543c6A3D9b8d46C6Ce9B65114",
       "weight": 1000,
       "fid": 1100312,
       "username": "kummi",
+      "rank": 666
+    },
+    {
+      "walletAddress": "0x650baB7823f7E983D44e1aB85458E9a599C7F982",
+      "weight": 1000,
+      "fid": 486801,
+      "username": "mariellen",
       "rank": 667
     },
     {
@@ -5157,17 +5157,17 @@
       "rank": 737
     },
     {
-      "walletAddress": "0x7A1278420b68bb0e55F550e6119c59f25Dcaa11D",
-      "weight": 1000,
-      "fid": 487493,
-      "username": "contalasa",
-      "rank": 738
-    },
-    {
       "walletAddress": "0x626522B58b92dAF53596F1378bd25B7653c1fC49",
       "weight": 1000,
       "fid": 238814,
       "username": "sardius",
+      "rank": 738
+    },
+    {
+      "walletAddress": "0x7A1278420b68bb0e55F550e6119c59f25Dcaa11D",
+      "weight": 1000,
+      "fid": 487493,
+      "username": "contalasa",
       "rank": 739
     },
     {
@@ -5213,17 +5213,17 @@
       "rank": 745
     },
     {
-      "walletAddress": "0x7aE998F95fb3578E81874e2805129D888DF86D30",
-      "weight": 1000,
-      "fid": 292927,
-      "username": "proshanto",
-      "rank": 746
-    },
-    {
       "walletAddress": "0xD4c2dDDA6fC8A7f78bd1e1027EE0F9D55984b992",
       "weight": 1000,
       "fid": 528707,
       "username": "ghostbo4.eth",
+      "rank": 746
+    },
+    {
+      "walletAddress": "0x7aE998F95fb3578E81874e2805129D888DF86D30",
+      "weight": 1000,
+      "fid": 292927,
+      "username": "proshanto",
       "rank": 747
     },
     {
@@ -5867,7 +5867,7 @@
       "walletAddress": "0xb3C812D2A9030801e00c961D0E54dDd987123c95",
       "weight": 500,
       "fid": 245124,
-      "username": "sgniwder",
+      "username": "securityadmin.eth",
       "rank": 839
     },
     {
@@ -13102,17 +13102,17 @@
       "rank": 1875
     },
     {
-      "walletAddress": "0x3D47fBbeAb53294ebc84F4e40aBC58fDe44d2977",
-      "weight": 300,
-      "fid": 7620,
-      "username": "cybershakti",
-      "rank": 1876
-    },
-    {
       "walletAddress": "0x122E068631E826dF88f478Bd2f05A30e663A0eF7",
       "weight": 300,
       "fid": 1054,
       "username": "marmo.eth",
+      "rank": 1876
+    },
+    {
+      "walletAddress": "0x6C3f181346f13f0501D366e68B0394A6Df928088",
+      "weight": 300,
+      "fid": 895355,
+      "username": "openui",
       "rank": 1877
     },
     {
@@ -13123,10 +13123,10 @@
       "rank": 1878
     },
     {
-      "walletAddress": "0x6C3f181346f13f0501D366e68B0394A6Df928088",
+      "walletAddress": "0x3D47fBbeAb53294ebc84F4e40aBC58fDe44d2977",
       "weight": 300,
-      "fid": 895355,
-      "username": "openui",
+      "fid": 7620,
+      "username": "cybershakti",
       "rank": 1879
     },
     {
@@ -13137,31 +13137,31 @@
       "rank": 1880
     },
     {
-      "walletAddress": "0xEaEF4523De1D7cc5C890cf0A3546047AA4F2a544",
-      "weight": 300,
-      "fid": 442167,
-      "username": "kapaskie",
-      "rank": 1881
-    },
-    {
       "walletAddress": "0xeFb5AD33F2D6acCAab3A6786c4D24Fff59ba7190",
       "weight": 300,
       "fid": 263664,
       "username": "oppai",
-      "rank": 1882
+      "rank": 1881
     },
     {
-      "walletAddress": "0xA499ccF474840FBeAB6Eb58a23b487Fe99dE6d9E",
+      "walletAddress": "0xEaEF4523De1D7cc5C890cf0A3546047AA4F2a544",
       "weight": 300,
-      "fid": 707904,
-      "username": "lorenzo-007",
-      "rank": 1883
+      "fid": 442167,
+      "username": "kapaskie",
+      "rank": 1882
     },
     {
       "walletAddress": "0x6DF343EE7a80687Af6967C9BAdf1FD74eCeAF34D",
       "weight": 300,
       "fid": 476827,
       "username": "saskiaferla.eth",
+      "rank": 1883
+    },
+    {
+      "walletAddress": "0xA499ccF474840FBeAB6Eb58a23b487Fe99dE6d9E",
+      "weight": 300,
+      "fid": 707904,
+      "username": "lorenzo-007",
       "rank": 1884
     },
     {
@@ -13221,17 +13221,17 @@
       "rank": 1892
     },
     {
-      "walletAddress": "0xF5aC0DBf2BdF9c776c88F5753Fa25B5B9d09f437",
-      "weight": 300,
-      "fid": 335852,
-      "username": "badhobbit",
-      "rank": 1893
-    },
-    {
       "walletAddress": "0x68eFd12793149550Ec6f4AF3805E6f33a86116ec",
       "weight": 300,
       "fid": 189733,
       "username": "jamesbeck.eth",
+      "rank": 1893
+    },
+    {
+      "walletAddress": "0xF5aC0DBf2BdF9c776c88F5753Fa25B5B9d09f437",
+      "weight": 300,
+      "fid": 335852,
+      "username": "badhobbit",
       "rank": 1894
     },
     {

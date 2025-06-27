@@ -19,6 +19,14 @@ interface Config {
   documentLink: string;
 }
 
+const CATEGORY_ORDER = [
+  "mint-club",
+  "farcaster",
+  "hunt-town",
+  "noice",
+  "virtuals",
+];
+
 export async function saveWhitelist(
   outputFile: string,
   airdropName: string,
@@ -126,10 +134,9 @@ export async function updateSummary() {
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 
-  const order = ["mint-club", "farcaster", "hunt-town"];
   const categories = allCategories.sort((a, b) => {
-    const indexA = order.indexOf(a);
-    const indexB = order.indexOf(b);
+    const indexA = CATEGORY_ORDER.indexOf(a);
+    const indexB = CATEGORY_ORDER.indexOf(b);
     if (indexA === -1 && indexB === -1) return a.localeCompare(b);
     if (indexA === -1) return 1;
     if (indexB === -1) return -1;
