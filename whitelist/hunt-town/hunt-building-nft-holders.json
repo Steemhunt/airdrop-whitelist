@@ -1,12 +1,12 @@
 {
   "title": "Building NFT Holders (Mainnet)",
   "documentLink": "https://docs.hunt.town/token-and-point/main-building",
-  "walletsCount": 283,
-  "updatedAt": "2025-07-01T00:02:51.868Z",
+  "walletsCount": 282,
+  "updatedAt": "2025-07-07T08:09:54.511Z",
   "wallets": [
     {
       "walletAddress": "0x980Cd99311f3b3264f5dfdCE33D204A8d6d492E4",
-      "weight": 121
+      "weight": 122
     },
     {
       "walletAddress": "0x4d6823B083a7d03BcE47d50E224903016353B6C8",
@@ -18,7 +18,7 @@
     },
     {
       "walletAddress": "0x433f12b3204cE57E9a95dfc5C14092889f1aEF10",
-      "weight": 80
+      "weight": 81
     },
     {
       "walletAddress": "0x78288587be28B78bEFEe7923423be6384b4E3b4E",
@@ -93,10 +93,6 @@
       "weight": 5
     },
     {
-      "walletAddress": "0x19D8da2674E8A025154153297ea3AB918DebF96d",
-      "weight": 5
-    },
-    {
       "walletAddress": "0xA3F3C2bD28B4A9a7f1803BB21Ce347Cb760e102A",
       "weight": 5
     },
@@ -106,6 +102,10 @@
     },
     {
       "walletAddress": "0x2DA2Bfe6041196C965CF90E42b468619FfCacAFe",
+      "weight": 4
+    },
+    {
+      "walletAddress": "0x19D8da2674E8A025154153297ea3AB918DebF96d",
       "weight": 4
     },
     {
@@ -993,10 +993,6 @@
       "weight": 1
     },
     {
-      "walletAddress": "0xB57381C7eD83BB9031a786d2C691cc6C7C2207a4",
-      "weight": 1
-    },
-    {
       "walletAddress": "0x7Ff446Ecf4A6C7224264eab1Ee97e26A1D71152D",
       "weight": 1
     },
@@ -1017,7 +1013,7 @@
       "weight": 1
     },
     {
-      "walletAddress": "0xc4f67dEA55e19155774DD2C9611738677a687d9a",
+      "walletAddress": "0x7ceAC50c7dDba096B076bDC388C90446001CBC5D",
       "weight": 1
     },
     {
