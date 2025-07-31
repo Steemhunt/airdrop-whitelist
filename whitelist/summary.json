@@ -5,7 +5,7 @@
       "documentLink": "https://docs.mint.club/mt",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:10:22.845Z",
+      "updatedAt": "2025-07-30T02:50:28.047Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
     }
@@ -15,8 +15,8 @@
       "title": "Creator Reward Winners",
       "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
       "isWeighted": true,
-      "walletsCount": 2994,
-      "updatedAt": "2025-07-22T05:10:16.436Z",
+      "walletsCount": 2995,
+      "updatedAt": "2025-07-30T02:49:34.887Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
     },
@@ -25,7 +25,7 @@
       "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
       "isWeighted": true,
       "walletsCount": 100,
-      "updatedAt": "2025-07-22T05:10:19.155Z",
+      "updatedAt": "2025-07-30T02:49:38.327Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
     },
@@ -34,7 +34,7 @@
       "documentLink": "https://farcaster.xyz/mvr/0xc53f3047",
       "isWeighted": false,
       "walletsCount": 12496,
-      "updatedAt": "2025-07-22T05:09:34.184Z",
+      "updatedAt": "2025-07-30T02:48:07.685Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json"
     }
@@ -45,7 +45,7 @@
       "documentLink": "https://docs.hunt.town/token-and-point/main-building",
       "isWeighted": true,
       "walletsCount": 291,
-      "updatedAt": "2025-07-22T05:09:30.725Z",
+      "updatedAt": "2025-07-30T02:50:01.364Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json"
     },
@@ -53,8 +53,8 @@
       "title": "Mini Building NFT Holders (Base)",
       "documentLink": "https://docs.hunt.town/token-and-point/mini-building",
       "isWeighted": true,
-      "walletsCount": 654,
-      "updatedAt": "2025-07-22T05:09:16.978Z",
+      "walletsCount": 645,
+      "updatedAt": "2025-07-30T02:49:45.551Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json"
     },
@@ -63,7 +63,7 @@
       "documentLink": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:09:22.555Z",
+      "updatedAt": "2025-07-30T02:49:55.416Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json"
     },
@@ -72,7 +72,7 @@
       "documentLink": "https://docs.hunt.town/token-and-point/hunt-erc20",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:09:16.265Z",
+      "updatedAt": "2025-07-30T02:49:44.521Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-mainnet.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json"
     },
@@ -80,8 +80,8 @@
       "title": "Top Builders (by total claps received)",
       "documentLink": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "isWeighted": true,
-      "walletsCount": 1498,
-      "updatedAt": "2025-07-22T05:09:31.823Z",
+      "walletsCount": 1496,
+      "updatedAt": "2025-07-30T02:50:03.046Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json"
     },
@@ -90,7 +90,7 @@
       "documentLink": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "isWeighted": true,
       "walletsCount": 69,
-      "updatedAt": "2025-07-22T05:09:17.835Z",
+      "updatedAt": "2025-07-30T02:49:46.764Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json"
     },
@@ -99,7 +99,7 @@
       "documentLink": "https://docs.hunt.town/token-and-point/hunt-tip-farcaster",
       "isWeighted": true,
       "walletsCount": 4837,
-      "updatedAt": "2025-07-22T05:09:19.317Z",
+      "updatedAt": "2025-07-30T02:49:48.942Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json"
     }
@@ -110,7 +110,7 @@
       "documentLink": "https://noice.so",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:10:26.408Z",
+      "updatedAt": "2025-07-30T02:50:08.488Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/noice/noice-token-holders.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/noice/noice-token-holders.json"
     }
@@ -121,7 +121,7 @@
       "documentLink": "https://app.virtuals.io/dashboard",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:10:30.768Z",
+      "updatedAt": "2025-07-30T02:50:16.318Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-base.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-base.json"
     },
@@ -130,7 +130,7 @@
       "documentLink": "https://app.virtuals.io/dashboard",
       "isWeighted": true,
       "walletsCount": 1000,
-      "updatedAt": "2025-07-22T05:10:34.668Z",
+      "updatedAt": "2025-07-30T02:50:22.031Z",
       "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-mainnet.ts",
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-mainnet.json"
     }
