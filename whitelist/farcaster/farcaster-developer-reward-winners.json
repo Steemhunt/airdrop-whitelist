@@ -1,799 +1,807 @@
 {
   "title": "Developer Reward Winners",
   "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
-  "walletsCount": 99,
-  "updatedAt": "2025-08-01T00:47:05.003Z",
+  "walletsCount": 100,
+  "updatedAt": "2025-08-07T07:55:53.802Z",
   "wallets": [
     {
-      "walletAddress": "0x7AFfceFfC31D3379662c8CE7eF987f07AfBD8D65",
-      "weight": 23086,
-      "fid": 2824,
-      "domain": "crowdfund.seedclub.com",
-      "frameName": "Crowdfund",
-      "rank": 1
-    },
-    {
-      "walletAddress": "0x7f2bBcDdc6458415aaA18a88B788935EF6F7b816",
-      "weight": 19305,
-      "fid": 1093494,
-      "domain": "procoin.app",
-      "frameName": "Feeds",
-      "rank": 2
-    },
-    {
-      "walletAddress": "0xA5869e7cCB266aF7ac608cFAB4cEdb64ebCDB89F",
-      "weight": 18114,
-      "fid": 249078,
-      "domain": "rewardkitmini.boost.xyz",
-      "frameName": "Daily Active User",
-      "rank": 3
-    },
-    {
-      "walletAddress": "0x8d5044d9ee7ceC41EEeBeF12B749E62E2Ab9F131",
-      "weight": 17357,
-      "fid": 1356,
-      "domain": "eggs.name",
-      "frameName": "$EGGS",
-      "rank": 4
-    },
-    {
-      "walletAddress": "0x34520AdCACcb7D698A038831eC00BdD8bcD3942f",
-      "weight": 17225,
-      "fid": 1689,
-      "domain": "stylize.steer.fun",
-      "frameName": "Stylize Me",
-      "rank": 5
-    },
-    {
-      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 15164,
-      "fid": 537378,
-      "domain": "monadfactory.vercel.app",
-      "frameName": "Monad Factory",
-      "rank": 6
-    },
-    {
-      "walletAddress": "0x0aADd2e08F1Bf4BE8B82Ca6e402b7b76B3dB76e9",
-      "weight": 15145,
-      "fid": 15732,
-      "domain": "tipnearn.com",
-      "frameName": "Tipn",
-      "rank": 7
-    },
-    {
-      "walletAddress": "0x27BcC2C052F49A24bf5ffF0d4C136aE7d208ee85",
-      "weight": 14975,
-      "fid": 1041585,
-      "domain": "qrcoin.fun",
-      "frameName": "$QR",
-      "rank": 8
-    },
-    {
-      "walletAddress": "0x8113b575B64dE2788650393fe77F83aE21A8E95b",
-      "weight": 14861,
-      "fid": 18581,
-      "domain": "www.weponder.io",
-      "frameName": "Ponder",
-      "rank": 9
-    },
-    {
-      "walletAddress": "0x90125F9e5155f4965A2429D9a4b40283341D5Ba2",
-      "weight": 14786,
-      "fid": 446697,
-      "domain": "streme.fun",
-      "frameName": "Streme",
-      "rank": 10
-    },
-    {
-      "walletAddress": "0xAf5C1571B834df59041F57a688a99a10958d9AC5",
-      "weight": 14143,
-      "fid": 1043177,
-      "domain": "saul.bet",
-      "frameName": "Jackpot",
-      "rank": 11
-    },
-    {
-      "walletAddress": "0xc2926A39d0d88d4c1B227DeB933022F1492e818C",
-      "weight": 14029,
-      "fid": 11124,
-      "domain": "framedl.xyz",
-      "frameName": "Framedl",
-      "rank": 12
-    },
-    {
-      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 13973,
-      "fid": 537378,
-      "domain": "monadspin.xyz",
-      "frameName": "Monad Spin",
-      "rank": 13
-    },
-    {
-      "walletAddress": "0x15E0C4889c515dD2c3bF54e711CDCE355Eac4205",
-      "weight": 13632,
-      "fid": 14607,
-      "domain": "reply-app.vercel.app",
-      "frameName": "Reply",
-      "rank": 14
-    },
-    {
-      "walletAddress": "0x77130AbfCC6E99AEb8c72fA4A1bF1c71c8821FB5",
-      "weight": 13235,
-      "fid": 1058691,
-      "domain": "app.noice.so",
-      "frameName": "noice",
-      "rank": 15
-    },
-    {
-      "walletAddress": "0x644E09BeA250a6eDD577271b0bE08D5Fb29F716D",
-      "weight": 12460,
-      "fid": 427349,
-      "domain": "rewardr.wtf",
-      "frameName": "rewardr",
-      "rank": 16
-    },
-    {
-      "walletAddress": "0xe1efDBE11b5A2382BBfaD5818b0989Eb38e85624",
-      "weight": 12403,
-      "fid": 847717,
-      "domain": "fartcaster-app.vercel.app",
-      "frameName": "Etherium App",
-      "rank": 17
-    },
-    {
-      "walletAddress": "0x3cdf2B91dCA464f4683650EfC9d5664FE7D7BD71",
-      "weight": 12082,
-      "fid": 1046430,
-      "domain": "miniapp.inflynce.com",
-      "frameName": "Inflynce",
-      "rank": 18
-    },
-    {
-      "walletAddress": "0xc683F61BFE08bfcCde53A41f4607B4A1B72954Db",
-      "weight": 12006,
-      "fid": 945626,
-      "domain": "buttersdream.xyz",
-      "frameName": "Butter's Dream",
-      "rank": 19
-    },
-    {
-      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 11534,
-      "fid": 537378,
-      "domain": "farrank.info",
-      "frameName": "FarRank",
-      "rank": 20
-    },
-    {
-      "walletAddress": "0xF4498E0AA0EBeE6DA49a82049b529b5b43DF5A50",
-      "weight": 11420,
-      "fid": 864314,
-      "domain": "cura.network",
-      "frameName": "Cura",
-      "rank": 21
-    },
-    {
-      "walletAddress": "0xC0eb7332BbeEe2bE672387dAD7D35734f352BbE2",
-      "weight": 11382,
-      "fid": 867994,
-      "domain": "www.betswirl.com",
-      "frameName": "BetSwirl",
-      "rank": 22
-    },
-    {
-      "walletAddress": "0xb24cF3BD931c720f99F6c927aEE7733054De4Cab",
-      "weight": 11269,
-      "fid": 15549,
-      "domain": "www.clanker.world",
-      "frameName": "clanker",
-      "rank": 23
-    },
-    {
-      "walletAddress": "0x1CeE629CeB06538874f30ead124c004CECBEb089",
-      "weight": 11061,
-      "fid": 6591,
-      "domain": "tortoise.studio",
-      "frameName": "Tortoise",
-      "rank": 24
-    },
-    {
-      "walletAddress": "0x0Fc70BDbC36fD353b7e7cbF15b38911b583a2eaE",
-      "weight": 10985,
-      "fid": 341646,
-      "domain": "claim.superfluid.org",
-      "frameName": "Superfluid Claim App",
-      "rank": 25
-    },
-    {
       "walletAddress": "0x011c9A600Fa4dCc460f9864E9c8b5498c2835e5a",
-      "weight": 10853,
+      "weight": 17446,
       "fid": 15983,
       "domain": "app.degen.tips",
       "frameName": "Degen",
-      "rank": 26
+      "rank": 1
     },
     {
-      "walletAddress": "0xc15BBF28A96b380550973354cEb055A17f53d833",
-      "weight": 10437,
-      "fid": 20258,
-      "domain": "reach.3loop.io",
-      "frameName": "Reach App",
-      "rank": 27
+      "walletAddress": "0xA5869e7cCB266aF7ac608cFAB4cEdb64ebCDB89F",
+      "weight": 16056,
+      "fid": 249078,
+      "domain": "dailyquestions.boost.xyz",
+      "frameName": "Daily Poll",
+      "rank": 2
     },
     {
-      "walletAddress": "0x9D4e47dDDb023C572Fb331E1FFd5fC0d35bfEB49",
-      "weight": 10361,
-      "fid": 987581,
-      "domain": "warpslot.fun",
-      "frameName": "Warpslot",
-      "rank": 28
+      "walletAddress": "0x0aADd2e08F1Bf4BE8B82Ca6e402b7b76B3dB76e9",
+      "weight": 15439,
+      "fid": 15732,
+      "domain": "tipnearn.com",
+      "frameName": "Tipn",
+      "rank": 3
     },
     {
-      "walletAddress": "0xbCe1fdD6C57d7EEfb63118454b613f8c30aC44A5",
-      "weight": 10323,
-      "fid": 385651,
-      "domain": "farpets.com",
-      "frameName": "FarPets",
-      "rank": 29
+      "walletAddress": "0xA5869e7cCB266aF7ac608cFAB4cEdb64ebCDB89F",
+      "weight": 15362,
+      "fid": 249078,
+      "domain": "rewardkitmini.boost.xyz",
+      "frameName": "Daily Active User",
+      "rank": 4
     },
     {
-      "walletAddress": "0x4c52b451D1d37da984896DbfA8e371BAACdFEEbf",
-      "weight": 10191,
-      "fid": 828888,
-      "domain": "scoutgame.xyz",
-      "frameName": "Scout Game",
-      "rank": 30
+      "walletAddress": "0x15E0C4889c515dD2c3bF54e711CDCE355Eac4205",
+      "weight": 14590,
+      "fid": 14607,
+      "domain": "reply-app.vercel.app",
+      "frameName": "Reply",
+      "rank": 5
     },
     {
-      "walletAddress": "0xfE433Dc9ae98AB75Dcae95A9107b220B5f661EBB",
-      "weight": 10191,
-      "fid": 4632,
-      "domain": "maniframe.vercel.app",
-      "frameName": "maniframe",
-      "rank": 31
-    },
-    {
-      "walletAddress": "0x47EE65077939f379E377F92e98889143Bb263b9c",
-      "weight": 10134,
-      "fid": 397971,
-      "domain": "versus.wreckleague.xyz",
-      "frameName": "Wreck League Versus",
-      "rank": 32
-    },
-    {
-      "walletAddress": "0x5D775Bf2005dcd5248306f728cEbE501a10E11F6",
-      "weight": 10059,
-      "fid": 385955,
-      "domain": "fc-ad.df-frame.xyz",
-      "frameName": "PromoLeague",
-      "rank": 33
-    },
-    {
-      "walletAddress": "0xE3eEC21C2188d449ed806c9301407027Ec912BD1",
-      "weight": 9907,
-      "fid": 378,
-      "domain": "paragraph.com",
-      "frameName": "Paragraph",
-      "rank": 34
-    },
-    {
-      "walletAddress": "0xBd48205F3582A89Aa59aFa9aff7d7c1E73Ed8D96",
-      "weight": 9851,
-      "fid": 358,
-      "domain": "gigbot.xyz",
-      "frameName": "Gig.bot",
-      "rank": 35
-    },
-    {
-      "walletAddress": "0x97675F03D65FAB7371fa2BeB3dbF9c6842c8d525",
-      "weight": 9756,
-      "fid": 251619,
-      "domain": "monad-snowy.vercel.app",
-      "frameName": "Monad Dog",
-      "rank": 36
-    },
-    {
-      "walletAddress": "0x607184ed107409B59184A5DAF342f00343B5cc04",
-      "weight": 9756,
-      "fid": 864793,
-      "domain": "monad-counter.vercel.app",
-      "frameName": "Monad Counter",
-      "rank": 37
-    },
-    {
-      "walletAddress": "0x6219f7F33A59B1A391C0B9E3109C4DFf681E51da",
-      "weight": 9756,
-      "fid": 2483,
-      "domain": "app.playdigits.fun",
-      "frameName": "digits",
-      "rank": 38
-    },
-    {
-      "walletAddress": "0xffddB7C78D466f7d55C879c56EB8BF4c66400ab5",
-      "weight": 9718,
-      "fid": 592677,
-      "domain": "farville.farm",
-      "frameName": "Farville",
-      "rank": 39
-    },
-    {
-      "walletAddress": "0xaE57679FD25eEcfa7A34f91183e25e50a24d8e4D",
-      "weight": 9643,
-      "fid": 1047658,
-      "domain": "betrmint.fun",
-      "frameName": "BETRMINT",
-      "rank": 40
-    },
-    {
-      "walletAddress": "0xcA770BC29D4767aa34c353B7F58da591C1f8a19d",
-      "weight": 9643,
-      "fid": 247449,
-      "domain": "booped.xyz",
-      "frameName": "Booped",
-      "rank": 41
-    },
-    {
-      "walletAddress": "0x5Cf940e02308659d4203151ff1Ba806e38efBFA9",
-      "weight": 9586,
-      "fid": 2201,
-      "domain": "tab.castfriends.com",
-      "frameName": "tab",
-      "rank": 42
-    },
-    {
-      "walletAddress": "0x0C65BE17E86BCB6019148be0a4E8F0A4510A70CB",
-      "weight": 9548,
-      "fid": 8685,
-      "domain": "leaderboard.frm.lol",
-      "frameName": "The Leaderboard",
-      "rank": 43
-    },
-    {
-      "walletAddress": "0x53d529B0A809717CE1586BD6e397EaCE7e44f5Ef",
-      "weight": 9548,
-      "fid": 4282,
-      "domain": "ayolive.xyz",
-      "frameName": "Trivia",
-      "rank": 44
+      "walletAddress": "0x8d5044d9ee7ceC41EEeBeF12B749E62E2Ab9F131",
+      "weight": 14590,
+      "fid": 1356,
+      "domain": "eggs.name",
+      "frameName": "$EGGS",
+      "rank": 6
     },
     {
       "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 9510,
+      "weight": 14474,
       "fid": 537378,
-      "domain": "gmonchain.vercel.app",
-      "frameName": "GMonchain",
-      "rank": 45
+      "domain": "monadspin.xyz",
+      "frameName": "Monad Spin",
+      "rank": 7
     },
     {
-      "walletAddress": "0xdC0BdDcBa14b6A4529D48291bd45c634F8b17A15",
-      "weight": 9473,
-      "fid": 1575,
-      "domain": "frame.megapot.io",
-      "frameName": "Megapot",
-      "rank": 46
+      "walletAddress": "0x77130AbfCC6E99AEb8c72fA4A1bF1c71c8821FB5",
+      "weight": 14281,
+      "fid": 1058691,
+      "domain": "app.noice.so",
+      "frameName": "noice",
+      "rank": 8
     },
     {
-      "walletAddress": "0xD4d065624F7d0f2B67f454903bC7aD24D65D1d0E",
-      "weight": 9454,
-      "fid": 369863,
-      "domain": "www.empirebuilder.world",
-      "frameName": "Empire Builder",
-      "rank": 47
+      "walletAddress": "0xaE57679FD25eEcfa7A34f91183e25e50a24d8e4D",
+      "weight": 13933,
+      "fid": 1047658,
+      "domain": "betrmint.fun",
+      "frameName": "BETRMINT",
+      "rank": 9
     },
     {
-      "walletAddress": "0x53d529B0A809717CE1586BD6e397EaCE7e44f5Ef",
-      "weight": 9359,
-      "fid": 4282,
-      "domain": "clankermon.com",
-      "frameName": "Clankermon",
-      "rank": 48
+      "walletAddress": "0x572Fef3d9a1712C7d449c7e15C335D6860328086",
+      "weight": 13277,
+      "fid": 4044,
+      "domain": "friends-of-friends.vercel.app",
+      "frameName": "Friends of Friends",
+      "rank": 10
     },
     {
-      "walletAddress": "0x0db12C0A67bc5B8942ea3126a465d7a0b23126C7",
-      "weight": 9359,
-      "fid": 977233,
-      "domain": "polling.center",
-      "frameName": "Polling Center",
-      "rank": 49
+      "walletAddress": "0x8113b575B64dE2788650393fe77F83aE21A8E95b",
+      "weight": 13277,
+      "fid": 18581,
+      "domain": "www.weponder.io",
+      "frameName": "Ponder",
+      "rank": 11
     },
     {
-      "walletAddress": "0x039b4234019fA7B205b2CB27e5b51BeE07DA98B1",
-      "weight": 9283,
-      "fid": 17114,
-      "domain": "mini.matcha.xyz",
-      "frameName": "Matcha",
-      "rank": 50
+      "walletAddress": "0x27BcC2C052F49A24bf5ffF0d4C136aE7d208ee85",
+      "weight": 12775,
+      "fid": 1041585,
+      "domain": "qrcoin.fun",
+      "frameName": "$QR",
+      "rank": 12
     },
     {
-      "walletAddress": "0x64a571634e77e43999D80cde959726cDEACd65e9",
-      "weight": 9265,
-      "fid": 1115786,
-      "domain": "vibechain.com",
-      "frameName": "vibe.market",
-      "rank": 51
+      "walletAddress": "0xbCe1fdD6C57d7EEfb63118454b613f8c30aC44A5",
+      "weight": 12737,
+      "fid": 385651,
+      "domain": "democracyga.me",
+      "frameName": "Democracy",
+      "rank": 13
     },
     {
-      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
-      "weight": 9265,
-      "fid": 702530,
-      "domain": "mint.club",
-      "frameName": "Mint Club",
-      "rank": 52
+      "walletAddress": "0x93C46FcD653C946083Bd6528205c5e8cbbb896C0",
+      "weight": 12505,
+      "fid": 324420,
+      "domain": "f.bracket.game",
+      "frameName": "Bracket",
+      "rank": 14
     },
     {
-      "walletAddress": "0xe900BAB075b3fd8b63d4Be79dc2D81409f205a37",
-      "weight": 9227,
-      "fid": 980410,
-      "domain": "amps.fun",
-      "frameName": "Amps",
-      "rank": 53
-    },
-    {
-      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
-      "weight": 9189,
-      "fid": 702530,
-      "domain": "drop.mint.club",
-      "frameName": "Mint Drop",
-      "rank": 54
-    },
-    {
-      "walletAddress": "0x8Bca3Ba66e1Dec204dBF16d8c61695d2Eae780F9",
-      "weight": 9094,
-      "fid": 325741,
-      "domain": "play.remix.gg",
-      "frameName": "Remix",
-      "rank": 55
-    },
-    {
-      "walletAddress": "0x2cb8C01eaBdfF323c9F2600782132ace6EA37Bc4",
-      "weight": 9075,
-      "fid": 5708,
-      "domain": "news.kiwistand.com",
-      "frameName": "Kiwi News",
-      "rank": 56
-    },
-    {
-      "walletAddress": "0x4A5A30d35cb827ec25Be0Ae8aC3dF4aCb82D2b03",
-      "weight": 9057,
-      "fid": 1117296,
-      "domain": "monadbox.vercel.app",
-      "frameName": "Monad BOX",
-      "rank": 57
-    },
-    {
-      "walletAddress": "0xe6CfdAf74bFEC00FafdE9724A46cb052548C8488",
-      "weight": 8886,
-      "fid": 249702,
-      "domain": "monado-twist.vercel.app",
-      "frameName": "Monado Twist",
-      "rank": 58
-    },
-    {
-      "walletAddress": "0x0BDB19903438e0AeaeBcEC2623D048Aa03C08378",
-      "weight": 8886,
-      "fid": 971492,
-      "domain": "miniword.livediagonal.com",
-      "frameName": "MiniWord",
-      "rank": 59
-    },
-    {
-      "walletAddress": "0xdb2979fdF689571DD1627A633d69716D39d919Dc",
-      "weight": 8867,
-      "fid": 738574,
-      "domain": "enb-crushers.vercel.app",
-      "frameName": "ENB Mini App",
-      "rank": 60
-    },
-    {
-      "walletAddress": "0x6100B29a235ebb272F4B10c1964AD9692EE67e13",
-      "weight": 8849,
-      "fid": 268438,
-      "domain": "degen-v2.vercel.app",
-      "frameName": "DEGEN",
-      "rank": 61
+      "walletAddress": "0x7AFfceFfC31D3379662c8CE7eF987f07AfBD8D65",
+      "weight": 12505,
+      "fid": 2824,
+      "domain": "crowdfund.seedclub.com",
+      "frameName": "Crowdfund",
+      "rank": 15
     },
     {
       "walletAddress": "0xa272bc9d6f462F4f08849AdeAF6E49A5D4430C38",
-      "weight": 8792,
+      "weight": 12389,
       "fid": 230238,
-      "domain": "airdrop.ham.cooking",
-      "frameName": "Airdrop",
-      "rank": 62
-    },
-    {
-      "walletAddress": "0x21D7676826fc3BAB6dC8a0EfF2B3c70389Fdf5Cb",
-      "weight": 8773,
-      "fid": 2172,
-      "domain": "farcaster.perfectshot.io",
-      "frameName": "Perfect Shot",
-      "rank": 63
-    },
-    {
-      "walletAddress": "0xc4Fdf12dC03424bEb5c117B4B19726401a9dD1AB",
-      "weight": 8773,
-      "fid": 4482,
-      "domain": "bankr.bot",
-      "frameName": "Bankr",
-      "rank": 64
+      "domain": "tipopolis.hamst.art",
+      "frameName": "Tipopolis",
+      "rank": 16
     },
     {
       "walletAddress": "0xD164197dE2aF458F71Ed0C6097C474D7252a6f3b",
-      "weight": 8546,
+      "weight": 12389,
       "fid": 1106422,
       "domain": "www.popfinance.fun",
       "frameName": "Popfi",
+      "rank": 17
+    },
+    {
+      "walletAddress": "0xb24cF3BD931c720f99F6c927aEE7733054De4Cab",
+      "weight": 12312,
+      "fid": 15549,
+      "domain": "www.clanker.world",
+      "frameName": "clanker",
+      "rank": 18
+    },
+    {
+      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
+      "weight": 12274,
+      "fid": 537378,
+      "domain": "gmonchain.vercel.app",
+      "frameName": "GMonchain",
+      "rank": 19
+    },
+    {
+      "walletAddress": "0x364067f567166c5803F4B6234745450b6d791D9f",
+      "weight": 12197,
+      "fid": 868887,
+      "domain": "caster.flowstate.network",
+      "frameName": "flowcaster",
+      "rank": 20
+    },
+    {
+      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
+      "weight": 12004,
+      "fid": 537378,
+      "domain": "monadfactory.vercel.app",
+      "frameName": "Monad Factory",
+      "rank": 21
+    },
+    {
+      "walletAddress": "0x90125F9e5155f4965A2429D9a4b40283341D5Ba2",
+      "weight": 11965,
+      "fid": 446697,
+      "domain": "streme.fun",
+      "frameName": "Streme",
+      "rank": 22
+    },
+    {
+      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
+      "weight": 11965,
+      "fid": 702530,
+      "domain": "mint.club",
+      "frameName": "Mint Club",
+      "rank": 23
+    },
+    {
+      "walletAddress": "0xdC0BdDcBa14b6A4529D48291bd45c634F8b17A15",
+      "weight": 11656,
+      "fid": 1575,
+      "domain": "frame.megapot.io",
+      "frameName": "Megapot",
+      "rank": 24
+    },
+    {
+      "walletAddress": "0x644E09BeA250a6eDD577271b0bE08D5Fb29F716D",
+      "weight": 11618,
+      "fid": 427349,
+      "domain": "rewardr.wtf",
+      "frameName": "rewardr",
+      "rank": 25
+    },
+    {
+      "walletAddress": "0xc2926A39d0d88d4c1B227DeB933022F1492e818C",
+      "weight": 11540,
+      "fid": 11124,
+      "domain": "framedl.xyz",
+      "frameName": "Framedl",
+      "rank": 26
+    },
+    {
+      "walletAddress": "0xbE95bb47789E5f4Af467306C97DED0877BF817B5",
+      "weight": 11463,
+      "fid": 420564,
+      "domain": "bank-of-celo.vercel.app",
+      "frameName": "Bank of Celo",
+      "rank": 27
+    },
+    {
+      "walletAddress": "0x3cdf2B91dCA464f4683650EfC9d5664FE7D7BD71",
+      "weight": 11425,
+      "fid": 1046430,
+      "domain": "miniapp.inflynce.com",
+      "frameName": "Inflynce",
+      "rank": 28
+    },
+    {
+      "walletAddress": "0x0Fc70BDbC36fD353b7e7cbF15b38911b583a2eaE",
+      "weight": 11309,
+      "fid": 341646,
+      "domain": "claim.superfluid.org",
+      "frameName": "Superfluid Claim App",
+      "rank": 29
+    },
+    {
+      "walletAddress": "0x7b08aAec02A2e62867f8277400863c8d865e64C5",
+      "weight": 11193,
+      "fid": 9048,
+      "domain": "cryptopersonality.xyz",
+      "frameName": "Crypto Personality",
+      "rank": 30
+    },
+    {
+      "walletAddress": "0x6100B29a235ebb272F4B10c1964AD9692EE67e13",
+      "weight": 11154,
+      "fid": 268438,
+      "domain": "degen-v2.vercel.app",
+      "frameName": "DEGEN",
+      "rank": 31
+    },
+    {
+      "walletAddress": "0xbCe1fdD6C57d7EEfb63118454b613f8c30aC44A5",
+      "weight": 11077,
+      "fid": 385651,
+      "domain": "farpets.com",
+      "frameName": "FarPets",
+      "rank": 32
+    },
+    {
+      "walletAddress": "0xF4498E0AA0EBeE6DA49a82049b529b5b43DF5A50",
+      "weight": 10537,
+      "fid": 864314,
+      "domain": "cura.network",
+      "frameName": "Cura",
+      "rank": 33
+    },
+    {
+      "walletAddress": "0x5D775Bf2005dcd5248306f728cEbE501a10E11F6",
+      "weight": 10228,
+      "fid": 385955,
+      "domain": "fc-ad.df-frame.xyz",
+      "frameName": "PromoLeague",
+      "rank": 34
+    },
+    {
+      "walletAddress": "0x187C1282e3FB78a5F271Fd1dD339710661B4d396",
+      "weight": 10151,
+      "fid": 387714,
+      "domain": "animalfersapp.vercel.app",
+      "frameName": "AnimalFers",
+      "rank": 35
+    },
+    {
+      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
+      "weight": 10112,
+      "fid": 537378,
+      "domain": "farrank.info",
+      "frameName": "FarRank",
+      "rank": 36
+    },
+    {
+      "walletAddress": "0x0BDB19903438e0AeaeBcEC2623D048Aa03C08378",
+      "weight": 10035,
+      "fid": 971492,
+      "domain": "miniword.livediagonal.com",
+      "frameName": "MiniWord",
+      "rank": 37
+    },
+    {
+      "walletAddress": "0xb69485d5306532D9F3925C540f4DB206c7776e69",
+      "weight": 9958,
+      "fid": 1078690,
+      "domain": "miniapp.monday.trade",
+      "frameName": "Squid Game – BTC Edition",
+      "rank": 38
+    },
+    {
+      "walletAddress": "0xBb14dB9f60e806846335f79481D998abc66EfC20",
+      "weight": 9919,
+      "fid": 466111,
+      "domain": "dunder-mifflin-id.vercel.app",
+      "frameName": "Dunder Mifflin ID",
+      "rank": 39
+    },
+    {
+      "walletAddress": "0xd697538Ed635334074C4c80370E9344643Aa0Dba",
+      "weight": 9881,
+      "fid": 2073,
+      "domain": "sonar.val.run",
+      "frameName": "Sonar",
+      "rank": 40
+    },
+    {
+      "walletAddress": "0x64a571634e77e43999D80cde959726cDEACd65e9",
+      "weight": 9842,
+      "fid": 1115786,
+      "domain": "vibechain.com",
+      "frameName": "vibe.market",
+      "rank": 41
+    },
+    {
+      "walletAddress": "0xcBf37605A4A169Cb16bF18f01329Ef218Df32F93",
+      "weight": 9765,
+      "fid": 7589,
+      "domain": "miniapp.productclank.com",
+      "frameName": "Product Clank",
+      "rank": 42
+    },
+    {
+      "walletAddress": "0x8Bca3Ba66e1Dec204dBF16d8c61695d2Eae780F9",
+      "weight": 9726,
+      "fid": 325741,
+      "domain": "play.remix.gg",
+      "frameName": "Remix",
+      "rank": 43
+    },
+    {
+      "walletAddress": "0x1CeE629CeB06538874f30ead124c004CECBEb089",
+      "weight": 9688,
+      "fid": 6591,
+      "domain": "tortoise.studio",
+      "frameName": "Tortoise",
+      "rank": 44
+    },
+    {
+      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
+      "weight": 9649,
+      "fid": 702530,
+      "domain": "hunt.town",
+      "frameName": "Hunt Town",
+      "rank": 45
+    },
+    {
+      "walletAddress": "0xffddB7C78D466f7d55C879c56EB8BF4c66400ab5",
+      "weight": 9649,
+      "fid": 592677,
+      "domain": "farville.farm",
+      "frameName": "Farville",
+      "rank": 46
+    },
+    {
+      "walletAddress": "0xe900BAB075b3fd8b63d4Be79dc2D81409f205a37",
+      "weight": 9495,
+      "fid": 980410,
+      "domain": "amps.fun",
+      "frameName": "Amps",
+      "rank": 47
+    },
+    {
+      "walletAddress": "0xD21C6648C833843f006F082D204A9e977574e3b7",
+      "weight": 9495,
+      "fid": 1143783,
+      "domain": "minibyte.network",
+      "frameName": "MiniByte Network",
+      "rank": 48
+    },
+    {
+      "walletAddress": "0x0C65BE17E86BCB6019148be0a4E8F0A4510A70CB",
+      "weight": 9456,
+      "fid": 8685,
+      "domain": "leaderboard.frm.lol",
+      "frameName": "The Leaderboard",
+      "rank": 49
+    },
+    {
+      "walletAddress": "0xBd48205F3582A89Aa59aFa9aff7d7c1E73Ed8D96",
+      "weight": 9340,
+      "fid": 358,
+      "domain": "gigbot.xyz",
+      "frameName": "Gig.bot",
+      "rank": 50
+    },
+    {
+      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
+      "weight": 9302,
+      "fid": 702530,
+      "domain": "drop.mint.club",
+      "frameName": "Mint Drop",
+      "rank": 51
+    },
+    {
+      "walletAddress": "0x9D4e47dDDb023C572Fb331E1FFd5fC0d35bfEB49",
+      "weight": 9263,
+      "fid": 987581,
+      "domain": "warpslot.fun",
+      "frameName": "Warpslot",
+      "rank": 52
+    },
+    {
+      "walletAddress": "0x7f2bBcDdc6458415aaA18a88B788935EF6F7b816",
+      "weight": 9224,
+      "fid": 1093494,
+      "domain": "procoin.app",
+      "frameName": "Feeds",
+      "rank": 53
+    },
+    {
+      "walletAddress": "0xeA99820C3fcdcf7De06c598ccD3EC9fED83eB1c4",
+      "weight": 9186,
+      "fid": 17592,
+      "domain": "ballframe.vercel.app",
+      "frameName": "Ball frame",
+      "rank": 54
+    },
+    {
+      "walletAddress": "0x5Cf940e02308659d4203151ff1Ba806e38efBFA9",
+      "weight": 9186,
+      "fid": 2201,
+      "domain": "tab.castfriends.com",
+      "frameName": "tab",
+      "rank": 55
+    },
+    {
+      "walletAddress": "0x1c69a4F36af2aFb21b760475666c0C4f2b0b1d3D",
+      "weight": 9147,
+      "fid": 282172,
+      "domain": "faucet-miniapp.monad.xyz",
+      "frameName": "Faucet",
+      "rank": 56
+    },
+    {
+      "walletAddress": "0x10Fc964Ef70C8467CD8c53e9eD9347422AdF96A8",
+      "weight": 9147,
+      "fid": 2210,
+      "domain": "poidh.xyz",
+      "frameName": "poidh",
+      "rank": 57
+    },
+    {
+      "walletAddress": "0xBde9500E8726032F1Ad0876b76AC0B4923b23fCC",
+      "weight": 8993,
+      "fid": 19129,
+      "domain": "app.payflow.me",
+      "frameName": "Payflow",
+      "rank": 58
+    },
+    {
+      "walletAddress": "0xe6CfdAf74bFEC00FafdE9724A46cb052548C8488",
+      "weight": 8877,
+      "fid": 249702,
+      "domain": "monado-twist.vercel.app",
+      "frameName": "Monado Twist",
+      "rank": 59
+    },
+    {
+      "walletAddress": "0xbf980488A46aE411b82EB822c8c8Fc365a948261",
+      "weight": 8800,
+      "fid": 294394,
+      "domain": "frame.intori.co",
+      "frameName": "intori",
+      "rank": 60
+    },
+    {
+      "walletAddress": "0x4A5A30d35cb827ec25Be0Ae8aC3dF4aCb82D2b03",
+      "weight": 8761,
+      "fid": 1117296,
+      "domain": "monadbox.vercel.app",
+      "frameName": "Monad BOX",
+      "rank": 61
+    },
+    {
+      "walletAddress": "0x06B08fB82a4697B73F2802E42594B7d9A296CAF3",
+      "weight": 8723,
+      "fid": 235215,
+      "domain": "www.coinbase.mini-morpho.com",
+      "frameName": "Morpho",
+      "rank": 62
+    },
+    {
+      "walletAddress": "0xc4Fdf12dC03424bEb5c117B4B19726401a9dD1AB",
+      "weight": 8684,
+      "fid": 4482,
+      "domain": "bankr.bot",
+      "frameName": "Bankr",
+      "rank": 63
+    },
+    {
+      "walletAddress": "0x47EE65077939f379E377F92e98889143Bb263b9c",
+      "weight": 8645,
+      "fid": 397971,
+      "domain": "versus.wreckleague.xyz",
+      "frameName": "Wreck League Versus",
+      "rank": 64
+    },
+    {
+      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
+      "weight": 8607,
+      "fid": 537378,
+      "domain": "therecognizer.xyz",
+      "frameName": "The Recognizer",
       "rank": 65
     },
     {
-      "walletAddress": "0xc0e5E0E823aDf148b4c39b96b20848d29CCAE188",
-      "weight": 8527,
-      "fid": 1733,
-      "domain": "app.astroblock.xyz",
-      "frameName": "Astroblock",
+      "walletAddress": "0x53d529B0A809717CE1586BD6e397EaCE7e44f5Ef",
+      "weight": 8607,
+      "fid": 4282,
+      "domain": "clankermon.com",
+      "frameName": "Clankermon",
       "rank": 66
     },
     {
-      "walletAddress": "0x49283C32f136307eCf6d1206c4E20371F232D34e",
-      "weight": 8414,
-      "fid": 1086061,
-      "domain": "scratch.gold",
-      "frameName": "Scratch",
+      "walletAddress": "0xAf5C1571B834df59041F57a688a99a10958d9AC5",
+      "weight": 8568,
+      "fid": 1043177,
+      "domain": "saul.bet",
+      "frameName": "Jackpot",
       "rank": 67
     },
     {
-      "walletAddress": "0x747996871acdf334D8454747291Dc1c5c40fEeD5",
-      "weight": 8338,
-      "fid": 1110131,
-      "domain": "dau.boost.xyz",
-      "frameName": "Daily Active User",
+      "walletAddress": "0x039b4234019fA7B205b2CB27e5b51BeE07DA98B1",
+      "weight": 8491,
+      "fid": 17114,
+      "domain": "mini.matcha.xyz",
+      "frameName": "Matcha",
       "rank": 68
     },
     {
       "walletAddress": "0xa272bc9d6f462F4f08849AdeAF6E49A5D4430C38",
-      "weight": 8017,
+      "weight": 8452,
       "fid": 230238,
-      "domain": "tipopolis.hamst.art",
-      "frameName": "Tipopolis",
+      "domain": "airdrop.ham.cooking",
+      "frameName": "Airdrop",
       "rank": 69
     },
     {
-      "walletAddress": "0x1c69a4F36af2aFb21b760475666c0C4f2b0b1d3D",
-      "weight": 7960,
-      "fid": 282172,
-      "domain": "2048-miniapp.monad.xyz",
-      "frameName": "Play 2048 on Monad",
-      "rank": 70
-    },
-    {
-      "walletAddress": "0x93C46FcD653C946083Bd6528205c5e8cbbb896C0",
-      "weight": 7941,
-      "fid": 324420,
-      "domain": "f.bracket.game",
-      "frameName": "Bracket",
-      "rank": 71
-    },
-    {
-      "walletAddress": "0x2beA261da6b9274A57f6cfc1370A33Cd585566e9",
-      "weight": 7922,
-      "fid": 1114825,
-      "domain": "moncast.bygav.xyz",
-      "frameName": "MonCast",
-      "rank": 72
-    },
-    {
-      "walletAddress": "0x667E92395c40cD05Ab560462c823B364D833F4cb",
-      "weight": 7865,
-      "fid": 645771,
-      "domain": "rodeo.club",
-      "frameName": "Rodeo",
-      "rank": 73
-    },
-    {
-      "walletAddress": "0x55c046EF7e00a5eC8d2409A12E087e7dda64F968",
-      "weight": 7865,
-      "fid": 1117286,
-      "domain": "hash.horse",
-      "frameName": "HashHorse",
-      "rank": 74
-    },
-    {
-      "walletAddress": "0x933E534D637ad2bf95f0426A2fD7840d466D6dbd",
-      "weight": 7771,
-      "fid": 415368,
-      "domain": "monad-shooting.vercel.app",
-      "frameName": "monad-shootumup",
-      "rank": 75
-    },
-    {
-      "walletAddress": "0xC934cE64152E2A846a977D51060356a9e5ddd351",
-      "weight": 7657,
-      "fid": 17714,
-      "domain": "www.griv.gg",
-      "frameName": "Griv",
-      "rank": 77
-    },
-    {
-      "walletAddress": "0x5d70DEdd3f66e1Cf8fD1b40D5F8214A8cb01bf7F",
-      "weight": 7601,
-      "fid": 381066,
-      "domain": "lilchogstars.pages.dev",
-      "frameName": "Lil Chogstars",
-      "rank": 78
-    },
-    {
-      "walletAddress": "0x3e86688849b32a925a13C2e4F1Fe755B0507BdB4",
-      "weight": 7582,
-      "fid": 331543,
-      "domain": "spermsurvival.xyz",
-      "frameName": "Sperm Survival",
-      "rank": 79
-    },
-    {
-      "walletAddress": "0x3157497b82eC91A234f11Ee44553D2a303e8d59e",
-      "weight": 7563,
-      "fid": 1021214,
-      "domain": "monad-flowers.xyz",
-      "frameName": "monad flowers",
-      "rank": 80
-    },
-    {
-      "walletAddress": "0x1c69a4F36af2aFb21b760475666c0C4f2b0b1d3D",
-      "weight": 7544,
-      "fid": 282172,
-      "domain": "faucet-miniapp.monad.xyz",
-      "frameName": "Faucet",
-      "rank": 81
-    },
-    {
-      "walletAddress": "0x42B6b0d25D502f07ee655eC5b90Fe7F3555641Cf",
-      "weight": 7506,
-      "fid": 234692,
-      "domain": "drawcast.xyz",
-      "frameName": "Drawcast",
-      "rank": 82
-    },
-    {
-      "walletAddress": "0x10Fc964Ef70C8467CD8c53e9eD9347422AdF96A8",
-      "weight": 7506,
-      "fid": 2210,
-      "domain": "poidh.xyz",
-      "frameName": "poidh",
-      "rank": 83
-    },
-    {
-      "walletAddress": "0xc2926A39d0d88d4c1B227DeB933022F1492e818C",
-      "weight": 7449,
-      "fid": 11124,
-      "domain": "pro.framedl.xyz",
-      "frameName": "Framedl PRO",
-      "rank": 84
-    },
-    {
-      "walletAddress": "0xa3E87ACda558aF7D8B84256728aC9164A44090c5",
-      "weight": 7412,
-      "fid": 332407,
-      "domain": "farworld.gg",
-      "frameName": "Farworld",
-      "rank": 85
-    },
-    {
-      "walletAddress": "0x0A8FbA0971E8c004b34994de54fe0fb3829e8080",
-      "weight": 7412,
-      "fid": 13833,
-      "domain": "indexy.xyz",
-      "frameName": "Indexy",
-      "rank": 86
-    },
-    {
-      "walletAddress": "0xeA99820C3fcdcf7De06c598ccD3EC9fED83eB1c4",
-      "weight": 7412,
-      "fid": 17592,
-      "domain": "ballframe.vercel.app",
-      "frameName": "Ball frame",
-      "rank": 87
-    },
-    {
       "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 7412,
+      "weight": 8452,
       "fid": 537378,
       "domain": "farcoins.xyz",
       "frameName": "Farcoins",
-      "rank": 88
+      "rank": 70
     },
     {
-      "walletAddress": "0xBb14dB9f60e806846335f79481D998abc66EfC20",
-      "weight": 7374,
-      "fid": 466111,
-      "domain": "mintedmerch.vercel.app",
-      "frameName": "Minted Merch",
-      "rank": 89
+      "walletAddress": "0xA8d2164de016cDc5658717b20B3b32214C3A72B5",
+      "weight": 8414,
+      "fid": 1019504,
+      "domain": "monadlisa-miniapp.vercel.app",
+      "frameName": "Monad Lisa",
+      "rank": 71
+    },
+    {
+      "walletAddress": "0x933E534D637ad2bf95f0426A2fD7840d466D6dbd",
+      "weight": 8298,
+      "fid": 415368,
+      "domain": "monad-shooting.vercel.app",
+      "frameName": "monad-shootumup",
+      "rank": 72
+    },
+    {
+      "walletAddress": "0xC0eb7332BbeEe2bE672387dAD7D35734f352BbE2",
+      "weight": 8221,
+      "fid": 867994,
+      "domain": "www.betswirl.com",
+      "frameName": "BetSwirl",
+      "rank": 73
     },
     {
       "walletAddress": "0x5d70DEdd3f66e1Cf8fD1b40D5F8214A8cb01bf7F",
-      "weight": 7374,
+      "weight": 8182,
       "fid": 381066,
       "domain": "monadio.pages.dev",
       "frameName": "LOUDIO MONADIO",
-      "rank": 90
+      "rank": 74
     },
     {
-      "walletAddress": "0x3471523C17457ef6D2953CaFCC73080c661e4d50",
-      "weight": 7336,
-      "fid": 20442,
-      "domain": "www.builderscore.xyz",
-      "frameName": "Base Builder Rewards",
-      "rank": 91
+      "walletAddress": "0x4dc5c0384f06b740750b623B26BeB46cbD4C4E00",
+      "weight": 8144,
+      "fid": 16085,
+      "domain": "morpho.dtech.vision",
+      "frameName": "Earn on Morpho 🦋",
+      "rank": 75
+    },
+    {
+      "walletAddress": "0xcB70A183f87694Ce924688D5EE9Aa1fD8fD15AA7",
+      "weight": 8144,
+      "fid": 12312,
+      "domain": "paragraph.com",
+      "frameName": "Paragraph",
+      "rank": 76
+    },
+    {
+      "walletAddress": "0x5D67312909643F91bB2BbaeA8F27C395b6f629D4",
+      "weight": 8105,
+      "fid": 1864,
+      "domain": "caststorage.com",
+      "frameName": "Caststorage",
+      "rank": 77
+    },
+    {
+      "walletAddress": "0xf447bD339908fE80643420C1fcE4f96B4E9a4511",
+      "weight": 8105,
+      "fid": 1153850,
+      "domain": "moncast.bygav.xyz",
+      "frameName": "MonCast",
+      "rank": 78
+    },
+    {
+      "walletAddress": "0xD4d065624F7d0f2B67f454903bC7aD24D65D1d0E",
+      "weight": 8105,
+      "fid": 369863,
+      "domain": "www.empirebuilder.world",
+      "frameName": "Empire Builder",
+      "rank": 79
+    },
+    {
+      "walletAddress": "0xcA770BC29D4767aa34c353B7F58da591C1f8a19d",
+      "weight": 7989,
+      "fid": 247449,
+      "domain": "booped.xyz",
+      "frameName": "Booped",
+      "rank": 80
+    },
+    {
+      "walletAddress": "0x49283C32f136307eCf6d1206c4E20371F232D34e",
+      "weight": 7989,
+      "fid": 1086061,
+      "domain": "scratch.gold",
+      "frameName": "Scratch",
+      "rank": 81
+    },
+    {
+      "walletAddress": "0xE51f63637c549244d0A8E11ac7E6C86a1E9E0670",
+      "weight": 7951,
+      "fid": 1020251,
+      "domain": "fargo-sable.vercel.app",
+      "frameName": "FarGo",
+      "rank": 82
+    },
+    {
+      "walletAddress": "0xE51f63637c549244d0A8E11ac7E6C86a1E9E0670",
+      "weight": 7796,
+      "fid": 1020251,
+      "domain": "basedrop3.vercel.app",
+      "frameName": "BaseDrop",
+      "rank": 83
+    },
+    {
+      "walletAddress": "0x97675F03D65FAB7371fa2BeB3dbF9c6842c8d525",
+      "weight": 7758,
+      "fid": 251619,
+      "domain": "monad-snowy.vercel.app",
+      "frameName": "Monad Dog",
+      "rank": 84
+    },
+    {
+      "walletAddress": "0x667E92395c40cD05Ab560462c823B364D833F4cb",
+      "weight": 7681,
+      "fid": 645771,
+      "domain": "rodeo.club",
+      "frameName": "Rodeo",
+      "rank": 85
+    },
+    {
+      "walletAddress": "0x1c69a4F36af2aFb21b760475666c0C4f2b0b1d3D",
+      "weight": 7681,
+      "fid": 282172,
+      "domain": "2048-miniapp.monad.xyz",
+      "frameName": "Play 2048 on Monad",
+      "rank": 86
+    },
+    {
+      "walletAddress": "0xC934cE64152E2A846a977D51060356a9e5ddd351",
+      "weight": 7603,
+      "fid": 17714,
+      "domain": "www.griv.gg",
+      "frameName": "Griv",
+      "rank": 87
+    },
+    {
+      "walletAddress": "0x5EB179108F5a358Bf205fEefC10Ef8558F211978",
+      "weight": 7603,
+      "fid": 19675,
+      "domain": "mini.flaunch.gg",
+      "frameName": "Flaunch",
+      "rank": 88
     },
     {
       "walletAddress": "0x9FAAAD747E5B50775A9671685aDB82ec35a15974",
-      "weight": 7298,
+      "weight": 7526,
       "fid": 1062236,
       "domain": "chogvscatgirls.xyz",
       "frameName": "Chog vs Cat Girls",
+      "rank": 89
+    },
+    {
+      "walletAddress": "0xb9F13fbAC92B837B42Ce2DAC2e343E3bd799c773",
+      "weight": 7526,
+      "fid": 471003,
+      "domain": "monchil.vercel.app",
+      "frameName": "Monchil NFT",
+      "rank": 90
+    },
+    {
+      "walletAddress": "0x3157497b82eC91A234f11Ee44553D2a303e8d59e",
+      "weight": 7526,
+      "fid": 1021214,
+      "domain": "monad-flowers.xyz",
+      "frameName": "monad flowers",
+      "rank": 91
+    },
+    {
+      "walletAddress": "0x3e86688849b32a925a13C2e4F1Fe755B0507BdB4",
+      "weight": 7526,
+      "fid": 331543,
+      "domain": "spermsurvival.xyz",
+      "frameName": "Sperm Survival",
       "rank": 92
     },
     {
-      "walletAddress": "0xCc0039F959cb397D3280A7F57633C9a10846B781",
-      "weight": 7241,
-      "fid": 192260,
-      "domain": "metopia.xyz",
-      "frameName": "Metopia",
+      "walletAddress": "0x3265D50549828a58961E5b25ed86111136907eB0",
+      "weight": 7488,
+      "fid": 256592,
+      "domain": "monadcontract.vercel.app",
+      "frameName": "Monad Contract Deployer",
       "rank": 93
     },
     {
-      "walletAddress": "0x8D6230427a37986D25Fe4D5B3d0aaEF1b924fEd6",
-      "weight": 7241,
-      "fid": 366713,
-      "domain": "degen.altumbase.com",
-      "frameName": "Degen Stats by @nikolaii.eth",
+      "walletAddress": "0xAEfBAa40ba91f76cb470E96C397aEB064e6E547d",
+      "weight": 7449,
+      "fid": 6946,
+      "domain": "brnd.land",
+      "frameName": "BRND",
       "rank": 94
     },
     {
-      "walletAddress": "0x5e4aaDFDB8E274e959946c43f974D9d3E06D19a9",
-      "weight": 7090,
-      "fid": 537378,
-      "domain": "therecognizer.xyz",
-      "frameName": "The Recognizer",
+      "walletAddress": "0x42B6b0d25D502f07ee655eC5b90Fe7F3555641Cf",
+      "weight": 7410,
+      "fid": 234692,
+      "domain": "drawcast.xyz",
+      "frameName": "Drawcast",
       "rank": 95
     },
     {
-      "walletAddress": "0x9644f43F12e51f3b2CBd42345d726bC241CF78aD",
-      "weight": 7052,
-      "fid": 702530,
-      "domain": "hunt.town",
-      "frameName": "Hunt Town",
+      "walletAddress": "0xcBa27A19eBA7587DE72502a461a021cF53ACD8FF",
+      "weight": 7410,
+      "fid": 513318,
+      "domain": "arbitrum-minis.vercel.app",
+      "frameName": "Arbitrum Minis NFTs",
       "rank": 96
     },
     {
-      "walletAddress": "0xBde9500E8726032F1Ad0876b76AC0B4923b23fCC",
-      "weight": 6996,
-      "fid": 19129,
-      "domain": "app.payflow.me",
-      "frameName": "Payflow",
+      "walletAddress": "0x0A8FbA0971E8c004b34994de54fe0fb3829e8080",
+      "weight": 7372,
+      "fid": 13833,
+      "domain": "indexy.xyz",
+      "frameName": "Indexy",
       "rank": 97
     },
     {
-      "walletAddress": "0xfFF5710006Ceb8962bBbe229213dA70dFEAdc822",
-      "weight": 6958,
-      "fid": 1114449,
-      "domain": "play-omega-eight.vercel.app",
-      "frameName": "PLAY",
+      "walletAddress": "0x8D6230427a37986D25Fe4D5B3d0aaEF1b924fEd6",
+      "weight": 7333,
+      "fid": 366713,
+      "domain": "secretapp.altumbase.com",
+      "frameName": "SecretApp by @nikolaiii",
       "rank": 98
     },
     {
-      "walletAddress": "0xbf980488A46aE411b82EB822c8c8Fc365a948261",
-      "weight": 6931,
-      "fid": 294394,
-      "domain": "frame.intori.co",
-      "frameName": "intori",
+      "walletAddress": "0xc2926A39d0d88d4c1B227DeB933022F1492e818C",
+      "weight": 7230,
+      "fid": 11124,
+      "domain": "pro.framedl.xyz",
+      "frameName": "Framedl PRO",
       "rank": 100
     },
     {
-      "walletAddress": "0x78C825b3bBD9C08d0809C327ab042764C4D327c5",
-      "weight": 6901,
-      "fid": 831549,
-      "domain": "sweep-wallet.vercel.app",
-      "frameName": "Sweep",
+      "walletAddress": "0x3462f6cd427a6E2d6aBd3f71EC7A8365730F2963",
+      "weight": 7217,
+      "fid": 311722,
+      "domain": "mint-monad-x-farcaster.vercel.app",
+      "frameName": "Monad X Farcaster Mint NFT",
       "rank": 99
     }
   ]
