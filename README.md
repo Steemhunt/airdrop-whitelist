@@ -13,7 +13,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 
 ### Farcaster
 
-- [x] Creator Reward Winners ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts))
 - [x] Developer Reward Winners ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts))
 - [x] Pro Subscribers ([📄 docs](https://farcaster.xyz/mvr/0xc53f3047), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts))
 
@@ -92,14 +91,17 @@ Here is an example of the `summary.json` format:
 ```json
 {
   "farcaster": {
-    "farcaster-creator-reward-winners": {
-      "title": "Farcaster Creator Reward Winners (previous week)",
-      "doc_url": "https://docs.farcaster.xyz/reference/warpcast/api#get-creator-reward-winners",
-      "walletsCount": 2989,
-      "updatedAt": "2025-06-17T06:43:50.506Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-creator-reward-winners.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-creator-reward-winners.json"
-    }
+    "farcaster-developer-reward-winners": {
+      "title": "Developer Reward Winners",
+      "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
+      "isWeighted": true,
+      "walletsCount": 100,
+      "updatedAt": "2025-11-01T03:47:37.562Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
+    },
+    ...
   }
+  ...
 }
 ```
