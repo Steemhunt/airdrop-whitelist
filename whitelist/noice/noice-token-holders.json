@@ -2,27 +2,31 @@
   "title": "NOICE Token Holders",
   "documentLink": "https://noice.so",
   "walletsCount": 1000,
-  "updatedAt": "2025-12-26T15:14:48.850Z",
+  "updatedAt": "2026-01-12T06:35:49.311Z",
   "wallets": [
+    {
+      "walletAddress": "0x6A431604d58B43512d72bc9f21fc09F9D1d60Fc5",
+      "weight": 6425630982.355034
+    },
     {
       "walletAddress": "0x3629f01A5B522a5770d09494FD8a3b4e9aa2730e",
       "weight": 5687851245.093842
-    },
-    {
-      "walletAddress": "0x6A431604d58B43512d72bc9f21fc09F9D1d60Fc5",
-      "weight": 5391588400.02181
     },
     {
       "walletAddress": "0x301F742573c76ee107cb8E263f2D5c009EcBFB28",
       "weight": 2503801419.818857
     },
     {
+      "walletAddress": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
+      "weight": 1516060043.3194761
+    },
+    {
       "walletAddress": "0xf58b7d486a189688f1ad87a8fbAF0A580aE34423",
       "weight": 1490746850.3941154
     },
     {
-      "walletAddress": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
-      "weight": 1426414276.0321462
+      "walletAddress": "0x07649318493a33c8647B774e9416E0F1B5d137b3",
+      "weight": 1207750712.0657845
     },
     {
       "walletAddress": "0x74fD379a494BA1e5396130693118A6A5aC522812",
@@ -33,24 +37,12 @@
       "weight": 1015555892.6142575
     },
     {
-      "walletAddress": "0x07649318493a33c8647B774e9416E0F1B5d137b3",
-      "weight": 1014013116.1164999
-    },
-    {
-      "walletAddress": "0x1BB3eA2B525FeEE67271778336b8b9b813273D5e",
-      "weight": 800916506.8415118
+      "walletAddress": "0x26b610a059dE2488ebe3e0EDa02Ae17907917419",
+      "weight": 724840679.2468905
     },
     {
       "walletAddress": "0x3752aB9f7e037122d258CA0766a67872ba01daf0",
       "weight": 690046189.2548109
-    },
-    {
-      "walletAddress": "0x26b610a059dE2488ebe3e0EDa02Ae17907917419",
-      "weight": 644439297.6800851
-    },
-    {
-      "walletAddress": "0x813Ab764FD2A34EaFf4713a89b6087FF5d6cCC08",
-      "weight": 600000000
     },
     {
       "walletAddress": "0x827B899C6E515118Bd44568fBABd3782AcFA0d66",
@@ -73,16 +65,16 @@
       "weight": 424083032.2973608
     },
     {
-      "walletAddress": "0x6cF23454EF3160bdC8469703Af3c8Ee4B93ff342",
-      "weight": 408067831.012574
-    },
-    {
       "walletAddress": "0xc920FFED02A1a0A697e097E9921bD55722E0419B",
       "weight": 376582464.69054264
     },
     {
       "walletAddress": "0xc6A71d29F94810b3Da733c61606da8257d09312C",
       "weight": 366317932.6976898
+    },
+    {
+      "walletAddress": "0x813Ab764FD2A34EaFf4713a89b6087FF5d6cCC08",
+      "weight": 360000000
     },
     {
       "walletAddress": "0xC19D2811365571b9876865181DE2c607A6b5dc49",
@@ -105,12 +97,12 @@
       "weight": 326993922.1813027
     },
     {
-      "walletAddress": "0x38Db7A128e1f7C8e0caf095976495dCd8136fb5a",
-      "weight": 321248209.6160117
-    },
-    {
       "walletAddress": "0x88C7Dc1B386dDA6394689623c3272104A28E69C8",
       "weight": 311549779.621867
+    },
+    {
+      "walletAddress": "0xfF10cCa240B71B9b69B5FF856565C3E86b075c4D",
+      "weight": 276931033.0251587
     },
     {
       "walletAddress": "0x294Ac245fbD224a818FB458D76E96171Fc697d71",
@@ -121,8 +113,16 @@
       "weight": 258500576.3227891
     },
     {
+      "walletAddress": "0x38Db7A128e1f7C8e0caf095976495dCd8136fb5a",
+      "weight": 255248209.6160117
+    },
+    {
       "walletAddress": "0xd7F9a59b0e2fA0fCF6eF2088b9982816f583BA54",
-      "weight": 250744130.70160288
+      "weight": 251744130.70160288
+    },
+    {
+      "walletAddress": "0x1BB3eA2B525FeEE67271778336b8b9b813273D5e",
+      "weight": 241371530.0413831
     },
     {
       "walletAddress": "0x070b02A17Cf31cf830dCd00283fEa3Dde3397e1A",
@@ -137,20 +137,20 @@
       "weight": 226768294.79538757
     },
     {
-      "walletAddress": "0xfF10cCa240B71B9b69B5FF856565C3E86b075c4D",
-      "weight": 221701046.4615114
+      "walletAddress": "0x8d28018ee349213F547EC09B26d709473faefc00",
+      "weight": 226546183.93227643
     },
     {
-      "walletAddress": "0x8E3F5FB42C9C2c4dDC0Aee15D5Ab455fBdD6c3A1",
-      "weight": 205000031.04407796
+      "walletAddress": "0x9eB5651934f7C41c53F3C99898fB35a2547267c3",
+      "weight": 221420878.10364988
     },
     {
       "walletAddress": "0xCce746ef726983577dD168Ce2EafD2dB785763D5",
       "weight": 200000000
     },
     {
-      "walletAddress": "0x88ED3861d35E33dC8DA7789dA0b9EFCF2299Bb1C",
-      "weight": 199504022.35402232
+      "walletAddress": "0xE9fc469890e3407Dfeab03aCe430e7af39Ca8225",
+      "weight": 195137342.58602765
     },
     {
       "walletAddress": "0x2f4bA8a9d9dAF9A9c82B003b641298469c5aaD48",
@@ -173,20 +173,12 @@
       "weight": 172649572.9248999
     },
     {
-      "walletAddress": "0xE9fc469890e3407Dfeab03aCe430e7af39Ca8225",
-      "weight": 170000333.5234753
-    },
-    {
       "walletAddress": "0x2E0C7593529Ed56a132E7573e01F59D08E6821d6",
       "weight": 169459681.35188875
     },
     {
       "walletAddress": "0x957E53f61dA0156f8A4e8c9cF59372d50Bd0c6B8",
       "weight": 166466344.4003138
-    },
-    {
-      "walletAddress": "0x94e62DD7e592063a04ACdDC523D791Ce9D7E85bd",
-      "weight": 162137940.06505015
     },
     {
       "walletAddress": "0x7E90590542E36Df645696f161aBDc526bfb6D247",
@@ -197,52 +189,68 @@
       "weight": 156613501.463693
     },
     {
+      "walletAddress": "0xdF23BF18CA70eAd6DA8820E5b03aE29d98fBF61A",
+      "weight": 151464938.22142917
+    },
+    {
       "walletAddress": "0xeEF60b8F403F00483482FFEC32DB2551E2933798",
       "weight": 150000000
     },
     {
-      "walletAddress": "0xd13Da05B9288BA4961973110594bD0fE3428791F",
-      "weight": 144660104.50684726
-    },
-    {
-      "walletAddress": "0x2d4b09199807975cFcc97d31326331C2523493C4",
-      "weight": 142756259.12377033
+      "walletAddress": "0xF6d217799066AF1F35b5d919915c92F10720E248",
+      "weight": 133494115.67392954
     },
     {
       "walletAddress": "0x24386592b26e3Fc51811a1a53bae80b38B4946E0",
-      "weight": 139165188.34042093
+      "weight": 132869530.47402172
+    },
+    {
+      "walletAddress": "0xd13Da05B9288BA4961973110594bD0fE3428791F",
+      "weight": 132230227.7782041
     },
     {
       "walletAddress": "0xEeBcc654af0C697eA1D9057be6526A95059AA50e",
       "weight": 132000000
     },
     {
-      "walletAddress": "0xd97107064B8c7520aaE6c6e6CA75bb2aa73B670D",
-      "weight": 124333352.33157489
+      "walletAddress": "0x94e62DD7e592063a04ACdDC523D791Ce9D7E85bd",
+      "weight": 126673895.70364612
     },
     {
-      "walletAddress": "0xfE02CAb6602A8f1E35EEFaD2792d304998451C76",
-      "weight": 122000000
+      "walletAddress": "0xe921459AE14BBc0F0DB9c181B16fE769Da75d0fc",
+      "weight": 120872706.60858792
+    },
+    {
+      "walletAddress": "0x7CABF65E825D263Cb2749DA01B566F8e7FFBe9e1",
+      "weight": 120604721.73452052
     },
     {
       "walletAddress": "0x0E858fed458C8Dd908bACc8bAEff410fF8d2a861",
       "weight": 120154149.88758971
     },
     {
+      "walletAddress": "0xb2bA9EA690428E01d82572438De4514F16446251",
+      "weight": 119232776.72365926
+    },
+    {
+      "walletAddress": "0x98040Ae8Ee9B256b9eD771C864E34e2CB238E09C",
+      "weight": 115796070.61918728
+    },
+    {
       "walletAddress": "0xB3af88f40dCB2934a8aD026ee6084AEa4628910a",
       "weight": 115707689.6505944
+    },
+    {
+      "walletAddress": "0xd97107064B8c7520aaE6c6e6CA75bb2aa73B670D",
+      "weight": 114075094.88004504
     },
     {
       "walletAddress": "0x52aa92a08B209533A11A1B5Ce0aF39DCdf5199c8",
       "weight": 113047991.02303214
     },
     {
-      "walletAddress": "0xe921459AE14BBc0F0DB9c181B16fE769Da75d0fc",
-      "weight": 111546594.98462695
-    },
-    {
-      "walletAddress": "0x7CABF65E825D263Cb2749DA01B566F8e7FFBe9e1",
-      "weight": 106793105.16779776
+      "walletAddress": "0x2d4b09199807975cFcc97d31326331C2523493C4",
+      "weight": 109962773.08488432
     },
     {
       "walletAddress": "0x0d29A30bd16B88C73B2D4d765422E034382b5443",
@@ -253,8 +261,8 @@
       "weight": 103488519.38846524
     },
     {
-      "walletAddress": "0x98040Ae8Ee9B256b9eD771C864E34e2CB238E09C",
-      "weight": 103296446.1816481
+      "walletAddress": "0xe8347c5A23fEf0fAE916eea65fB9Fa6F36BD1C42",
+      "weight": 101789448.49257737
     },
     {
       "walletAddress": "0xdBEa8C064310D194a7040650A36E36E43eB0E42A",
@@ -271,14 +279,6 @@
     {
       "walletAddress": "0xd546664e128b4CC4FCc809f11d7e3a89979EA510",
       "weight": 98142544.030708
-    },
-    {
-      "walletAddress": "0xdF23BF18CA70eAd6DA8820E5b03aE29d98fBF61A",
-      "weight": 98069508.34940821
-    },
-    {
-      "walletAddress": "0xe8347c5A23fEf0fAE916eea65fB9Fa6F36BD1C42",
-      "weight": 98047780.61798492
     },
     {
       "walletAddress": "0x85dEBCfc9792195A62899b5937Db15c8ce14f0eA",
@@ -337,10 +337,6 @@
       "weight": 70000000
     },
     {
-      "walletAddress": "0xBaDA235e37F8cEba768cB167518c869A3765992C",
-      "weight": 68317106.848676
-    },
-    {
       "walletAddress": "0x9a6771FA1F0Cb9cc60Cbd9A82dc5ed499edE4811",
       "weight": 68166422.0102196
     },
@@ -365,12 +361,16 @@
       "weight": 65134307.642521895
     },
     {
+      "walletAddress": "0x1e420F027366E728aAe52748AFba99cC8035Bd98",
+      "weight": 63632675.265827954
+    },
+    {
       "walletAddress": "0x69d58C1c9DF7144E3064aC47e291E08eb5E142FD",
       "weight": 63128239.53002435
     },
     {
-      "walletAddress": "0x1e420F027366E728aAe52748AFba99cC8035Bd98",
-      "weight": 60841956.676719904
+      "walletAddress": "0xFc8E410501FA7213C1EfEC6FE497262355b1f063",
+      "weight": 60592052.18315006
     },
     {
       "walletAddress": "0xc1519Ba3b0B5cd8b8556178313A860c5e5288483",
@@ -389,16 +389,16 @@
       "weight": 59548609.45849254
     },
     {
+      "walletAddress": "0x96d6446c6b20a05d6d0BA40eA2D68b8a3BF77744",
+      "weight": 59483113.32903735
+    },
+    {
       "walletAddress": "0x9B044D7a6eb8620b8832C1bDaB4DfFFe0584EcA4",
       "weight": 58881176.747374155
     },
     {
       "walletAddress": "0x27a921A6f1cf436C66e356559a74Cb50c1065E04",
       "weight": 58318041.931595035
-    },
-    {
-      "walletAddress": "0x9863E92C9C1Ae4800701d27736BFe2909D2eC55b",
-      "weight": 57641446.31755574
     },
     {
       "walletAddress": "0x66E5D7C6F9118cC6f6e2a68fc0d2713CEf44e516",
@@ -409,16 +409,8 @@
       "weight": 55663964.62009037
     },
     {
-      "walletAddress": "0x42EAFAdf853666D0b3fF6624913Bd158C4aCee74",
-      "weight": 54616260.47379742
-    },
-    {
       "walletAddress": "0x8c86f37E976ABef31Cb77C448870aF57b1414CeA",
       "weight": 54326154.685919724
-    },
-    {
-      "walletAddress": "0x96d6446c6b20a05d6d0BA40eA2D68b8a3BF77744",
-      "weight": 54199357.19784153
     },
     {
       "walletAddress": "0x49e850c25dB86fFcfBd67DAdbc14285ca24b74eF",
@@ -457,10 +449,6 @@
       "weight": 51601782.82606535
     },
     {
-      "walletAddress": "0x5eb3D62dc4b234243006695B3c587485794D5feC",
-      "weight": 50009395.57652967
-    },
-    {
       "walletAddress": "0x61afa5E5d7E1A70A537dc5B8252d64C8a1d92c6d",
       "weight": 50000000
     },
@@ -485,8 +473,12 @@
       "weight": 48158184.64436357
     },
     {
-      "walletAddress": "0xb2bA9EA690428E01d82572438De4514F16446251",
-      "weight": 47512214.882502675
+      "walletAddress": "0xBaDA235e37F8cEba768cB167518c869A3765992C",
+      "weight": 47821974.848676
+    },
+    {
+      "walletAddress": "0xaF64f47F6b27C8D69AE2950c71bb4899387e0139",
+      "weight": 47068536.677013665
     },
     {
       "walletAddress": "0xce17518615d60FAc753ab477D8A4a7E096E7ec55",
@@ -497,12 +489,8 @@
       "weight": 46742355.4749422
     },
     {
-      "walletAddress": "0xaF64f47F6b27C8D69AE2950c71bb4899387e0139",
-      "weight": 46594050.65702838
-    },
-    {
-      "walletAddress": "0xF9Ff2411EB26Bf02fa799622D9c431478E2872C1",
-      "weight": 46314065.8465589
+      "walletAddress": "0xdF09BBC082bAbe50f21C74558ee6F65bD877D0A9",
+      "weight": 46394455.53149896
     },
     {
       "walletAddress": "0xbEe6F8C81CAE65CD2100302bA40f8566383098d1",
@@ -513,16 +501,16 @@
       "weight": 45629406.60319828
     },
     {
+      "walletAddress": "0xD2A6024847074110777306eEd3c3577b8779A67B",
+      "weight": 45562717.55346342
+    },
+    {
       "walletAddress": "0x2Bd8d7A7B94E5cEfE5E417B96B27077fD1Da72df",
       "weight": 45128033.4086099
     },
     {
       "walletAddress": "0xB17920C2176F0E1d0C47b3bD3e553884c6120a21",
       "weight": 44740807.99921777
-    },
-    {
-      "walletAddress": "0x1156cC3fe3437519500C39D28354828533111Ef7",
-      "weight": 44674319.86333471
     },
     {
       "walletAddress": "0x1FE4Dc51578DD8C009B9cc2C2dBddD84db0088FE",
@@ -537,28 +525,28 @@
       "weight": 42790399.352565095
     },
     {
-      "walletAddress": "0xBF9859c3Fa82Bf3D88e8A6168FAAEc0713280567",
-      "weight": 42466119.95474679
-    },
-    {
       "walletAddress": "0x0054D246176eDDC8df6D439E78507137d7B130Ec",
       "weight": 42426663.82566184
     },
     {
-      "walletAddress": "0x226CF3cAA4C1c8e662c7C272B45f5D17C58F0013",
-      "weight": 41904530.46020467
-    },
-    {
-      "walletAddress": "0xf8a3A22ea8152A4d3d5a9aCC33BC0c88639fF401",
-      "weight": 41789018.00131968
+      "walletAddress": "0x8D6Dc3713C4Cb90F442CcD6450E8b3C36d0ea342",
+      "weight": 42261242.900233984
     },
     {
       "walletAddress": "0x4561D18A9c52a0064a3a2335A5D0542052346EBB",
       "weight": 41660112.36694101
     },
     {
+      "walletAddress": "0x8B20BD25304Cfe80C48B3f1F97e0381Bf2986847",
+      "weight": 40808680
+    },
+    {
       "walletAddress": "0x638B086b0e5dfb1871CBAA34f84DA9311F81d5E1",
       "weight": 40025000
+    },
+    {
+      "walletAddress": "0x5eb3D62dc4b234243006695B3c587485794D5feC",
+      "weight": 40009395.57652967
     },
     {
       "walletAddress": "0x22E46da2ad676AcB85779d906330176FC7580CE3",
@@ -577,10 +565,6 @@
       "weight": 39379459.93165463
     },
     {
-      "walletAddress": "0xa175D2E0a461D98f11Fc1a135000f12882098475",
-      "weight": 39321202.05720917
-    },
-    {
       "walletAddress": "0xF62151d47c470D3d3E98597B0f9FfD9e52E73516",
       "weight": 38848493.350273795
     },
@@ -589,32 +573,24 @@
       "weight": 38314982.64927727
     },
     {
-      "walletAddress": "0xef1b89aE70BdC818d083bB1a1e8e3B79778CC73E",
-      "weight": 38178443.538217925
+      "walletAddress": "0x56D3BDA3E1f4bc779e558960B29d37112d74cD39",
+      "weight": 37626597.79071834
     },
     {
       "walletAddress": "0xBb00900B914C71D7CC0d6c8865359499B9d0b3B6",
       "weight": 37606319.20774378
     },
     {
-      "walletAddress": "0x26C945eda53f206E17fe9AdC46f7C3cf4bEADA88",
-      "weight": 37497934.750001386
+      "walletAddress": "0xf8a3A22ea8152A4d3d5a9aCC33BC0c88639fF401",
+      "weight": 36781464.35651968
     },
     {
       "walletAddress": "0xBc98fbA393c9a42c0caE2E32ecCf5b2fb0A060d1",
       "weight": 36472825.33506984
     },
     {
-      "walletAddress": "0xd91ED1635107171756bFdA1c575D916C2259085c",
-      "weight": 35164473.294736855
-    },
-    {
       "walletAddress": "0x6faFd991989f2256A4b0932BB9f683173dcA451b",
       "weight": 34675828.46949802
-    },
-    {
-      "walletAddress": "0xaa5052B163A99078c6848Ab4Ca6B5711ECAe9801",
-      "weight": 34671074.01607217
     },
     {
       "walletAddress": "0x39fFF540c42acD5112A9913d9447f99d5ea5cDfa",
@@ -637,8 +613,8 @@
       "weight": 33900604.01616363
     },
     {
-      "walletAddress": "0x8B20BD25304Cfe80C48B3f1F97e0381Bf2986847",
-      "weight": 33041280
+      "walletAddress": "0x87823ee4B4Fb6655e4Ff00E1c85D35Ec3E8F8760",
+      "weight": 32780540.998994432
     },
     {
       "walletAddress": "0x953adB073c1ee4470ec55786E60bf1B52737D4a2",
@@ -661,12 +637,8 @@
       "weight": 30210978.742781907
     },
     {
-      "walletAddress": "0xEF677aa8E0B1D30307c5EB7645531Bd8348F7194",
-      "weight": 29800000.000000004
-    },
-    {
-      "walletAddress": "0x329F4F9032Be5b4255E1E210948a25d5641dA846",
-      "weight": 28530821.32013986
+      "walletAddress": "0x949dA94aeCf949Ea5A468AeE1bDcAdF60Ec6B41d",
+      "weight": 27776338.596371625
     },
     {
       "walletAddress": "0xEd08A46638761855c0489c3e588067d3b7556C75",
@@ -681,36 +653,20 @@
       "weight": 27393539.06825962
     },
     {
-      "walletAddress": "0x57387d1215c1E0D6B12D019265193653f812f2b7",
-      "weight": 27333157.269813754
-    },
-    {
       "walletAddress": "0xd6421915a0375910ef38c636bb98784836793eF5",
       "weight": 27060154.01603365
-    },
-    {
-      "walletAddress": "0x051699Cb05E397Ca31Af6795Cab3614f4819d8aD",
-      "weight": 26997086.69729284
     },
     {
       "walletAddress": "0x2cad047f4820a2a0a16787a0f3e16c605aE7613f",
       "weight": 26929879.20073543
     },
     {
-      "walletAddress": "0x1D0Dac2A2ABD4d82Aa9bcE6B253FeB8d2077d31a",
-      "weight": 26826597.21667838
-    },
-    {
       "walletAddress": "0x40f286887a0256181BF55D972e332E1e1e0D14db",
       "weight": 26814935.479189992
     },
     {
-      "walletAddress": "0xc151fe0D8dD6B852D75E29E18F4791b2f806F2A6",
-      "weight": 26287861.837372586
-    },
-    {
-      "walletAddress": "0x801c207840803338CcBa3bB8E52a2E2a92357eA0",
-      "weight": 26168524.703219164
+      "walletAddress": "0x831769AfC80FFF6FB4D3E25e7bfF2F7d6FB45862",
+      "weight": 26261330.428316772
     },
     {
       "walletAddress": "0xb1BAe8e4e582BACd0D015414cd6214414827c02F",
@@ -723,10 +679,6 @@
     {
       "walletAddress": "0xce01d3B994B13151c71eDDd4584c3f4FE886C33d",
       "weight": 25971815.16812736
-    },
-    {
-      "walletAddress": "0xdF09BBC082bAbe50f21C74558ee6F65bD877D0A9",
-      "weight": 25965649.891498964
     },
     {
       "walletAddress": "0x4c55C41Bd839B3552fb2AbecaCFdF4a5D2879Cb9",
@@ -751,14 +703,6 @@
     {
       "walletAddress": "0xCc4F5e4E5901dBAF3DD2ee162C58faf06B1B526f",
       "weight": 25364138.191802584
-    },
-    {
-      "walletAddress": "0x5197e03929e54b413E0D3E9a5fBc475fE5FE4eca",
-      "weight": 25178516.422611635
-    },
-    {
-      "walletAddress": "0x831769AfC80FFF6FB4D3E25e7bfF2F7d6FB45862",
-      "weight": 25004725.623875137
     },
     {
       "walletAddress": "0xDACAdddF821Ce45523D0ca0eF14623894044647F",
@@ -805,10 +749,6 @@
       "weight": 23759825.488376595
     },
     {
-      "walletAddress": "0x3a55570b56B92AAF9aC499Bdd70AF8bE61093fE6",
-      "weight": 23596887.348155554
-    },
-    {
       "walletAddress": "0x4BD9Cd6B8B95814a3763321414B6191cbF551059",
       "weight": 23513335.155240405
     },
@@ -821,11 +761,15 @@
       "weight": 22757566.269565377
     },
     {
+      "walletAddress": "0x42EBB6bFbC92b646A3d0Eb452Cf0db24aFC29968",
+      "weight": 22729988.226343133
+    },
+    {
       "walletAddress": "0xC4583F47521699d99E337049854ce4BEFd2b047a",
       "weight": 22578467.484598484
     },
     {
-      "walletAddress": "0xf13Bd50a10343dcCAB59778f518F762c4863A65E",
+      "walletAddress": "0xEd4C57fCD429240Eb2190627f2971EC80d58BBfE",
       "weight": 22552319.264514435
     },
     {
@@ -839,10 +783,6 @@
     {
       "walletAddress": "0x919d3e159749a8dD3bAf2751E3b2e14A0a29Cd9a",
       "weight": 21715643.765941504
-    },
-    {
-      "walletAddress": "0x2C21D978459286e11Bb9F3C471cbEF241495916c",
-      "weight": 21610340.353907425
     },
     {
       "walletAddress": "0x279A75b40Eda7AcC5D38b80802B6A2f541FD142F",
@@ -861,12 +801,8 @@
       "weight": 21238386.10300143
     },
     {
-      "walletAddress": "0xA47Fe175B0f4990121bca7a068942d3FB9A21cAF",
-      "weight": 21212935.961125642
-    },
-    {
-      "walletAddress": "0xDB3DED7731C781224EC292E2163D9554c094fD7c",
-      "weight": 21096586.766749613
+      "walletAddress": "0xC46971B9AbCe40708323dAbf8664653A3f14bc81",
+      "weight": 21193423.36263745
     },
     {
       "walletAddress": "0x24F1D2B31d30B9Dc64Ca6383dcBf364a917D716B",
@@ -877,8 +813,8 @@
       "weight": 20633561.06737647
     },
     {
-      "walletAddress": "0xba798a5D2695E169Cc9A95c122A27dF57F06044d",
-      "weight": 20110000
+      "walletAddress": "0x801c207840803338CcBa3bB8E52a2E2a92357eA0",
+      "weight": 20341473.27144954
     },
     {
       "walletAddress": "0x46D5F548E02fdee3ea7E4168B7cF896429fE6fe7",
@@ -889,24 +825,8 @@
       "weight": 20000000.00028832
     },
     {
-      "walletAddress": "0x5B93FF82faaF241c15997ea3975419DDDd8362c5",
-      "weight": 20000000
-    },
-    {
-      "walletAddress": "0xfEFE68633ef59bAeef7E7bD7F67d050b7E0f5e18",
-      "weight": 20000000
-    },
-    {
       "walletAddress": "0x9799B1601B27b995B7e957EEDC9e2c09493c9991",
       "weight": 19855786.646199957
-    },
-    {
-      "walletAddress": "0xC46971B9AbCe40708323dAbf8664653A3f14bc81",
-      "weight": 19848971.42775763
-    },
-    {
-      "walletAddress": "0xc324609963c9aB85187Aae9cA101ce814c0fE70E",
-      "weight": 19801149.44368441
     },
     {
       "walletAddress": "0x705e0dD6F8A667b84c8f3Dd7B41BB537835923ba",
@@ -917,8 +837,16 @@
       "weight": 19729252.731847845
     },
     {
+      "walletAddress": "0xc324609963c9aB85187Aae9cA101ce814c0fE70E",
+      "weight": 19711149.44368441
+    },
+    {
       "walletAddress": "0x589fFAeAB4A99275660a9fa4274cb58F7329f4Df",
       "weight": 19662075.892434906
+    },
+    {
+      "walletAddress": "0xa175D2E0a461D98f11Fc1a135000f12882098475",
+      "weight": 19660601.028604586
     },
     {
       "walletAddress": "0xf8c2AC0dDCCB35eb17Cee86F7444731e7b0B132e",
@@ -957,11 +885,7 @@
       "weight": 18437787.85768427
     },
     {
-      "walletAddress": "0x74fF1be9c14805a1Bae57a7C142CC1D13a621152",
-      "weight": 18337134.60119455
-    },
-    {
-      "walletAddress": "0xF3cbc034A8389F98e46b3EC8F1B2801670D44118",
+      "walletAddress": "0x9277F78158918Be804D92F6C739352D77C23f4E1",
       "weight": 18282935.665115908
     },
     {
@@ -989,6 +913,10 @@
       "weight": 17769758.75366397
     },
     {
+      "walletAddress": "0xc359E97fbeDd9bb5dC54bF79a87499b0126018C5",
+      "weight": 17611144.604610607
+    },
+    {
       "walletAddress": "0xA0D7b5Cb0F57AFE5A3746607A2d60ce9C2Cfde5F",
       "weight": 17168924.48073558
     },
@@ -999,10 +927,6 @@
     {
       "walletAddress": "0x3387B6bBe20Fc73382f71F6D55Fc41909DCC982B",
       "weight": 17062492.336687624
-    },
-    {
-      "walletAddress": "0x679401b68a617D59b5122ebF586dC971f07872F7",
-      "weight": 16928087.160526562
     },
     {
       "walletAddress": "0x542dDbEdA5b3307F193672fEd0e5384AC9Ca7Ee7",
@@ -1017,6 +941,10 @@
       "weight": 16642374.125220211
     },
     {
+      "walletAddress": "0xC6e1A0B043f7a04a3F757067364A8F742EEb5Ee1",
+      "weight": 16562989.795625187
+    },
+    {
       "walletAddress": "0x4C8BB2959Da42d7c9E3e5964426b70b90B587571",
       "weight": 16535553.302860484
     },
@@ -1029,16 +957,24 @@
       "weight": 16245551.727782603
     },
     {
+      "walletAddress": "0x4240781A9ebDB2EB14a183466E8820978b7DA4e2",
+      "weight": 16112681.775374401
+    },
+    {
+      "walletAddress": "0xA47Fe175B0f4990121bca7a068942d3FB9A21cAF",
+      "weight": 15909701.970844232
+    },
+    {
       "walletAddress": "0x23BE5FbA1BA9c07Ee676250040DB99474Da72997",
       "weight": 15885574.254280316
     },
     {
-      "walletAddress": "0xa495C8D282875bEb08Dec4Fa67e4C2cEF3b51680",
-      "weight": 15649907.944487678
+      "walletAddress": "0x1A51E68322BC00eDE0A640Db6f339c5Db9416AaD",
+      "weight": 15877582.049554676
     },
     {
-      "walletAddress": "0x4a9e40d550676984C85888905c37eaa54E8d086e",
-      "weight": 15542785.301079435
+      "walletAddress": "0xa495C8D282875bEb08Dec4Fa67e4C2cEF3b51680",
+      "weight": 15649907.944487678
     },
     {
       "walletAddress": "0xdFC375c6f6A820637D2526645F3eB86F8B6414a6",
@@ -1061,8 +997,8 @@
       "weight": 15058818.47121597
     },
     {
-      "walletAddress": "0x4240781A9ebDB2EB14a183466E8820978b7DA4e2",
-      "weight": 15002248.69130529
+      "walletAddress": "0xfEFE68633ef59bAeef7E7bD7F67d050b7E0f5e18",
+      "weight": 15010490.395388927
     },
     {
       "walletAddress": "0xdC00397043A61714518899C7c60643E78C900806",
@@ -1073,10 +1009,6 @@
       "weight": 14986698.015510974
     },
     {
-      "walletAddress": "0xA6d8E76530d0708e3A50a0D4d17ff250d1428372",
-      "weight": 14965514.589690302
-    },
-    {
       "walletAddress": "0x4dAdCf22773bc0c99acE5C0180828AC3e293A976",
       "weight": 14849673.282748146
     },
@@ -1085,12 +1017,12 @@
       "weight": 14781321.820079727
     },
     {
-      "walletAddress": "0xD2fB35bAdbBb7982d3096F8aC01F3Cc963652F06",
-      "weight": 14749462.85458215
+      "walletAddress": "0x4b8FC070f232BA0d48a612F78D5CA875BF5a862E",
+      "weight": 14770453.758580392
     },
     {
-      "walletAddress": "0x618F69cFd825E54b13743a7EB1d04a795131f9c7",
-      "weight": 14655663.21598842
+      "walletAddress": "0xD2fB35bAdbBb7982d3096F8aC01F3Cc963652F06",
+      "weight": 14749462.85458215
     },
     {
       "walletAddress": "0x13CCe26e7EB6F868e99FF88C5132678A196b66bD",
@@ -1101,16 +1033,20 @@
       "weight": 14551085.519870363
     },
     {
+      "walletAddress": "0x3b56f4C0262cDFc2C1592b84E3d0Ba67A9Eef34e",
+      "weight": 14530603.580279795
+    },
+    {
       "walletAddress": "0xed45E4f56204c7f3BF07dc935C77F5D869eE7876",
       "weight": 14528807.132397544
     },
     {
-      "walletAddress": "0x1824c4487E066fc30826368A27D42C8Fe7327AE9",
-      "weight": 14494733.739787554
+      "walletAddress": "0x889FFA01Fd496E5704E708621Dd44BE5E3B1d1d3",
+      "weight": 14500925
     },
     {
-      "walletAddress": "0x7490B14d318Dc86606cDCB1c99Ed5Af93826E787",
-      "weight": 14472973.579363067
+      "walletAddress": "0x1824c4487E066fc30826368A27D42C8Fe7327AE9",
+      "weight": 14494733.739787554
     },
     {
       "walletAddress": "0x96590e6cfB427A61f1CA93E6cf0746049De5B032",
@@ -1129,6 +1065,10 @@
       "weight": 14277906.858590342
     },
     {
+      "walletAddress": "0x780fb70011313Dd463e2A0D574a8F3B20Ab58616",
+      "weight": 14258040.907225031
+    },
+    {
       "walletAddress": "0x0cf68416279c2A9bcDd0Fa6cC4E0347ac3d55D7d",
       "weight": 14105571.307489643
     },
@@ -1145,12 +1085,24 @@
       "weight": 13997545.43147002
     },
     {
+      "walletAddress": "0x7F33300F4Bc4bBe99dae6D8df5Ff3aaC2800221a",
+      "weight": 13916228.682050576
+    },
+    {
+      "walletAddress": "0x7Eb6079b89593eAE6B3c6C69F464B953041f1C76",
+      "weight": 13845168.73032492
+    },
+    {
       "walletAddress": "0x298F11516DA20F6dB9F09A051Ca70E649E0441F2",
       "weight": 13794106.772550976
     },
     {
-      "walletAddress": "0xc7d308bE9097033204009B72D4079bBde1b1a019",
-      "weight": 13684771.630504793
+      "walletAddress": "0x57387d1215c1E0D6B12D019265193653f812f2b7",
+      "weight": 13666578.634906877
+    },
+    {
+      "walletAddress": "0x42EAFAdf853666D0b3fF6624913Bd158C4aCee74",
+      "weight": 13654065.118449355
     },
     {
       "walletAddress": "0xc8b822AA50475EE67B6312be4534343dA4A5ec5F",
@@ -1181,24 +1133,12 @@
       "weight": 13139021.30345983
     },
     {
-      "walletAddress": "0xadc431bD09777188579d5F3952c637347a3aF1b9",
-      "weight": 13072172.244144332
+      "walletAddress": "0x3A0eDEA994E27Cf6EA5640A851aadEc6a207E156",
+      "weight": 13098595.466093143
     },
     {
-      "walletAddress": "0xbAdCB5f8826C6BcFf71Bec099040A982046C7b27",
-      "weight": 12983020.930208778
-    },
-    {
-      "walletAddress": "0x889FFA01Fd496E5704E708621Dd44BE5E3B1d1d3",
-      "weight": 12930225
-    },
-    {
-      "walletAddress": "0x185297Fa0653AE4fffB8F97FB058D916CB925f38",
-      "weight": 12880094.971163895
-    },
-    {
-      "walletAddress": "0x19dc2e2b7FeEb0cD67Aee5a2519dE6562a23832b",
-      "weight": 12781770.989377173
+      "walletAddress": "0x010FB63A6f20bA626Bd36a8131980464360975Db",
+      "weight": 13036950.876848187
     },
     {
       "walletAddress": "0xa6A6689369E21292f89A32fe7Be6e2b0fe77C414",
@@ -1209,12 +1149,12 @@
       "weight": 12612990.393051691
     },
     {
-      "walletAddress": "0x9Ce7c791dDb13fA13B259a9712021c61343B659d",
-      "weight": 12519078.538448298
+      "walletAddress": "0xa529B329BABa476cEbbBF5046237EF1fE937da5F",
+      "weight": 12596492.989452664
     },
     {
-      "walletAddress": "0x1D2E44dede73dcF080104eC0839A70DA14641762",
-      "weight": 12500697.558236837
+      "walletAddress": "0x9Ce7c791dDb13fA13B259a9712021c61343B659d",
+      "weight": 12519078.538448298
     },
     {
       "walletAddress": "0xe9580E81Aed9247e867af69e3254423A768fFaDA",
@@ -1229,6 +1169,10 @@
       "weight": 12404617.03674502
     },
     {
+      "walletAddress": "0x74eC5933FaCab116Fb94Bf64f5F9e8DD5BD27947",
+      "weight": 12109699.988931911
+    },
+    {
       "walletAddress": "0xB5D12860d9d3c3D8BF008106dcB433fd7c882a1a",
       "weight": 12088973.779672513
     },
@@ -1238,7 +1182,7 @@
     },
     {
       "walletAddress": "0x849151d7D0bF1F34b70d5caD5149D28CC2308bf1",
-      "weight": 11995389.189429898
+      "weight": 11995938.265756832
     },
     {
       "walletAddress": "0x34520AdCACcb7D698A038831eC00BdD8bcD3942f",
@@ -1249,8 +1193,8 @@
       "weight": 11905972.250844639
     },
     {
-      "walletAddress": "0xa251520154ca342f0B1D702Bf5a56F78c982405B",
-      "weight": 11890391.211070973
+      "walletAddress": "0x1D2E44dede73dcF080104eC0839A70DA14641762",
+      "weight": 11900697.558236837
     },
     {
       "walletAddress": "0xe7d4191eB35870F5830B270dBc5f32Ae64a9B78e",
@@ -1263,10 +1207,6 @@
     {
       "walletAddress": "0xDE237f475A1a62EFF22b2EC4C95d930c6cA38450",
       "weight": 11696243.97251805
-    },
-    {
-      "walletAddress": "0xa317f7Dde9fDCe4c6BFB4a0f8dAF6146ca6D4931",
-      "weight": 11678488.244358148
     },
     {
       "walletAddress": "0xe37494B755d6476485CB5f61bE04e2d78308fB6b",
@@ -1289,20 +1229,8 @@
       "weight": 11355061.841907768
     },
     {
-      "walletAddress": "0x3b56f4C0262cDFc2C1592b84E3d0Ba67A9Eef34e",
-      "weight": 11340480.70627286
-    },
-    {
       "walletAddress": "0x42c1D5A03388F32BEe82eC3636E75bC5891897C4",
       "weight": 11334477.86586721
-    },
-    {
-      "walletAddress": "0x7ADefE51e3f99387A197206d96BcFF8a8f0E58b8",
-      "weight": 11334318.833555412
-    },
-    {
-      "walletAddress": "0xbF3A6f9d21e3121dCdA7BA9535985c4bD8F176C0",
-      "weight": 11276206.633736381
     },
     {
       "walletAddress": "0x7F70F8b3828A9012f87f5359aC361e1fb529110b",
@@ -1317,20 +1245,20 @@
       "weight": 11106469.344857406
     },
     {
+      "walletAddress": "0x7FEed66508754D12b517Edc220cAee15577ecfE0",
+      "weight": 11086357
+    },
+    {
+      "walletAddress": "0x868AF4A5Ef76111D931dABFde4C369e37F8d19a3",
+      "weight": 11076347.13579782
+    },
+    {
       "walletAddress": "0x58e12de74B616f9Ec6D32f80052917776616526D",
       "weight": 11075775.260353422
     },
     {
-      "walletAddress": "0x780fb70011313Dd463e2A0D574a8F3B20Ab58616",
-      "weight": 11038356.047218462
-    },
-    {
       "walletAddress": "0x0877FaA911e480F7c2bf1cE5Bc8c94361b37a7EC",
       "weight": 11023015.84812916
-    },
-    {
-      "walletAddress": "0xBa7433Fd45bFE50a0f39665949cc09f25e57683B",
-      "weight": 11022225.60123717
     },
     {
       "walletAddress": "0xd9025bCc2d07f3c5dd9b8499EFbaE2949289B463",
@@ -1343,10 +1271,6 @@
     {
       "walletAddress": "0x8dD66D34A93bb2e49C52Ca6FDC0AC0c05c9e2172",
       "weight": 10972716.923079787
-    },
-    {
-      "walletAddress": "0xc7867BD4559A839A649964F3B51AAc54CA19dB45",
-      "weight": 10947872.073615015
     },
     {
       "walletAddress": "0x37A576896cfCa6B97c3B243CC7EdA3a102DB982d",
@@ -1365,6 +1289,10 @@
       "weight": 10742539.323870452
     },
     {
+      "walletAddress": "0xDB3DED7731C781224EC292E2163D9554c094fD7c",
+      "weight": 10644982.415561933
+    },
+    {
       "walletAddress": "0x05Df334f9baA8daEdBe43aEe46C5eaeC71bFe6AE",
       "weight": 10601458.214459896
     },
@@ -1378,7 +1306,7 @@
     },
     {
       "walletAddress": "0xEC8b6b6ee8dC5c6631747BDC6b1400Aff08829fD",
-      "weight": 10422645.574564144
+      "weight": 10429671.539098056
     },
     {
       "walletAddress": "0xcdb84b8e54Ef14fcB211198649Bc435D80692362",
@@ -1389,20 +1317,12 @@
       "weight": 10243483.75538481
     },
     {
-      "walletAddress": "0x4b8FC070f232BA0d48a612F78D5CA875BF5a862E",
-      "weight": 10227105.903856682
-    },
-    {
       "walletAddress": "0x832FC3946861977d0ff829711e1d2f81ce19C741",
       "weight": 10137237.995104758
     },
     {
       "walletAddress": "0x6b0b9434cd026E91aa608d64A0542Cb57595249E",
       "weight": 10087101.55809286
-    },
-    {
-      "walletAddress": "0xD5CD6500d62726d99F798ea0E89178f5DA59f999",
-      "weight": 10085181.546414297
     },
     {
       "walletAddress": "0xa07fA7dFcEab7801B0027824aD250e7A36F3Be49",
@@ -1421,16 +1341,16 @@
       "weight": 10064904.174572883
     },
     {
-      "walletAddress": "0x74eC5933FaCab116Fb94Bf64f5F9e8DD5BD27947",
-      "weight": 10053193.057491623
-    },
-    {
       "walletAddress": "0xC90A08eFdDD4B755a5C6c61bDfaE6f0f75A7ABBD",
       "weight": 10036687.213886958
     },
     {
       "walletAddress": "0xeecB8701b253518E0d413d643Fd46cD1DFF97Ed4",
       "weight": 10027660.16418225
+    },
+    {
+      "walletAddress": "0x8F461971923bE2Af1e36127c0416F42aC037909F",
+      "weight": 10016294.420470178
     },
     {
       "walletAddress": "0xAEE290aa24833D00b4AB4Ba5BE296450b6d6220F",
@@ -1445,12 +1365,8 @@
       "weight": 10001349.56720493
     },
     {
-      "walletAddress": "0x9B22bccb8B9FF49324bf3918B3a6E911128166c1",
-      "weight": 10000081.626266534
-    },
-    {
       "walletAddress": "0x2140AB34B0006332a69ed5D5452e37FEd58aeAf9",
-      "weight": 10000040.820861617
+      "weight": 10000000.381375171
     },
     {
       "walletAddress": "0x319500927E4A461a27646D666c49509beAd47e05",
@@ -1458,6 +1374,10 @@
     },
     {
       "walletAddress": "0xFE2c9cf7B9Cc9B30FfBE7bBACe48ebDF3520ae36",
+      "weight": 10000000
+    },
+    {
+      "walletAddress": "0x5B93FF82faaF241c15997ea3975419DDDd8362c5",
       "weight": 10000000
     },
     {
@@ -1485,6 +1405,10 @@
       "weight": 9679729.791900294
     },
     {
+      "walletAddress": "0xa317f7Dde9fDCe4c6BFB4a0f8dAF6146ca6D4931",
+      "weight": 9678488.244358148
+    },
+    {
       "walletAddress": "0xEa53ee3422e1E9bDf89b9c198c67Ea8362A8A42c",
       "weight": 9610088.468937697
     },
@@ -1498,7 +1422,7 @@
     },
     {
       "walletAddress": "0x97E302e2638eb8ac6572598c559e56c7A9b39cDf",
-      "weight": 9533171.758821385
+      "weight": 9518149.601066584
     },
     {
       "walletAddress": "0x1e29c5014234DE5F81B810C8FE2Ae3976E63f94f",
@@ -1514,7 +1438,7 @@
     },
     {
       "walletAddress": "0x668710e690dFf771bAe92a868649F3948525638A",
-      "weight": 9429463.906801159
+      "weight": 9429470.836801158
     },
     {
       "walletAddress": "0x98DDd56502Df1424689DDB095762E29F382Eb5C7",
@@ -1523,10 +1447,6 @@
     {
       "walletAddress": "0xFB79577559CAb7BC18De4602d21CeD1De22907D6",
       "weight": 9311242.540930402
-    },
-    {
-      "walletAddress": "0x883064f7FfAaf9e59bcF098Cf31bF9A6F5b68652",
-      "weight": 9286996.986379543
     },
     {
       "walletAddress": "0x84716f3fb51a34783A8fD8c05a4EC2926181Db12",
@@ -1541,12 +1461,20 @@
       "weight": 9142919.135521112
     },
     {
+      "walletAddress": "0x1318418194b4D8A9958848698492b634375671FF",
+      "weight": 9100008
+    },
+    {
       "walletAddress": "0x5fB61612fDd87ab753Ca6b76e811e3c6dbA1936D",
       "weight": 9099641.043714194
     },
     {
       "walletAddress": "0x1d47A34E8f854cB6a5383Fa516702B293cFF69f6",
       "weight": 9080195.859541574
+    },
+    {
+      "walletAddress": "0x5CDf00eb0d9694C20765116aa9aa705aC91bA1A2",
+      "weight": 9039462.602050249
     },
     {
       "walletAddress": "0x697129325D679B35C04E22bBb119aD8457521E66",
@@ -1557,20 +1485,32 @@
       "weight": 8979702.84332493
     },
     {
-      "walletAddress": "0x6E6b90a7bF24950526A70245CAb18c3860072168",
-      "weight": 8924061.5992447
-    },
-    {
       "walletAddress": "0x0141dC8Db270c642191b686aBdd2c6E33699Ba14",
       "weight": 8917959.801795013
+    },
+    {
+      "walletAddress": "0x9c85cba481ea05623617a08Ca77682622c8baE73",
+      "weight": 8905162.149805177
+    },
+    {
+      "walletAddress": "0x6E6b90a7bF24950526A70245CAb18c3860072168",
+      "weight": 8893384.372846063
     },
     {
       "walletAddress": "0x8968d9cA9Ad98D8B31292b37Db7e32a3117704de",
       "weight": 8864849.746009558
     },
     {
-      "walletAddress": "0x7FEed66508754D12b517Edc220cAee15577ecfE0",
-      "weight": 8858349
+      "walletAddress": "0xe74Fb9E0b21B1998146088BC2D6C6B0C6a019A63",
+      "weight": 8858954.950652309
+    },
+    {
+      "walletAddress": "0x65a41f3962Fa7af084a143430aBdfb68bae1BddA",
+      "weight": 8815205.225913426
+    },
+    {
+      "walletAddress": "0xd91ED1635107171756bFdA1c575D916C2259085c",
+      "weight": 8791118.323684214
     },
     {
       "walletAddress": "0xEC17bb13e344905403a31c766E8e79A652e41D12",
@@ -1583,10 +1523,6 @@
     {
       "walletAddress": "0x95AdCc2c252f7F2215708DD50eDc40a80765Ed53",
       "weight": 8657425.448080089
-    },
-    {
-      "walletAddress": "0x7Eb6079b89593eAE6B3c6C69F464B953041f1C76",
-      "weight": 8569818.27514881
     },
     {
       "walletAddress": "0x4527dc668c3cc94FbedB2dDdD879f9a90294385b",
@@ -1609,8 +1545,8 @@
       "weight": 8494813.35305846
     },
     {
-      "walletAddress": "0x440FdDB8BBc05CBD39CCf9cE388eB71b9DC63273",
-      "weight": 8459848.499796126
+      "walletAddress": "0x2b3bf74B29f59fb8dDA41Cf3d6A8DA28CF8e7921",
+      "weight": 8478109.226746691
     },
     {
       "walletAddress": "0x6dF8Ed3386a6fc1F2669E3d60769677602071249",
@@ -1621,24 +1557,16 @@
       "weight": 8400000
     },
     {
-      "walletAddress": "0xDF599a7579d5d213Ce19641312da1da880f4d501",
-      "weight": 8362833.86462815
-    },
-    {
       "walletAddress": "0xE697B1bcf17a0eDc2dF872de1c7258c7Cc434745",
       "weight": 8339800.090909091
     },
     {
-      "walletAddress": "0xDc29f4f1aF40F908133bd1e0066B4AFddD67fC7F",
-      "weight": 8338893.28454437
-    },
-    {
-      "walletAddress": "0x9e42144ed51d03DD4649254E777D636Ab542A692",
-      "weight": 8335183.3838662915
-    },
-    {
       "walletAddress": "0x9A5f05B2e2c687920D2eA56e0fa52e9eDFe8B305",
       "weight": 8285632.9045604
+    },
+    {
+      "walletAddress": "0x0F60DacC38f963A9aee3151750B2B38931169C82",
+      "weight": 8264178.62771289
     },
     {
       "walletAddress": "0x95fC45fECf3ef9Fc630116f6871Da1102D339B41",
@@ -1657,24 +1585,20 @@
       "weight": 8047876.7368393205
     },
     {
+      "walletAddress": "0x6eA08ca8F313d860808ef7431fc72c6FbcF4A72D",
+      "weight": 8045951.371031953
+    },
+    {
       "walletAddress": "0xd60b05E4724F6F7107E4963474DDc87c5388c23e",
       "weight": 8027633.724562544
     },
     {
-      "walletAddress": "0xa529B329BABa476cEbbBF5046237EF1fE937da5F",
-      "weight": 8027349.537572651
-    },
-    {
-      "walletAddress": "0x26382B1bFE28c374B1895Ede1c12A124e0c3A635",
-      "weight": 8024018.182382795
-    },
-    {
-      "walletAddress": "0x5922faA5104F10c5B13296897a593D78a8BB3D8F",
-      "weight": 8012905.87
-    },
-    {
       "walletAddress": "0x1343100aEfa9Ea215368913DE4B38E3675B7cCC5",
       "weight": 8008000
+    },
+    {
+      "walletAddress": "0x55f1A0C8bb96387f84D02C78D196b9D122576699",
+      "weight": 8003864.89869611
     },
     {
       "walletAddress": "0x53555C5Aa86F0834b40E4A18b157C7a5fbC1CE6E",
@@ -1687,14 +1611,6 @@
     {
       "walletAddress": "0xE2F31eaEf47C69C6129C4ECe490cd99807bf47E3",
       "weight": 7946386.027703354
-    },
-    {
-      "walletAddress": "0x6eA08ca8F313d860808ef7431fc72c6FbcF4A72D",
-      "weight": 7940553.44485281
-    },
-    {
-      "walletAddress": "0x1921A1c513b0a4Ad9F675cf6b7a1a33B0785cED4",
-      "weight": 7927471.3105688915
     },
     {
       "walletAddress": "0x148BB8b2B0e9064a983Ca528858f54dcD22b3d95",
@@ -1710,7 +1626,7 @@
     },
     {
       "walletAddress": "0x7c7BeC19B92eC2928AFd95BC9fC8c4277F14F0a8",
-      "weight": 7801837.824266504
+      "weight": 7802368.824266504
     },
     {
       "walletAddress": "0x7894099ab639970957f4C811848eDb86f310C071",
@@ -1743,10 +1659,6 @@
     {
       "walletAddress": "0x203095DBF1600EBFBEd2442F37217B851b786B63",
       "weight": 7619035.925540692
-    },
-    {
-      "walletAddress": "0xefE99c6665223601DD91c72E7233e4A9dca5Ce0F",
-      "weight": 7527240.981895249
     },
     {
       "walletAddress": "0x02e0E8Ba535C09c598F8D65Af2d212a6135407ee",
@@ -1785,16 +1697,12 @@
       "weight": 7377027.902587659
     },
     {
-      "walletAddress": "0x5CDf00eb0d9694C20765116aa9aa705aC91bA1A2",
-      "weight": 7373261.978068674
-    },
-    {
       "walletAddress": "0x718f59B7012Ea338b8609d3C822002Ce45B7E278",
       "weight": 7341167.491893402
     },
     {
       "walletAddress": "0xc3F7be7B9149D90f23d0D7Fb944d2D5f111564eD",
-      "weight": 7310445.892184432
+      "weight": 7310499.399225298
     },
     {
       "walletAddress": "0xA7AcCAA78Db6A6E606F84c0F7eb972756A57Dd61",
@@ -1803,10 +1711,6 @@
     {
       "walletAddress": "0x51f1EA9Aa6211F2c163b195aB8a35f4886bbF81A",
       "weight": 7259944.317234538
-    },
-    {
-      "walletAddress": "0xbb2120dbB12163f68C0D885005119243299BB87e",
-      "weight": 7255651.894901885
     },
     {
       "walletAddress": "0xEe0b53ac9578cBc6E0CEE0Ac6E18cfb7118b5cb3",
@@ -1857,12 +1761,8 @@
       "weight": 7050084.083031499
     },
     {
-      "walletAddress": "0x010FB63A6f20bA626Bd36a8131980464360975Db",
-      "weight": 7005544.038461401
-    },
-    {
-      "walletAddress": "0xc359E97fbeDd9bb5dC54bF79a87499b0126018C5",
-      "weight": 6955339.232576372
+      "walletAddress": "0x0627Da5af5102a910FBa7C085Fe034F9C5bC476F",
+      "weight": 6972703.731640224
     },
     {
       "walletAddress": "0xD40FC4266F6F3436F3a30f0Eb2A30B44A42CCF5F",
@@ -1885,6 +1785,10 @@
       "weight": 6839250.598938731
     },
     {
+      "walletAddress": "0x79351E5Eba644E33625B68Bc2fbED1e7fc0402C6",
+      "weight": 6748754.15
+    },
+    {
       "walletAddress": "0x0c23b5b0fAbE18e5e8fD6C5Aa1adc910D50C79aA",
       "weight": 6731073.41341773
     },
@@ -1901,16 +1805,8 @@
       "weight": 6639933.341134017
     },
     {
-      "walletAddress": "0x9ACeF6B578cC8A9E1C1264d54f75De94F3eE4908",
-      "weight": 6631259.900247867
-    },
-    {
       "walletAddress": "0x42A1E332C83bF6F121791C75433D57479E2D24F1",
       "weight": 6607046.158298575
-    },
-    {
-      "walletAddress": "0x88538812e41b89689f5e23871ef5d5CE2be0F987",
-      "weight": 6580801.879100683
     },
     {
       "walletAddress": "0x5a0D7F3eFfbdB2164F5bcC7b3afce8b34DdfEFAE",
@@ -1929,12 +1825,24 @@
       "weight": 6520872.632738572
     },
     {
+      "walletAddress": "0x731A0b6d2c53B365788C265123C679446E31AC91",
+      "weight": 6471337.096184438
+    },
+    {
       "walletAddress": "0x368f45cB1F431ADef5A9F9296E6C885df293Bc54",
       "weight": 6449943.358291339
     },
     {
       "walletAddress": "0x92E5B9595a7e49e4B69E707249Af513d8dF7C076",
       "weight": 6444191.037319648
+    },
+    {
+      "walletAddress": "0x185297Fa0653AE4fffB8F97FB058D916CB925f38",
+      "weight": 6440047.4855819475
+    },
+    {
+      "walletAddress": "0x03e3E59d058a22472F04126e0fffD76975402b59",
+      "weight": 6410923.702573291
     },
     {
       "walletAddress": "0xa11BCaF46a21C81CDf0fF4068b549fF7a09762d0",
@@ -1949,8 +1857,8 @@
       "weight": 6340217.316980543
     },
     {
-      "walletAddress": "0x400815b954C964C3BC356E5541301D957D417EC9",
-      "weight": 6282519.394946208
+      "walletAddress": "0x9Bf19A8D817E611358d3C5c706Afc6ECdB8bf17e",
+      "weight": 6309680.972096575
     },
     {
       "walletAddress": "0x81343d3dBfc502dAf2a6C28E2baeAA4f98d48702",
@@ -1975,6 +1883,10 @@
     {
       "walletAddress": "0xB0d3E67532954A23Dc1C9FFC4d8f1A274Cd382A6",
       "weight": 6150198.148380635
+    },
+    {
+      "walletAddress": "0xaA7c4252a33ed36f74DB86139A63597EaacC5CF9",
+      "weight": 6139036.539560336
     },
     {
       "walletAddress": "0x3d290d6148875c25738049c3d5C384d89b58d60B",
@@ -2013,8 +1925,8 @@
       "weight": 6000000
     },
     {
-      "walletAddress": "0x65a41f3962Fa7af084a143430aBdfb68bae1BddA",
-      "weight": 5968298.742239316
+      "walletAddress": "0x4581E152E252A767F7ce6b4920B2e15C5A3AeBaA",
+      "weight": 5989068.442528814
     },
     {
       "walletAddress": "0x81E3cC144029cC0D93FE0B15Dda622cA8BfBe393",
@@ -2023,6 +1935,10 @@
     {
       "walletAddress": "0x2109D16dA3A83611E88a90D43C4C927f82B429ae",
       "weight": 5940307.406285463
+    },
+    {
+      "walletAddress": "0x14e634C727e47Ea01AcDd130170ec056D2acBF77",
+      "weight": 5936370.984
     },
     {
       "walletAddress": "0x3266B12934Ff286a2e139b6e161a0DB249707023",
@@ -2034,7 +1950,15 @@
     },
     {
       "walletAddress": "0xb6eCf95A12D2D87d0153549B7f907D597e3e48DF",
-      "weight": 5913361.957018128
+      "weight": 5912930.410431701
+    },
+    {
+      "walletAddress": "0xA5BAf50F477F0E29e79766a7D046e5Bc51ECeBC9",
+      "weight": 5876535.14429688
+    },
+    {
+      "walletAddress": "0xCd1025608645fB320EBF51409dEEE42caa0ee573",
+      "weight": 5872352.109658932
     },
     {
       "walletAddress": "0x6C0252fcf74cC406DaEBB5d24FdF22EC78C94ff9",
@@ -2077,12 +2001,12 @@
       "weight": 5683796.648440485
     },
     {
-      "walletAddress": "0xE6545D9C0588CF6D7dD9458a4aB6341867c69479",
-      "weight": 5638770.665465937
+      "walletAddress": "0x6a182de33fd0bbF849e5AFA916bBf1afC910C8B1",
+      "weight": 5666485.62441401
     },
     {
-      "walletAddress": "0x395C75fA3976e1Fd2D51c0D91Df843907f9B330F",
-      "weight": 5637510.294199144
+      "walletAddress": "0xE6545D9C0588CF6D7dD9458a4aB6341867c69479",
+      "weight": 5638770.665465937
     },
     {
       "walletAddress": "0x9A91d7c1ff3D7948f075Fd83Eaf1297267FE5e05",
@@ -2101,12 +2025,20 @@
       "weight": 5594838.744487265
     },
     {
+      "walletAddress": "0x2cffEd5d56eB6a17662756ca0FdF350e732C9818",
+      "weight": 5587742.679211187
+    },
+    {
       "walletAddress": "0xFeF660262d1b6f2eabb7c5ac1C7E133C17c1eEA4",
       "weight": 5584793.846622005
     },
     {
       "walletAddress": "0xC3D04e0208D4D6415e046092606c0d47eDE14a90",
       "weight": 5578675.508230371
+    },
+    {
+      "walletAddress": "0x82151B5F5f90e759903Defd1C26C2F5cb2698aA6",
+      "weight": 5553153.137813024
     },
     {
       "walletAddress": "0x176423074385a9e3CD3001E7d25df8c72ceb8e80",
@@ -2125,16 +2057,16 @@
       "weight": 5500515.114281259
     },
     {
-      "walletAddress": "0x10CEb49317181E2964c0Bd369c0EFe3D3cc95d69",
-      "weight": 5460784.450076343
+      "walletAddress": "0xE248646A10F3142A5244BB56933531C1739274Ff",
+      "weight": 5500000
     },
     {
       "walletAddress": "0xB72203648d05Db5EF677D082754747668E1368ac",
       "weight": 5452831.738865702
     },
     {
-      "walletAddress": "0x2cffEd5d56eB6a17662756ca0FdF350e732C9818",
-      "weight": 5399822.089690207
+      "walletAddress": "0xB30D16559106ea9BA5Ec9B3d82eE59dcABB39133",
+      "weight": 5374955.18476995
     },
     {
       "walletAddress": "0x589c04D226E5d03D559dc2A9148396D1099DCB87",
@@ -2145,16 +2077,16 @@
       "weight": 5361830.39647931
     },
     {
+      "walletAddress": "0x1dd047085A6d4bb5d752872D1f0174B0fd0eDbA0",
+      "weight": 5351612.668041599
+    },
+    {
       "walletAddress": "0x01f002740821E47fC6eB38F2ba168D3e47D064f1",
       "weight": 5338049.819402778
     },
     {
       "walletAddress": "0xccFD02Df58b16543b7Aa70CC396D8e3d7cf83139",
       "weight": 5323554.285475294
-    },
-    {
-      "walletAddress": "0xbAbE777e1a43053C273bd8A4e45D0cB6c20f8Fc6",
-      "weight": 5323396
     },
     {
       "walletAddress": "0xbDBd64B55AaF5bdab528B0725F33A19A728B11D7",
@@ -2181,20 +2113,20 @@
       "weight": 5255560.229146862
     },
     {
+      "walletAddress": "0xaC3341e83b4E515F1269A305D5C408e62EBCa001",
+      "weight": 5253629.754943408
+    },
+    {
       "walletAddress": "0x1eAd75244344a1EA8f9DFe53f9d36E0Cb99dEaf2",
       "weight": 5251875.623950274
     },
     {
-      "walletAddress": "0x14e634C727e47Ea01AcDd130170ec056D2acBF77",
-      "weight": 5233380.579
-    },
-    {
-      "walletAddress": "0x959BAD62E8Fd11582125b08e5DdE95EC843310F0",
-      "weight": 5231856.776474902
-    },
-    {
       "walletAddress": "0xf07e9c4E6582550Dd43B82d2E6403D81776Bcd84",
       "weight": 5208127.52277315
+    },
+    {
+      "walletAddress": "0x21d3D7935F0232Ec0bEbB1a753597B913b8B1000",
+      "weight": 5202430.193105923
     },
     {
       "walletAddress": "0x022F4770e49D442250CB0AbfBEa61EB48cAB9333",
@@ -2205,6 +2137,10 @@
       "weight": 5177453.104968495
     },
     {
+      "walletAddress": "0x0C1bb6646F84A50390EE2544b8737F352B9ED466",
+      "weight": 5167136.295326366
+    },
+    {
       "walletAddress": "0x5aA3a4E73dEfd0fB4979fc1B6a42dC51f136cf72",
       "weight": 5151465.203490968
     },
@@ -2213,20 +2149,12 @@
       "weight": 5147325.160059042
     },
     {
-      "walletAddress": "0xaA7c4252a33ed36f74DB86139A63597EaacC5CF9",
-      "weight": 5137764.246964141
-    },
-    {
       "walletAddress": "0x057ae83fBd46Ba57C12366e61D30121C3058a218",
       "weight": 5120731.342286121
     },
     {
-      "walletAddress": "0xDC78ff3B80a266068335F216e4eFE932d2BFaa17",
-      "weight": 5086887.104858273
-    },
-    {
       "walletAddress": "0x55500894B526771C20b317C969392401Bc377592",
-      "weight": 5064936.794072769
+      "weight": 5065110.893296769
     },
     {
       "walletAddress": "0x87a427FaC35c6fa15D53b56cA0A721b1aB281d5b",
@@ -2257,8 +2185,8 @@
       "weight": 5000072.007430268
     },
     {
-      "walletAddress": "0x0627Da5af5102a910FBa7C085Fe034F9C5bC476F",
-      "weight": 5000000.848196674
+      "walletAddress": "0x7ADefE51e3f99387A197206d96BcFF8a8f0E58b8",
+      "weight": 5000000.833555412
     },
     {
       "walletAddress": "0xeE365A2Df5c403e4FE5C09a5CC71E7cc3a8A9a03",
@@ -2266,30 +2194,6 @@
     },
     {
       "walletAddress": "0x68B7ef900f87f0A9B28229a9A77976ac3B25434B",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0x10Ec3a8eaA99fAd27536f2a10b6910DC3D9b3a66",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0x38472b3AF744a8B866E77B94Fc2aDfFF94C22A07",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0xA967f47219c9b5856DBB3A989a92dc0d4FDd5ff2",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0xc16aEcFEc42b5Ec2f24EAb1FB2DaA0cD90eA37F7",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0x60d5B93C6236ccDCDbFd22B3F50aea9bDd6576a7",
-      "weight": 5000000
-    },
-    {
-      "walletAddress": "0xcaAbAb1168eaDcFB71125fa4f8b70Ee2500EfBA4",
       "weight": 5000000
     },
     {
@@ -2305,24 +2209,12 @@
       "weight": 5000000
     },
     {
-      "walletAddress": "0x4581E152E252A767F7ce6b4920B2e15C5A3AeBaA",
-      "weight": 4999999.997639809
-    },
-    {
-      "walletAddress": "0x238067F64d9E7363DdCa5cCa668F103C26433084",
-      "weight": 4965347.127903656
-    },
-    {
       "walletAddress": "0xBa4379F116A6f0b9Cfb59dAAd191699B472686AA",
       "weight": 4949699.099932802
     },
     {
       "walletAddress": "0x88c69e649630B7587FbD87E6d03BcB81ce65C8cd",
       "weight": 4922697.551966874
-    },
-    {
-      "walletAddress": "0xaA8Be3e5934E9582EA99c3e56dD36dDb1eB019f2",
-      "weight": 4903014.688843954
     },
     {
       "walletAddress": "0xDFe8beeE223412F316baf2968B17527D6EbA29F1",
@@ -2333,14 +2225,6 @@
       "weight": 4854934.023847561
     },
     {
-      "walletAddress": "0x394F3A347AC29eF4B894DD44dea38f5498845429",
-      "weight": 4853651.487490798
-    },
-    {
-      "walletAddress": "0xA5BAf50F477F0E29e79766a7D046e5Bc51ECeBC9",
-      "weight": 4852750.24253887
-    },
-    {
       "walletAddress": "0xB28A4FE7D71535D99a77C46fF7d4296e0225be1b",
       "weight": 4848917.938826272
     },
@@ -2349,16 +2233,12 @@
       "weight": 4812883.935784753
     },
     {
-      "walletAddress": "0xCd1025608645fB320EBF51409dEEE42caa0ee573",
-      "weight": 4785714.5158398235
+      "walletAddress": "0xf203F4E08F695f5418dF80d18cDF235bCD55894F",
+      "weight": 4781364.665716949
     },
     {
       "walletAddress": "0xc72AC95CfaF8F0047fbAEF4050D73DBf5f3BD47a",
       "weight": 4770833.144827027
-    },
-    {
-      "walletAddress": "0x747C08dCEF7d4F8720566228B5f0199f81BA0cfd",
-      "weight": 4759277.219171747
     },
     {
       "walletAddress": "0xf42876d9447F0D0f5059aD62E356e8306aF08171",
@@ -2381,16 +2261,8 @@
       "weight": 4652465.532229231
     },
     {
-      "walletAddress": "0x45db9d3457c2Cb05C4BFc7334a33ceE6e19d508F",
-      "weight": 4642561.347119174
-    },
-    {
       "walletAddress": "0x16DcBf17bDE1E242fD94bAd2bCc45Ed69f18c89f",
       "weight": 4642213.572496337
-    },
-    {
-      "walletAddress": "0x818110F2EEAdED3b6891665bECdE62bf29Fe4852",
-      "weight": 4633839.1341145905
     },
     {
       "walletAddress": "0x267C30e3DAAb2e4c47360939E3aD59fC92e7Afe5",
@@ -2401,8 +2273,12 @@
       "weight": 4630293.997514924
     },
     {
-      "walletAddress": "0x20Da700EA03E9fe8bf3409d6F66105184AEfB2FC",
-      "weight": 4594409.291856126
+      "walletAddress": "0x3cDF38407cE65966055aDDF8bfC5B17eF00397e1",
+      "weight": 4613974.012298295
+    },
+    {
+      "walletAddress": "0xc49C4277bcCAA6ed3AD10d51dC488AA208b2A44f",
+      "weight": 4569165.171527779
     },
     {
       "walletAddress": "0x5D9c61246B1DBeE0ADb6c220d9abEb38C1A86Dff",
@@ -2413,32 +2289,28 @@
       "weight": 4563123.400382697
     },
     {
-      "walletAddress": "0x32f617c65a200B174F4c198a30B5DBE5840D578E",
-      "weight": 4558253.69386554
+      "walletAddress": "0xC6F8D621c11E452810F9F475f7b6C18122DB5597",
+      "weight": 4552765.252465516
     },
     {
       "walletAddress": "0x87d9D7cdeE9D2Cb787dC3E4821058EeD28EEB36d",
-      "weight": 4528705.865278209
+      "weight": 4528735.865278209
+    },
+    {
+      "walletAddress": "0xc7867BD4559A839A649964F3B51AAc54CA19dB45",
+      "weight": 4527859.888677389
     },
     {
       "walletAddress": "0x4cc0Fb78914b630C8C2da7089c6680e8eBebec1D",
-      "weight": 4513289.915892493
+      "weight": 4513290.495228494
     },
     {
       "walletAddress": "0xFceA382C5dF02dd66616F1b568A1FaB951CeF7DA",
       "weight": 4511835.209250408
     },
     {
-      "walletAddress": "0xE248646A10F3142A5244BB56933531C1739274Ff",
-      "weight": 4500000
-    },
-    {
       "walletAddress": "0xd3D93F54416A1C52B02938354c1D7840e40Cff2d",
       "weight": 4472519.288795593
-    },
-    {
-      "walletAddress": "0xaC3341e83b4E515F1269A305D5C408e62EBCa001",
-      "weight": 4467496.282776434
     },
     {
       "walletAddress": "0x6b939033eC59715e6cEeD10C02AB3C5037e60A8F",
@@ -2447,10 +2319,6 @@
     {
       "walletAddress": "0xe820eBDd42a07781280626F7d2021a567F4F566a",
       "weight": 4453374.650117042
-    },
-    {
-      "walletAddress": "0x8159420ce1129EB316F95d54b877deA4ac4Ad256",
-      "weight": 4446950.821345009
     },
     {
       "walletAddress": "0x0214efcB6fD9eC970FC0d960dCe5a8DbbD29c2E6",
@@ -2475,6 +2343,10 @@
     {
       "walletAddress": "0xF1c368D8B556AA5ADED07F4F904455c987c22bE8",
       "weight": 4430478.092369584
+    },
+    {
+      "walletAddress": "0xCd43b44ed0d509d9bfded943b174D635c3D37ed0",
+      "weight": 4424547.657992213
     },
     {
       "walletAddress": "0x1CD1b55941C7B44A09480285756df4a2DA2769ab",
@@ -2517,6 +2389,10 @@
       "weight": 4333312.68167343
     },
     {
+      "walletAddress": "0x749Fe1885440bA5ec7381C9fdE06FD05B83C4c5C",
+      "weight": 4302981.653630198
+    },
+    {
       "walletAddress": "0x41af2707721129F4F04dd8C8ccDaf407577F1456",
       "weight": 4301773.7212
     },
@@ -2531,10 +2407,6 @@
     {
       "walletAddress": "0x69471f3991B6A8B31785110719c4c8f982fb8e33",
       "weight": 4230056.790404789
-    },
-    {
-      "walletAddress": "0xd04ce7Cc91D1256E86b7285c78410fc66e9c4557",
-      "weight": 4219354.988358169
     },
     {
       "walletAddress": "0xd59ee3FB4ec43109d29D9d0fb8233a8d6cFAbdEc",
@@ -2553,8 +2425,20 @@
       "weight": 4199164.464914282
     },
     {
+      "walletAddress": "0x8601507424CB2646E5d24AB071fa0c4Cec9841f9",
+      "weight": 4192058.834928479
+    },
+    {
       "walletAddress": "0x44Dfcb14B9BbB5c83aD876fa6e5F165caF586632",
-      "weight": 4178534.043367038
+      "weight": 4179123.200152571
+    },
+    {
+      "walletAddress": "0xEd2e2b4C7dEEd8d3AE2860037cdCFD5B82fbBcfB",
+      "weight": 4159075.574812192
+    },
+    {
+      "walletAddress": "0x20Da700EA03E9fe8bf3409d6F66105184AEfB2FC",
+      "weight": 4134409.291856126
     },
     {
       "walletAddress": "0x9BcbCCF5ee84C6e143Af253128a8f0315746e66b",
@@ -2579,10 +2463,6 @@
     {
       "walletAddress": "0xD8c4D78A15E09211408941D0f3ff98081d3dCe80",
       "weight": 4078833.5560540897
-    },
-    {
-      "walletAddress": "0x541EA1A955f59F634F176c59BcD2a283d495852e",
-      "weight": 4075036.539454815
     },
     {
       "walletAddress": "0xb4De76a2a58d7c7dDb04FC646611Ef894cfc45F9",
@@ -2611,6 +2491,18 @@
     {
       "walletAddress": "0x9587b7E0EB1eC95D1FD105383a33E7B619E73f5B",
       "weight": 4000276.1977629527
+    },
+    {
+      "walletAddress": "0x10Ec3a8eaA99fAd27536f2a10b6910DC3D9b3a66",
+      "weight": 4000000
+    },
+    {
+      "walletAddress": "0xA967f47219c9b5856DBB3A989a92dc0d4FDd5ff2",
+      "weight": 4000000
+    },
+    {
+      "walletAddress": "0x60d5B93C6236ccDCDbFd22B3F50aea9bDd6576a7",
+      "weight": 4000000
     },
     {
       "walletAddress": "0x5CbA9840101Dc771799B8D0439f18200E69246B2",
@@ -2645,10 +2537,6 @@
       "weight": 3942969.3935422637
     },
     {
-      "walletAddress": "0x55057e7EcAf6F8197F07308DcB7C4Ee12138Bd35",
-      "weight": 3940441.265065806
-    },
-    {
       "walletAddress": "0xfe8cC72D95633e3a40CF3D221a609ef0C4807745",
       "weight": 3931453.786839405
     },
@@ -2677,10 +2565,6 @@
       "weight": 3874293.478665604
     },
     {
-      "walletAddress": "0x8b835d858747d352D9852AE9e16ba0890da58AED",
-      "weight": 3862632.9661319735
-    },
-    {
       "walletAddress": "0x9aF74e2C5017ab57316dCcd74fDd74AF6B7C7aab",
       "weight": 3861124.9051306588
     },
@@ -2705,16 +2589,8 @@
       "weight": 3817551.573443983
     },
     {
-      "walletAddress": "0x7B7135ea7Dbba5A4Fc77e5332FA1A4026255D1a3",
-      "weight": 3814855.0624923874
-    },
-    {
       "walletAddress": "0x7CA1f6F0ffAb043ed0ea418756286074Cc3D1FE3",
       "weight": 3810383.3561782995
-    },
-    {
-      "walletAddress": "0xE23ddC3B2F60d005482B16D0233f1A0161aA2C38",
-      "weight": 3794048.5791252027
     },
     {
       "walletAddress": "0x1Af5379371a8ed3c039c80015517418C3Eb0a8C8",
@@ -2735,6 +2611,10 @@
     {
       "walletAddress": "0x03Aa862dF4bDF31d038e064D26C320d1F0F826Ef",
       "weight": 3743467.232917885
+    },
+    {
+      "walletAddress": "0x32f617c65a200B174F4c198a30B5DBE5840D578E",
+      "weight": 3740000.6938655404
     },
     {
       "walletAddress": "0x1548d60D74d6a25D689A38C4A0b895c3Fc512BCA",
@@ -2773,16 +2653,12 @@
       "weight": 3643585.800155178
     },
     {
-      "walletAddress": "0xFaB5b9ed7153E10C3270a05f5d2349671072a2c5",
-      "weight": 3642172.3744848403
-    },
-    {
       "walletAddress": "0x5461808aBCF71724dc1114B9DEd5f89D53cC0568",
       "weight": 3628969.937199687
     },
     {
-      "walletAddress": "0xEd2e2b4C7dEEd8d3AE2860037cdCFD5B82fbBcfB",
-      "weight": 3616437.055289217
+      "walletAddress": "0x7280C73703104Cbcd81588647AF670B3df673eBc",
+      "weight": 3620397.7388000623
     },
     {
       "walletAddress": "0xE41f56122d44f63c4492096d54D8BE96d600bB06",
@@ -2817,16 +2693,20 @@
       "weight": 3504280.198930829
     },
     {
+      "walletAddress": "0x5baA44bb6B7bd79C89628696F1186bCaEb3453AA",
+      "weight": 3498633.523834295
+    },
+    {
       "walletAddress": "0xB25932CFF5a6AF21b15b6aaB5A153F30582dF33B",
       "weight": 3497908.6431585746
     },
     {
-      "walletAddress": "0x5baA44bb6B7bd79C89628696F1186bCaEb3453AA",
-      "weight": 3497519.118310295
-    },
-    {
       "walletAddress": "0x86F41DE2882B2c2b28f39B226915664D2dD1002D",
       "weight": 3493734.7099957564
+    },
+    {
+      "walletAddress": "0x956Fa79B6855a4660FCdCe28cDf96c0042E6E2AF",
+      "weight": 3488069.0246695653
     },
     {
       "walletAddress": "0x1014f9499259988e35F1C45F6aE6Aa9FBA011E80",
@@ -2845,16 +2725,8 @@
       "weight": 3474976.8628511587
     },
     {
-      "walletAddress": "0x5C3f8fDc2c99cD27576F36d13446F33c58e67a24",
-      "weight": 3467400.412177857
-    },
-    {
       "walletAddress": "0x74cA34044282eb9cE7937D4bf486EaB1021613e1",
       "weight": 3465245.7181087113
-    },
-    {
-      "walletAddress": "0x95bc9Cd61A0fDCBF900943C70eA0bB651cC7c1a9",
-      "weight": 3460547.6366888625
     },
     {
       "walletAddress": "0x4529a85109Ba26fC1F9E1eE773B72aeBf589c0c8",
@@ -2877,12 +2749,8 @@
       "weight": 3441109.1459311876
     },
     {
-      "walletAddress": "0xED0faCf1934EA9ED5BFFdE143c41EB2587f8BC1a",
-      "weight": 3416347.2430371745
-    },
-    {
-      "walletAddress": "0x09711a98Ff833281435aA6a85dDB97C5D07Ff6EA",
-      "weight": 3404400.9918071227
+      "walletAddress": "0xB714Ccc9081a537dF2AA930A4172175D9AB758ad",
+      "weight": 3409355.242815944
     },
     {
       "walletAddress": "0x24a782BbAc905Dc12b0d405552cdE374C791Aa34",
@@ -2897,6 +2765,10 @@
       "weight": 3384841.861790475
     },
     {
+      "walletAddress": "0x7B7135ea7Dbba5A4Fc77e5332FA1A4026255D1a3",
+      "weight": 3382876.5795673877
+    },
+    {
       "walletAddress": "0xA7BE071520CD4995b09CFEaCb4B2CbB5aAA17d9c",
       "weight": 3378462.245836229
     },
@@ -2909,8 +2781,16 @@
       "weight": 3372283.578098617
     },
     {
+      "walletAddress": "0xc536Bf2d36da0199DebC813A58EAA5c9F818DB9d",
+      "weight": 3370870.619840236
+    },
+    {
       "walletAddress": "0x47384Ee273177A5e20175cbFB9276e8f609840cA",
       "weight": 3370732.8408799917
+    },
+    {
+      "walletAddress": "0xD0d08887E8a5B16049534A7F3FC1De92848F5BeA",
+      "weight": 3344481.5999999996
     },
     {
       "walletAddress": "0x36CF47A8744760EAdaE57E3BE2dd920DD52c4124",
@@ -2938,7 +2818,7 @@
     },
     {
       "walletAddress": "0xeF24066b70fA1C8B1D075aD84D0b552262AdE76D",
-      "weight": 3319805.9081775956
+      "weight": 3319825.7347311554
     },
     {
       "walletAddress": "0x2Fa81692eD260C5afBA678c8D6875F90eD8a1eF9",
@@ -2949,7 +2829,7 @@
       "weight": 3296057.5295944884
     },
     {
-      "walletAddress": "0xD022e9EFcA6522C75AD2C7D7D7f72335E3A42788",
+      "walletAddress": "0xf31B726D734F92D28712cB03BA75747bB80D6B69",
       "weight": 3290742.3866523583
     },
     {
@@ -2969,20 +2849,12 @@
       "weight": 3281445.4893098497
     },
     {
-      "walletAddress": "0x956Fa79B6855a4660FCdCe28cDf96c0042E6E2AF",
-      "weight": 3280451.4769936725
-    },
-    {
       "walletAddress": "0x195407FAA4bF12e007177d48373208Fe84b07623",
       "weight": 3274915.8008848582
     },
     {
       "walletAddress": "0x70a73E07060b1eC93d80a2b89389f8376D42eED4",
       "weight": 3265485.8523642803
-    },
-    {
-      "walletAddress": "0xc49C4277bcCAA6ed3AD10d51dC488AA208b2A44f",
-      "weight": 3258036.6829545693
     },
     {
       "walletAddress": "0x867365F905f6560F937FD68e9Ab87515aC186061",
@@ -3017,10 +2889,6 @@
       "weight": 3182859.9893051446
     },
     {
-      "walletAddress": "0xc536Bf2d36da0199DebC813A58EAA5c9F818DB9d",
-      "weight": 3169261.9382624594
-    },
-    {
       "walletAddress": "0xBde9500E8726032F1Ad0876b76AC0B4923b23fCC",
       "weight": 3161579.7406951506
     },
@@ -3053,6 +2921,10 @@
       "weight": 3119383.1853679596
     },
     {
+      "walletAddress": "0x17d077457CE1746D830c13C401370B73e24eDE5D",
+      "weight": 3117737.4939930607
+    },
+    {
       "walletAddress": "0x3160728D35CaaBf54ce898FB0286754DaB48F0fB",
       "weight": 3113933.6797751393
     },
@@ -3081,24 +2953,20 @@
       "weight": 3096452
     },
     {
-      "walletAddress": "0xF4Baa75f466f7C83a46cDa1E597454E35262749A",
-      "weight": 3091460.6131318193
+      "walletAddress": "0x4f82e73EDb06d29Ff62C91EC8f5Ff06571bdeb29",
+      "weight": 3094843.018030127
     },
     {
       "walletAddress": "0x07ae2664F91C344D8dAc05624188A08a60E4541A",
       "weight": 3088923.5823100875
     },
     {
-      "walletAddress": "0x8F4f6947dbc006D47e3ca496cCFFe0f4A0b4D90e",
-      "weight": 3067037.884220966
+      "walletAddress": "0x70f8d8a0228284D2c69B9e214f7997Ae8cF6E898",
+      "weight": 3079777.026609828
     },
     {
-      "walletAddress": "0x4f82e73EDb06d29Ff62C91EC8f5Ff06571bdeb29",
-      "weight": 3064017.3283094587
-    },
-    {
-      "walletAddress": "0xCf8713aAc1a73d3377e32ffeBf053c224654Fd55",
-      "weight": 3057403.6076862444
+      "walletAddress": "0x1bEB0a0aF011C64B4dB34F466E2236276d6F9537",
+      "weight": 3060817.9745697766
     },
     {
       "walletAddress": "0x7Ff8bbf9C8AB106db589e7863fb100525F61CCe5",
@@ -3115,10 +2983,6 @@
     {
       "walletAddress": "0x8df16caA7E00d7565E87b2bb19581aACa4B32524",
       "weight": 3005239.674541216
-    },
-    {
-      "walletAddress": "0x55f1A0C8bb96387f84D02C78D196b9D122576699",
-      "weight": 3000977.828901563
     },
     {
       "walletAddress": "0x465a3679B985b91B09cc035d9F1bc3Bf91947739",
@@ -3141,12 +3005,8 @@
       "weight": 3000000
     },
     {
-      "walletAddress": "0xC7a141F196755A7fAD386dc7821231773DC87a98",
-      "weight": 2999715.7632521293
-    },
-    {
       "walletAddress": "0xcBf37605A4A169Cb16bF18f01329Ef218Df32F93",
-      "weight": 2996796.0224990505
+      "weight": 2997220.2224990507
     },
     {
       "walletAddress": "0xf74F427724d3EaeCd3e142D7243fC5688CA497ab",
@@ -3158,7 +3018,7 @@
     },
     {
       "walletAddress": "0xD4c2dDDA6fC8A7f78bd1e1027EE0F9D55984b992",
-      "weight": 2970698.7810968705
+      "weight": 2970698.8010968706
     },
     {
       "walletAddress": "0x84580E1cb95E4c12f1ecc39616fC64761D5b9808",
@@ -3173,8 +3033,8 @@
       "weight": 2938660.748449945
     },
     {
-      "walletAddress": "0x868AF4A5Ef76111D931dABFde4C369e37F8d19a3",
-      "weight": 2937990.9175761384
+      "walletAddress": "0x05D912c834bdbCe731Fe9250e3e8084b24Dc5198",
+      "weight": 2936486.363345807
     },
     {
       "walletAddress": "0x4218D1Cc3F1c8384B0c8cE59f8684b541e9Fe5D5",
@@ -3201,6 +3061,14 @@
       "weight": 2884580.879750949
     },
     {
+      "walletAddress": "0xb4356c8FBd9afa2706bA0425AD1B2b3f76891C5b",
+      "weight": 2883557.9132595225
+    },
+    {
+      "walletAddress": "0xa42AE1d3299174CA9F9e4bBdBbA3E572d51811C7",
+      "weight": 2874030.155134227
+    },
+    {
       "walletAddress": "0x6Ba5a22F19CEEb57F485853ECf6C139DEA386877",
       "weight": 2859390.113286529
     },
@@ -3219,6 +3087,10 @@
     {
       "walletAddress": "0x1358155a15930f89eBc787a34Eb4ccfd9720bC62",
       "weight": 2854392.6506316825
+    },
+    {
+      "walletAddress": "0x3A78Ec66A6A2077Fec45dF1322DCd2A2c5527FF4",
+      "weight": 2853771.898090945
     },
     {
       "walletAddress": "0x3120b7DDF13f355BbB6D8A4fD09B8A5c784FDb46",
@@ -3242,7 +3114,7 @@
     },
     {
       "walletAddress": "0xF35ff7426e2dbE06305e71EaeE7E038E6dbAC620",
-      "weight": 2812557.154487492
+      "weight": 2813080.2799124923
     },
     {
       "walletAddress": "0x11e66DC7a5127B3e5a014716570993689Af28347",
@@ -3277,12 +3149,8 @@
       "weight": 2773487.159972433
     },
     {
-      "walletAddress": "0xf093fD5cc65c54eF9dCCdFD9d175d85be82d4859",
-      "weight": 2773138.503553441
-    },
-    {
-      "walletAddress": "0x05D912c834bdbCe731Fe9250e3e8084b24Dc5198",
-      "weight": 2761449.3119721957
+      "walletAddress": "0xB62c24F71aE522Ea50763faB2BdC2ADdCfa4F285",
+      "weight": 2760245.797079239
     },
     {
       "walletAddress": "0xCf6C9980cDBbc3aBDcC2ef896323FcDBb6159DF1",
@@ -3305,10 +3173,6 @@
       "weight": 2730711.710096801
     },
     {
-      "walletAddress": "0x4B5b9e729e5eAC50B77fbFC48dA84c66F44C87E9",
-      "weight": 2729081.7850626814
-    },
-    {
       "walletAddress": "0x6C1dADD809435a33EE0aebB1c4E167f25A6cA625",
       "weight": 2719220.6227843645
     },
@@ -3329,20 +3193,24 @@
       "weight": 2701761.43648933
     },
     {
+      "walletAddress": "0xA5CE8F5723afaB6E0C54807929bd4456D980be7B",
+      "weight": 2699538.798484883
+    },
+    {
+      "walletAddress": "0x5c8433faB3C6CC54b753e7c47b3164070aDAcf0F",
+      "weight": 2695706.8478801907
+    },
+    {
       "walletAddress": "0x2d5B7971815e468CC6c20E4e07AFb39c992357a1",
       "weight": 2693047.067006125
     },
     {
       "walletAddress": "0xBD7A08ac8050ba3eaB69737d306480832C47cB5F",
-      "weight": 2689433.052297315
+      "weight": 2689453.052297315
     },
     {
       "walletAddress": "0xB986e94b69f4686fd7e343a5Cf65Dd7FE17E9599",
       "weight": 2685569.802099443
-    },
-    {
-      "walletAddress": "0x8601507424CB2646E5d24AB071fa0c4Cec9841f9",
-      "weight": 2670922.539424558
     },
     {
       "walletAddress": "0x02c0cC3dB5F8039eC6D0B9ABdA2968a5f2C582d6",
@@ -3363,10 +3231,6 @@
     {
       "walletAddress": "0xADcF25b69d7B79072772231937057C5EA14AEF19",
       "weight": 2638694.1884574755
-    },
-    {
-      "walletAddress": "0x9001e9228fe2A9D27fcfFB8c50df0C999d2f8357",
-      "weight": 2618571.0060954634
     },
     {
       "walletAddress": "0x1183CBD7500164263972E89410850Be717c91BaB",
@@ -3393,8 +3257,12 @@
       "weight": 2586554.7089254605
     },
     {
+      "walletAddress": "0x72691247c848177f9cF13f7c3594aD0634981C8d",
+      "weight": 2584911.2676029834
+    },
+    {
       "walletAddress": "0x7F159cCeF233Efcd6a7a82C061fC86EC4F9E55D3",
-      "weight": 2580329.234566735
+      "weight": 2580336.134566735
     },
     {
       "walletAddress": "0xE1EB0317EaC85769899AD39B787132Ad6423f410",
@@ -3409,10 +3277,6 @@
       "weight": 2564420.175307532
     },
     {
-      "walletAddress": "0xb4356c8FBd9afa2706bA0425AD1B2b3f76891C5b",
-      "weight": 2557806.4262960027
-    },
-    {
       "walletAddress": "0x8B40d6cDA16A84D527f8129ea0fd2Dc6107afab0",
       "weight": 2555833.3368027033
     },
@@ -3421,8 +3285,8 @@
       "weight": 2555688.0458071986
     },
     {
-      "walletAddress": "0xa42AE1d3299174CA9F9e4bBdBbA3E572d51811C7",
-      "weight": 2552478.3471873067
+      "walletAddress": "0x8aC518D1C0dDcbd3911035667f09F4E1A5D36368",
+      "weight": 2550865.037290728
     },
     {
       "walletAddress": "0x18c4309D17d318a66Dd3df75B6D2E2a511f6BbAd",
@@ -3454,7 +3318,7 @@
     },
     {
       "walletAddress": "0x1e4B751B66949b2c48c96a0A28982A2AAEcd605B",
-      "weight": 2528482.393091533
+      "weight": 2528524.813091533
     },
     {
       "walletAddress": "0x4932961261769c55D6045626d366CB7960469fc1",
@@ -3477,10 +3341,6 @@
       "weight": 2500000
     },
     {
-      "walletAddress": "0x07737abA415bD610700663B633c4bAbB827F38AA",
-      "weight": 2498483.163567783
-    },
-    {
       "walletAddress": "0x62d7e862fcA13eE396Bf743De1618358553669B0",
       "weight": 2494671.150877276
     },
@@ -3495,6 +3355,10 @@
     {
       "walletAddress": "0x20eb37360c8f761a224baA3aeBC2f34B83e7D39b",
       "weight": 2487567.3241642658
+    },
+    {
+      "walletAddress": "0x783Bd9DF509dcf409DAcce900353296f950062CF",
+      "weight": 2484423.953155075
     },
     {
       "walletAddress": "0x04dc380934f8fd82c8eb6314bf6FF755bb7CF5FF",
@@ -3562,11 +3426,7 @@
     },
     {
       "walletAddress": "0xD6a208a328D27D1280c507025f2970DA50AF7D9a",
-      "weight": 2401712.5681511103
-    },
-    {
-      "walletAddress": "0x0526Bb9E8fA4696def544dd3d5563D7f73190029",
-      "weight": 2392507.0507182786
+      "weight": 2400000
     },
     {
       "walletAddress": "0x775e7579D57a6F68bB06847983Fb83516bE8b29a",
@@ -3575,6 +3435,10 @@
     {
       "walletAddress": "0x4B728530D22a63C9bec46339688f41FdcBB92067",
       "weight": 2388637.27016712
+    },
+    {
+      "walletAddress": "0x5356Af50De19463B72250D9Bd50A275F09099a06",
+      "weight": 2387997.4838809078
     },
     {
       "walletAddress": "0x015501A06021E3EE8E960C869d15345A5f85feBd",
@@ -3589,10 +3453,6 @@
       "weight": 2373839.4112535943
     },
     {
-      "walletAddress": "0x5356Af50De19463B72250D9Bd50A275F09099a06",
-      "weight": 2364882.6132871527
-    },
-    {
       "walletAddress": "0xE4Fc505Ed8D5530b7798493B095529fd5a8F58a0",
       "weight": 2361601.1899908073
     },
@@ -3605,8 +3465,12 @@
       "weight": 2332902.856582243
     },
     {
+      "walletAddress": "0xc889b26cd990C13ea642C7a73120c0cc5a745E98",
+      "weight": 2326137.169748743
+    },
+    {
       "walletAddress": "0xE068579E46CA32a7ED3d51f217fCc5A0d829fca0",
-      "weight": 2315338.64526251
+      "weight": 2315493.87034751
     },
     {
       "walletAddress": "0xd72575E4C61fF20E2B1d5fd5ec3B3Ade5a7e1875",
@@ -3619,6 +3483,14 @@
     {
       "walletAddress": "0x0eE01Fd0BDb6B449CF343EcAFA7116BE49B5286A",
       "weight": 2296625.0130998106
+    },
+    {
+      "walletAddress": "0xb3c6facBc20374Be06AB3cd9170d865A399847c7",
+      "weight": 2295224.3602615795
+    },
+    {
+      "walletAddress": "0x6afBB5741b1D2642E78891C692E1f78D421B8e28",
+      "weight": 2288961.464267776
     },
     {
       "walletAddress": "0x3d8A9F8e63cB1DD263a22D96448a10530117C6A8",
@@ -3645,10 +3517,6 @@
       "weight": 2269189.4960001986
     },
     {
-      "walletAddress": "0xc889b26cd990C13ea642C7a73120c0cc5a745E98",
-      "weight": 2262043.462825711
-    },
-    {
       "walletAddress": "0xF033dDF3b70aFd4e9d3Fe7147617e6A79110C3eF",
       "weight": 2261855.516757957
     },
@@ -3659,10 +3527,6 @@
     {
       "walletAddress": "0x03aACAEE02fcF1Ca326938d1638a903edf9a8C91",
       "weight": 2258968.8041464854
-    },
-    {
-      "walletAddress": "0x669365B06240b1E730da77e620ADEC8904f6aBEc",
-      "weight": 2255522.0671410677
     },
     {
       "walletAddress": "0xF0F5de1724da68c0B76C40f90393b981f355b1Fc",
@@ -3721,10 +3585,6 @@
       "weight": 2145917.692331101
     },
     {
-      "walletAddress": "0x56FdDBd1940b40b3fC1CA79fd061b8FC4f1F74e0",
-      "weight": 2145820.9551344113
-    },
-    {
       "walletAddress": "0xd1642FCC093202F30E64D28eB8de8d0714958F8F",
       "weight": 2141090.678923374
     },
@@ -3739,6 +3599,10 @@
     {
       "walletAddress": "0x845541D8683969926e9811008FA3548F3FBFDAd1",
       "weight": 2129892.2118674866
+    },
+    {
+      "walletAddress": "0x050a4b14575577F7a20ab72eD3c9C33c40b4350a",
+      "weight": 2129369.738886684
     },
     {
       "walletAddress": "0x1bd17026F2778313685348C6f51321d4aD3Fd797",
@@ -3765,6 +3629,10 @@
       "weight": 2115589.68885067
     },
     {
+      "walletAddress": "0x0526Bb9E8fA4696def544dd3d5563D7f73190029",
+      "weight": 2103548.433781978
+    },
+    {
       "walletAddress": "0x68A91C52b0A711bBb21C500cE8e1A6C47E9Fabe4",
       "weight": 2101750.5816678805
     },
@@ -3781,10 +3649,6 @@
       "weight": 2089250.4399285729
     },
     {
-      "walletAddress": "0xD2A6024847074110777306eEd3c3577b8779A67B",
-      "weight": 2075574.54079453
-    },
-    {
       "walletAddress": "0x429824b4D15e4932Ee26C9Ee0573A112B4B67a3D",
       "weight": 2075144.0457630388
     },
@@ -3793,8 +3657,8 @@
       "weight": 2074925.0382301384
     },
     {
-      "walletAddress": "0x564A35fFCbd9B53a7B777327e6f79abd4364C888",
-      "weight": 2073085.6327073758
+      "walletAddress": "0xFb8580A31cE730746d91120D29A158C46D9ED7b0",
+      "weight": 2072426.0294344549
     },
     {
       "walletAddress": "0xAFF0005381672c52B0D0444718317f994fA8d79B",
@@ -3818,19 +3682,11 @@
     },
     {
       "walletAddress": "0x71738F8ba6853cF8c3Ec2b98Ef42d2306480C6FF",
-      "weight": 2051841.4429301298
+      "weight": 2052369.54293013
     },
     {
       "walletAddress": "0xe14B1859F19d2cb6ede53addF463E4556749C31a",
       "weight": 2048868.67
-    },
-    {
-      "walletAddress": "0xaE8e5F30e60a55FC4d3b5eDce95cf857bcB20D70",
-      "weight": 2048230.657903204
-    },
-    {
-      "walletAddress": "0x9C99BF82fC38713C471D4415f66c8336D361501a",
-      "weight": 2047302.6921574445
     },
     {
       "walletAddress": "0xAe58037DdD3e9fC6EdC716eFE04671F06cB5644c",
@@ -3841,8 +3697,8 @@
       "weight": 2043865.1257458765
     },
     {
-      "walletAddress": "0x56b04715Bb12B1bf42dAF2449C36f0e9F262A3B6",
-      "weight": 2038650.1310330075
+      "walletAddress": "0x034Bc58bC6295A7d999df16143e5B66f98CF6A71",
+      "weight": 2043336.173628718
     },
     {
       "walletAddress": "0x3A2B4a32Cf84a0fa5D3FDCfF818Ebe9aa2Bd3c94",
@@ -3853,12 +3709,20 @@
       "weight": 2036000.9954265046
     },
     {
+      "walletAddress": "0xf52a30397151C77E732fA5DeFB9347359C52A141",
+      "weight": 2030821.32013986
+    },
+    {
       "walletAddress": "0x7EA9a69E156764e5f30fdD527770A1f0877f8Ef4",
       "weight": 2030129.1813204312
     },
     {
       "walletAddress": "0x37f445FdBe284A15cDd07F73557B16f613f53B58",
       "weight": 2024226.0772528034
+    },
+    {
+      "walletAddress": "0xc7cD45C767ccc63caBE479948a7d16fdC95fF616",
+      "weight": 2017716.1611912774
     },
     {
       "walletAddress": "0xB4A24ed84aBF83d95b95c84f6Eb30999380129EE",
@@ -3885,6 +3749,10 @@
       "weight": 2007003.7232393997
     },
     {
+      "walletAddress": "0x7A03979CB730e44d93E79a2d455FE480727DE9da",
+      "weight": 2005729.3129060694
+    },
+    {
       "walletAddress": "0xd32Ec0067E2DbfE7859DB447c24cE31b9C581D05",
       "weight": 2004882.279192476
     },
@@ -3901,10 +3769,6 @@
       "weight": 2001646.8734329182
     },
     {
-      "walletAddress": "0x871456000b9a1d3F45C1f773Bb0a0416c5C8803A",
-      "weight": 2000522.5214432431
-    },
-    {
       "walletAddress": "0x3a6408D3D3361e100698107283d71Af6634ba9F2",
       "weight": 2000087.2365082158
     },
@@ -3913,12 +3777,12 @@
       "weight": 2000000.875820792
     },
     {
-      "walletAddress": "0x8aC518D1C0dDcbd3911035667f09F4E1A5D36368",
-      "weight": 2000000.4248733362
-    },
-    {
       "walletAddress": "0xf5208d0e44e1b84A4F310Aeb3a9f41C6D001DAfd",
       "weight": 2000000.1741435877
+    },
+    {
+      "walletAddress": "0x2A74De79B05D01A32f78aE32Ea541D12f21861c9",
+      "weight": 2000000
     },
     {
       "walletAddress": "0x5FAF79B4d9E49b6AC951dB213ca7CF8074a82338",
@@ -3931,6 +3795,10 @@
     {
       "walletAddress": "0x85e3Eee68222D15d37791Baa665d925Cd3a3cA11",
       "weight": 1999999.9987641887
+    },
+    {
+      "walletAddress": "0x201C78f77EAAE903DEcaEa49868bd9080e589df3",
+      "weight": 1997021.3585982313
     },
     {
       "walletAddress": "0x53e37eCc59B602a6e692022ed3Ce841C52796cb2",
@@ -3953,8 +3821,16 @@
       "weight": 1981027.366883508
     },
     {
+      "walletAddress": "0x2787e14E627F51D6456254564A85A793CdDD3f3f",
+      "weight": 1979391.8314498507
+    },
+    {
       "walletAddress": "0x1Ac4ced907b2d9771D9e6e41D823A68B345a02cd",
       "weight": 1977863.7652647195
+    },
+    {
+      "walletAddress": "0x1c00201F47c5B772c63b4E8Bea367D1B91457742",
+      "weight": 1975330.2699541377
     },
     {
       "walletAddress": "0x9212AcB4412Bfc81334F622Db620E3F3aa4246Ea",
@@ -3997,12 +3873,136 @@
       "weight": 1922082.4992502194
     },
     {
-      "walletAddress": "0xd75bfbf3992DD03456538870a17DA983Df228DA9",
-      "weight": 1918887.926437355
-    },
-    {
       "walletAddress": "0xdD81cE8705567b1E7dfaCCD1f16a9dCD1455760f",
       "weight": 1916211.313663719
+    },
+    {
+      "walletAddress": "0xbe035184CF97f8c68aB50a050ba05D1B288B5B6f",
+      "weight": 1912184.9236907216
+    },
+    {
+      "walletAddress": "0x658F32C5387bE127E4281590F49C2a924176fB87",
+      "weight": 1908341.5282555944
+    },
+    {
+      "walletAddress": "0x482054EA9AaBCc000391c683FA93601C28b478EE",
+      "weight": 1900337.913720922
+    },
+    {
+      "walletAddress": "0x59EfEB609d3b88231dbB27B729a7f2A4243D1551",
+      "weight": 1899544.8991443154
+    },
+    {
+      "walletAddress": "0x3fa17321A6d6181Dc670eCE8Bc28182D98579AE4",
+      "weight": 1895069.5094023168
+    },
+    {
+      "walletAddress": "0xfBc9210F0ae77CFd38F61B5D16d695c1EaD1dfd1",
+      "weight": 1891873.00218889
+    },
+    {
+      "walletAddress": "0x236A48a3435a2981FEF6EB0a37029270fFFD33e4",
+      "weight": 1885543.379797358
+    },
+    {
+      "walletAddress": "0xf814318De719B9F891fE9B75b11D2BE8fE06d3AE",
+      "weight": 1883332.4509529462
+    },
+    {
+      "walletAddress": "0xf06077451a942613DE375D3ba2009E5992c7AfC3",
+      "weight": 1881612.02475256
+    },
+    {
+      "walletAddress": "0xEC5Fe052c043B497dAfed0519cE61139996d7d69",
+      "weight": 1878330.9939951727
+    },
+    {
+      "walletAddress": "0x58120c0243D7966f3aF52D16689800b1541c3221",
+      "weight": 1872427.6220128103
+    },
+    {
+      "walletAddress": "0x7066C89fE627724CC7F6Ff2726D56210d237ABCa",
+      "weight": 1866696.7085995125
+    },
+    {
+      "walletAddress": "0x9143502CaF682158ce2D6546cFB327e46250741c",
+      "weight": 1850671.9612602594
+    },
+    {
+      "walletAddress": "0x2aaBDf672DF4056e74A6D8d7597A8930e7915540",
+      "weight": 1845621.3920061176
+    },
+    {
+      "walletAddress": "0x947cF7aa7dCB86e1e5c645E82cFc6685C0cb063A",
+      "weight": 1838215.7964213856
+    },
+    {
+      "walletAddress": "0x0a2D8E55B9e227109Be753605cE59F6Ad614382f",
+      "weight": 1828634.0105768149
+    },
+    {
+      "walletAddress": "0x051bac7582208e96457519209b137A1528Ac6dc6",
+      "weight": 1826147.15778556
+    },
+    {
+      "walletAddress": "0x0349A0bba3A08cB659e347e822eCA0Ba3A658057",
+      "weight": 1816691.9853226407
+    },
+    {
+      "walletAddress": "0x84e9099B48E153C33902B16a5b2b42b9d7e1BA6E",
+      "weight": 1815180.2899489072
+    },
+    {
+      "walletAddress": "0x17FB87fab01aF2f4957F6eb5cb03023516B32485",
+      "weight": 1814854.1826240388
+    },
+    {
+      "walletAddress": "0x8b805f003F2a0ff6ebD70755272Ed4E825E5f139",
+      "weight": 1810050.7477247685
+    },
+    {
+      "walletAddress": "0x7b4337211496131f414EF42b00483c20379743A2",
+      "weight": 1808991.710535377
+    },
+    {
+      "walletAddress": "0xF0061353C84a2Fb06d4F017A6e77D84f16d68697",
+      "weight": 1807561.4726551466
+    },
+    {
+      "walletAddress": "0xF4b520B76a68eA75882E229126e3d4bA4dc1D7C3",
+      "weight": 1806383.004892611
+    },
+    {
+      "walletAddress": "0x016a88B7678ABeecC7f9Ad67eD33231e331D1358",
+      "weight": 1803775.0794511614
+    },
+    {
+      "walletAddress": "0x6819cf8dEEA9Cd654bF48142b1E018f33759DF83",
+      "weight": 1799973.0740338813
+    },
+    {
+      "walletAddress": "0x57c2845303a81E5EdfCEff5Ba8b52ce1AaA144C0",
+      "weight": 1799102.7326463952
+    },
+    {
+      "walletAddress": "0xBF250f258B30bACa56c54F93D81b04512c7e3184",
+      "weight": 1798402.1667982629
+    },
+    {
+      "walletAddress": "0x5dF1771ca6dd705A6189bb870FB5c9AdC9c8d088",
+      "weight": 1795650.046315967
+    },
+    {
+      "walletAddress": "0x2017b5e5371E47193c1d3e7D342baC2CF6B73Ce8",
+      "weight": 1795511.0242990695
+    },
+    {
+      "walletAddress": "0x9aDb1831080fFD8Ac294E465a80dD965C5632cff",
+      "weight": 1792888.0084351276
+    },
+    {
+      "walletAddress": "0x1fd9d2c14CE27095A912B3819DBb284F6247Be6a",
+      "weight": 1784854.833060314
     }
   ]
 }
