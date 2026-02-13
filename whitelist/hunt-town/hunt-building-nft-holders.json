@@ -1,8 +1,8 @@
 {
   "title": "Building NFT Holders (Mainnet)",
   "documentLink": "https://docs.hunt.town/token-and-point/main-building",
-  "walletsCount": 292,
-  "updatedAt": "2026-01-12T06:35:41.523Z",
+  "walletsCount": 291,
+  "updatedAt": "2026-02-13T04:39:18.909Z",
   "wallets": [
     {
       "walletAddress": "0x57Fd9A9Ea1E6CC077003AFFDB56DCa68E0974bcf",
@@ -22,7 +22,7 @@
     },
     {
       "walletAddress": "0x433f12b3204cE57E9a95dfc5C14092889f1aEF10",
-      "weight": 83
+      "weight": 85
     },
     {
       "walletAddress": "0x4d6823B083a7d03BcE47d50E224903016353B6C8",
@@ -81,11 +81,23 @@
       "weight": 7
     },
     {
-      "walletAddress": "0x2aB2c88e1fCC3e63669098f3E496AB0FFdFaa090",
+      "walletAddress": "0xEaf73B6335E051C379A84822dD54Ae5C4fc6d320",
+      "weight": 7
+    },
+    {
+      "walletAddress": "0x760D2a0fDd6a142442EA350eC18627b06cB8a48D",
+      "weight": 6
+    },
+    {
+      "walletAddress": "0xCBFC7412b8D545F5B4aedFCf3DC577869DAA75c3",
       "weight": 6
     },
     {
       "walletAddress": "0xA3F3C2bD28B4A9a7f1803BB21Ce347Cb760e102A",
+      "weight": 6
+    },
+    {
+      "walletAddress": "0xE802bE5829b5c15BF21A3082964BF80b3bF1F284",
       "weight": 6
     },
     {
@@ -97,15 +109,7 @@
       "weight": 5
     },
     {
-      "walletAddress": "0xCBFC7412b8D545F5B4aedFCf3DC577869DAA75c3",
-      "weight": 5
-    },
-    {
       "walletAddress": "0xE51f0abDcadaEB97F409A2a7f2C1baFf8B4fdfB6",
-      "weight": 5
-    },
-    {
-      "walletAddress": "0xb0ba77917CdDa6e7CC2366BC3F49F247A760F70D",
       "weight": 5
     },
     {
@@ -250,10 +254,6 @@
     },
     {
       "walletAddress": "0xbe539c14b877c4Ec3D76Dd3374D9507AAF6F4a3E",
-      "weight": 2
-    },
-    {
-      "walletAddress": "0xff88430C7c656fC6355656234bc522B8c7E03B40",
       "weight": 2
     },
     {
@@ -989,10 +989,6 @@
       "weight": 1
     },
     {
-      "walletAddress": "0x12789C79aD0499cD9b93aE56d402C4Ce4840b270",
-      "weight": 1
-    },
-    {
       "walletAddress": "0xBc57373c9B99524f6300664e2602A0427A9ec0db",
       "weight": 1
     },
@@ -1070,10 +1066,6 @@
     },
     {
       "walletAddress": "0xF09Bc31983976740a3fb6415C349A2Ed27400a09",
-      "weight": 1
-    },
-    {
-      "walletAddress": "0x5243c3fAF2Fc7909082C857634ad2E61143ADd49",
       "weight": 1
     },
     {
@@ -1158,6 +1150,10 @@
     },
     {
       "walletAddress": "0xfd6a4CDDE7BFf4f40d283632E4bbf23F6c53cFE7",
+      "weight": 1
+    },
+    {
+      "walletAddress": "0xff88430C7c656fC6355656234bc522B8c7E03B40",
       "weight": 1
     },
     {

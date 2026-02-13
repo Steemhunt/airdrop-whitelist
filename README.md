@@ -13,7 +13,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 
 ### Farcaster
 
-- [x] Developer Reward Winners ([📄 docs](https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts))
 - [x] Pro Subscribers ([📄 docs](https://farcaster.xyz/mvr/0xc53f3047), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts))
 
 ### Hunt Town
@@ -22,18 +21,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 - [x] Mini Building NFT Holders (Base) ([📄 docs](https://docs.hunt.town/token-and-point/mini-building), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-mini-building-nft-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-mini-building-nft-holders.ts))
 - [x] HUNT Token Holders (Base) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-erc20), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-base.ts))
 - [x] HUNT Token Holders (Mainnet) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-erc20), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-token-holders-mainnet.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-token-holders-mainnet.ts))
-- [x] Top Builders (by total claps received) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders-by-score.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders-by-score.ts))
-- [x] Top Builders (by mini-building grants) ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-builders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-builders.ts))
-- [x] Top Clappers ([📄 docs](https://docs.hunt.town/token-and-point/hunt-tip-farcaster), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-town-top-clappers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-town-top-clappers.ts))
-
-### Noice
-
-- [x] NOICE Token Holders ([📄 docs](https://noice.so), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/noice/noice-token-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/noice/noice-token-holders.ts))
-
-### Virtuals
-
-- [x] VIRTUAL Token Holders (Base) ([📄 docs](https://app.virtuals.io/dashboard), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-base.ts))
-- [x] VIRTUAL Token Holders (Mainnet) ([📄 docs](https://app.virtuals.io/dashboard), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/virtuals/virtual-token-holders-mainnet.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/virtuals/virtual-token-holders-mainnet.ts))
 
 <!-- WHITELIST_TABLE_END -->
 
@@ -91,14 +78,14 @@ Here is an example of the `summary.json` format:
 ```json
 {
   "farcaster": {
-    "farcaster-developer-reward-winners": {
-      "title": "Developer Reward Winners",
-      "documentLink": "https://docs.farcaster.xyz/reference/warpcast/api#get-developer-reward-winners",
-      "isWeighted": true,
-      "walletsCount": 100,
-      "updatedAt": "2025-11-01T03:47:37.562Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-developer-reward-winners.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-developer-reward-winners.json"
+    "farcaster-pro-subscribers": {
+      "title": "Pro Subscribers",
+      "documentLink": "https://farcaster.xyz/mvr/0xc53f3047",
+      "isWeighted": false,
+      "walletsCount": 13814,
+      "updatedAt": "2026-01-12T06:35:43.791Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json"
     },
     ...
   }
