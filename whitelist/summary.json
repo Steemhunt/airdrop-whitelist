@@ -10,17 +10,6 @@
       "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
     }
   },
-  "farcaster": {
-    "farcaster-pro-subscribers": {
-      "title": "Pro Subscribers",
-      "documentLink": "https://farcaster.xyz/mvr/0xc53f3047",
-      "isWeighted": false,
-      "walletsCount": 13814,
-      "updatedAt": "2026-02-13T04:39:20.663Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json"
-    }
-  },
   "hunt-town": {
     "hunt-building-nft-holders": {
       "title": "Building NFT Holders (Mainnet)",

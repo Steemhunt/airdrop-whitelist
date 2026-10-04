@@ -19,7 +19,7 @@ interface Config {
   documentLink: string;
 }
 
-const CATEGORY_ORDER = ["mint-club", "farcaster", "hunt-town"];
+const CATEGORY_ORDER = ["mint-club", "hunt-town"];
 
 export async function saveWhitelist(
   outputFile: string,
