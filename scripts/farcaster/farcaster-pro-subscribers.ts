@@ -80,12 +80,8 @@ async function run() {
   let allUsers: User[] = [];
 
   for (const url of URLS) {
-    try {
-      const users = await fetchUsers(url);
-      allUsers = allUsers.concat(users);
-    } catch (e) {
-      console.error(`Failed to fetch from ${url}`, e);
-    }
+    const users = await fetchUsers(url);
+    allUsers = allUsers.concat(users);
   }
 
   const uniqueUsers = Array.from(

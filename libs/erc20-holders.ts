@@ -37,56 +37,53 @@ export async function createErc20HoldersWhitelist(
   const chain = ALCHEMY_TO_MORALIS_CHAIN_MAP[network];
   if (!chain) throw new Error(`Unknown network: ${network}`);
 
-  try {
-    console.log(`[${AIRDROP_NAME}]-fetching...`);
-    await Moralis.start({ apiKey: MORALIS_API_KEY });
+  console.log(`[${AIRDROP_NAME}]-fetching...`);
+  await Moralis.start({ apiKey: MORALIS_API_KEY });
 
-    const allHolders: HolderRow[] = [];
-    let cursor: string | undefined = undefined;
-    const holderLimit = 1000;
-    do {
-      const response = await Moralis.EvmApi.token.getTokenOwners({
-        chain,
-        tokenAddress,
-        cursor,
+  const allHolders: HolderRow[] = [];
+  let cursor: string | undefined = undefined;
+  const holderLimit = 1000;
+  do {
+    const response = await Moralis.EvmApi.token.getTokenOwners({
+      chain,
+      tokenAddress,
+      cursor,
+    });
+
+    const data = response.result;
+    data.forEach((e: any) => {
+      // NOTE: Exclude contract addresses & known CEX wallets
+      if (
+        e.isContract ||
+        EXCLUDED_HOLDERS.includes(getAddress(e.ownerAddress)) ||
+        !!e.ownerAddressLabel // Exclude wallets with labels (they're normally CEX wallets)
+      )
+        return;
+
+      allHolders.push({
+        holder: e.ownerAddress,
+        balance: e.balanceFormatted,
+        label: e.ownerAddressLabel,
       });
+    });
+    cursor = response.pagination.cursor;
+    console.log(`Fetched ${allHolders.length} holders...`);
+  } while (cursor && cursor !== "" && allHolders.length < holderLimit);
 
-      const data = response.result;
-      data.forEach((e: any) => {
-        // NOTE: Exclude contract addresses & known CEX wallets
-        if (
-          e.isContract ||
-          EXCLUDED_HOLDERS.includes(getAddress(e.ownerAddress)) ||
-          !!e.ownerAddressLabel // Exclude wallets with labels (they're normally CEX wallets)
-        )
-          return;
+  console.log(`Fetched ${allHolders.length} holders.`);
 
-        allHolders.push({
-          holder: e.ownerAddress,
-          balance: e.balanceFormatted,
-          label: e.ownerAddressLabel,
-        });
-      });
-      cursor = response.pagination.cursor;
-      console.log(`Fetched ${allHolders.length} holders...`);
-    } while (cursor && cursor !== "" && allHolders.length < holderLimit);
+  const wallets = allHolders
+    .slice(0, holderLimit)
+    .map((holder) => {
+      const weight = Number(holder.balance);
+      return {
+        walletAddress: holder.holder,
+        weight,
+      };
+    })
+    .filter((w) => w.weight > 0);
 
-    console.log(`Fetched ${allHolders.length} holders.`);
+  await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
+  console.log(`[${AIRDROP_NAME}]-done`);
 
-    const wallets = allHolders
-      .slice(0, holderLimit)
-      .map((holder) => {
-        const weight = Number(holder.balance);
-        return {
-          walletAddress: holder.holder,
-          weight,
-        };
-      })
-      .filter((w) => w.weight > 0);
-
-    await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
-    console.log(`[${AIRDROP_NAME}]-done`);
-  } catch (e) {
-    console.error(e);
-  }
 }
