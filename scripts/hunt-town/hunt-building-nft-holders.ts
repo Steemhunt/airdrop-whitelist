@@ -22,6 +22,7 @@ const client = createPublicClient({
 });
 
 async function main() {
+  const blockNumber = await client.getBlockNumber();
   const holders: { [key: string]: number } = {};
   let burntCount = 0;
 
@@ -29,6 +30,7 @@ async function main() {
     address: CONTRACT_ADDRESS,
     abi: erc721Abi,
     functionName: "totalSupply",
+    blockNumber,
   });
   const totalSupply = Number(totalSupplyBI);
 
@@ -44,6 +46,7 @@ async function main() {
       },
     ],
     functionName: "nextId",
+    blockNumber,
   });
   const lastTokenId = Number(nextIdBI) - 1;
 
@@ -71,6 +74,7 @@ async function main() {
     const results = await client.multicall({
       contracts,
       allowFailure: true,
+      blockNumber,
     });
 
     results.forEach((result, index) => {
@@ -99,6 +103,13 @@ async function main() {
       Object.keys(holders).length
     }`
   );
+
+  const fetchedSupply = wallets.reduce((total, wallet) => total + wallet.weight, 0);
+  if (fetchedSupply !== totalSupply) {
+    throw new Error(
+      `Incomplete NFT ownership snapshot: expected ${totalSupply}, fetched ${fetchedSupply}`
+    );
+  }
 
   await saveWhitelist(OUTPUT_FILE, AIRDROP_NAME, wallets, config, "weight");
 }

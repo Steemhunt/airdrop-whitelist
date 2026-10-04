@@ -11,10 +11,6 @@ This repository maintains airdrop whitelists for the [Mint Club Airdrop Tool](ht
 
 - [x] MT Token Holders (Base) ([📄 docs](https://docs.mint.club/mt), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts))
 
-### Farcaster
-
-- [x] Pro Subscribers ([📄 docs](https://farcaster.xyz/mvr/0xc53f3047), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts))
-
 ### Hunt Town
 
 - [x] Building NFT Holders (Mainnet) ([📄 docs](https://docs.hunt.town/token-and-point/main-building), [✅ whitelist](https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/hunt-town/hunt-building-nft-holders.json), [⚙️ script](https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/hunt-town/hunt-building-nft-holders.ts))
@@ -48,14 +44,10 @@ Each file has the following JSON structure.
     {
       "walletAddress": "0x1234567890123456789012345678901234567890",
       "weight": 50,
-      "fid": 123,
-      "username": "userA",
       "rank": 1
     },
     {
       "walletAddress": "0x0987654321098765432109876543210987654321",
-      "fid": 456,
-      "username": "userB",
       "rank": 2
     }
   ]
@@ -67,7 +59,7 @@ Each file has the following JSON structure.
 - `wallets`: An array of whitelisted wallet objects.
   - `walletAddress`: The wallet address.
   - `weight (optional)`: The weight of the wallet. This can be used to calculate the airdrop amount.
-  - `... (optional)`: You can include other informational fields like `fid`, `username`, `rank`, etc., to provide additional context.
+  - `... (optional)`: You can include other informational fields like `rank` to provide additional context.
 
 ## 📜 Whitelist Summary
 
@@ -77,18 +69,16 @@ Here is an example of the `summary.json` format:
 
 ```json
 {
-  "farcaster": {
-    "farcaster-pro-subscribers": {
-      "title": "Pro Subscribers",
-      "documentLink": "https://farcaster.xyz/mvr/0xc53f3047",
-      "isWeighted": false,
-      "walletsCount": 13814,
-      "updatedAt": "2026-01-12T06:35:43.791Z",
-      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/farcaster/farcaster-pro-subscribers.ts",
-      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/farcaster/farcaster-pro-subscribers.json"
-    },
-    ...
+  "mint-club": {
+    "mt-token-holders-base": {
+      "title": "MT Token Holders (Base)",
+      "documentLink": "https://docs.mint.club/mt",
+      "isWeighted": true,
+      "walletsCount": 1000,
+      "updatedAt": "2026-02-13T04:39:24.812Z",
+      "script": "https://github.com/Steemhunt/airdrop-whitelist/blob/main/scripts/mint-club/mt-token-holders-base.ts",
+      "endpoint": "https://raw.githubusercontent.com/Steemhunt/airdrop-whitelist/main/whitelist/mint-club/mt-token-holders-base.json"
+    }
   }
-  ...
 }
 ```
